@@ -1,0 +1,16 @@
+[0m[[0m[31merror[0m] [0m[0merror while loading Leaf 3$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-patmat/target/scala-0.27/classes/patmat/Leaf 3.class' has location not matching its contents: contains class patmat.Leaf[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading Leaf 2$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-patmat/target/scala-0.27/classes/patmat/Leaf 2.class' has location not matching its contents: contains class patmat.Leaf[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading Huffman 2$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-patmat/target/scala-0.27/classes/patmat/Huffman 2.class' has location not matching its contents: contains class patmat.Huffman[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading Fork 2$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-patmat/target/scala-0.27/classes/patmat/Fork 2.class' has location not matching its contents: contains class patmat.Fork[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading CodeTree 2$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-patmat/target/scala-0.27/classes/patmat/CodeTree 2.class' has location not matching its contents: contains class patmat.CodeTree[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-patmat/src/main/scala/patmat/Huffman.scala:228:31 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m228 |[0m      [33melse[0m add(bit, code.tail, (code.head._1, bit::code.head._2))[0m
+[0m[[0m[31merror[0m] [0m[0m    |                               [31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |                              Found:    (Char, List[Huffman.this.Bit])[0m
+[0m[[0m[31merror[0m] [0m[0m    |                              Required: Huffman.this.CodeTable[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m

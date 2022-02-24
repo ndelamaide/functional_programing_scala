@@ -1,0 +1,236 @@
+
+Ö<%src/main/scala/forcomp/Anagrams.scala*$
+forcomp/Anagrams.
+ *Anagrams€*#
+forcomp/Anagrams.Word#*Word€*+
+forcomp/Anagrams.Sentence#*Sentence€*1
+forcomp/Anagrams.Occurrences#*Occurrences€*2
+forcomp/Anagrams.dictionary. €*
+dictionary€*;
+#forcomp/Anagrams.wordOccurrences().*wordOccurrences€*0
+&forcomp/Anagrams.wordOccurrences().(w)*w€*
+local0*elem€*C
+'forcomp/Anagrams.sentenceOccurrences().*sentenceOccurrences€*4
+*forcomp/Anagrams.sentenceOccurrences().(s)*s€*L
+)forcomp/Anagrams.dictionaryByOccurrences. À*dictionaryByOccurrences€*
+local1*w€*5
+ forcomp/Anagrams.wordAnagrams().*wordAnagrams€*3
+&forcomp/Anagrams.wordAnagrams().(word)*word€*5
+ forcomp/Anagrams.combinations().*combinations€*A
+-forcomp/Anagrams.combinations().(occurrences)*occurrences€*
+local2 €*x€*
+local3 €*xs€*
+local4 €*combs€*
+local5*n€*
+local6*each€*
+local7*pair€*-
+forcomp/Anagrams.subtract().*subtract€*)
+forcomp/Anagrams.subtract().(x)*x€*)
+forcomp/Anagrams.subtract().(y)*y€*=
+$forcomp/Anagrams.sentenceAnagrams().*sentenceAnagrams€*?
+.forcomp/Anagrams.sentenceAnagrams().(sentence)*sentence€*(
+forcomp/Dictionary.
+ *
+Dictionary€*;
+$forcomp/Dictionary.loadDictionary().*loadDictionary€*
+local8 €*
+wordstream€*
+local9 €*s€*
+local10 €*e€2
+ forcomp/2
+ forcomp/Anagrams.2(
+ )forcomp/AnagramsInterface#2$
+ forcomp/Anagrams.Word#2"
+ scala/Predef.String#2(
+ forcomp/Anagrams.Sentence#2!
+ scala/package.List#2$
+ forcomp/Anagrams.Word#2+
+ forcomp/Anagrams.Occurrences#2!
+ scala/package.List#2
+ scala/Char#2
+! $
+scala/Int#2*
+ forcomp/Anagrams.dictionary.2!
+ scala/package.List#2$
+ forcomp/Anagrams.Word#22
+* 8$forcomp/Dictionary.loadDictionary().2!
+ )forcomp/Dictionary.21
+## #forcomp/Anagrams.wordOccurrences().24
+## &forcomp/Anagrams.wordOccurrences().(w)2$
+## forcomp/Anagrams.Word#2+
+# # +forcomp/Anagrams.Occurrences#2H
+$I$ O:scala/collection/immutable/StrictOptimizedSeqOps#sorted().28
+$B$ H*scala/collection/IterableOnceOps#toList().22
+$0$ 9$scala/collection/MapOps#mapValues().23
+$$ %scala/collection/StringOps#groupBy().2+
+$$ scala/Predef.augmentString().2/
+$$ !java/lang/String#toLowerCase(+1).24
+$$ &forcomp/Anagrams.wordOccurrences().(w)2
+$$ local02
+$!$ %scala/Char#2
+$*$ .local020
+$<$ @"scala/collection/StringOps#size().2+
+$:$ :scala/Predef.augmentString().2+
+$O$ Oscala/math/Ordering.Tuple2().2'
+$O$ Oscala/math/Ordering.Char.2&
+$O$ Oscala/math/Ordering.Int.25
+'' 'forcomp/Anagrams.sentenceOccurrences().28
+'' *forcomp/Anagrams.sentenceOccurrences().(s)2(
+'' %forcomp/Anagrams.Sentence#2+
+'(' 3forcomp/Anagrams.Occurrences#21
+(( #forcomp/Anagrams.wordOccurrences().2<
+(( .scala/collection/IterableOnceOps#mkString(+2).28
+(( *forcomp/Anagrams.sentenceOccurrences().(s)27
+:: ")forcomp/Anagrams.dictionaryByOccurrences.2
+:$: 'scala/Predef.Map#2+
+:(: 3forcomp/Anagrams.Occurrences#2!
+:5: 9scala/package.List#2$
+::: >forcomp/Anagrams.Word#25
+:N: U'scala/collection/IterableOps#groupBy().2*
+:C: Mforcomp/Anagrams.dictionary.21
+:V: e#forcomp/Anagrams.wordOccurrences().2
+:V: Vlocal12.
+>>  forcomp/Anagrams.wordAnagrams().24
+>> &forcomp/Anagrams.wordAnagrams().(word)2$
+>> forcomp/Anagrams.Word#2!
+> > $scala/package.List#2$
+>%> )forcomp/Anagrams.Word#22
+?? %$scala/collection/MapOps#getOrElse().27
+?? )forcomp/Anagrams.dictionaryByOccurrences.21
+?&? 5#forcomp/Anagrams.wordOccurrences().24
+?6? :&forcomp/Anagrams.wordAnagrams().(word)2 
+?=? @scala/package.Nil.2.
+XX  forcomp/Anagrams.combinations().2;
+XX -forcomp/Anagrams.combinations().(occurrences)2+
+X X +forcomp/Anagrams.Occurrences#2!
+X.X 2scala/package.List#2+
+X3X >forcomp/Anagrams.Occurrences#2;
+XBX M-forcomp/Anagrams.combinations().(occurrences)27
+YY )scala/collection/SeqFactory#unapplySeq().2!
+Y	Y scala/package.List.27
+YY )scala/collection/IterableFactory#apply().2!
+YY scala/package.List.2 
+YY scala/package.Nil.28
+ZZ *scala/collection/immutable/`::`.unapply().2!
+Z
+Z scala/package.`::`.2
+Z	Z 
+local22
+ZZ local32
+[
+[ local42.
+[[  forcomp/Anagrams.combinations().2
+[[ !local328
+\p\ v*scala/collection/IterableOnceOps#toList().25
+\h\ o'scala/collection/IterableOps#flatten().23
+\7\ 9%scala/collection/IndexedSeqOps#map().25
+\'\ ''scala/collection/immutable/Range#map().2)
+\ \ "scala/runtime/RichInt#to().26
+\\ (scala/LowPriorityImplicits#intWrapper().2
+\%\ 'scala/Tuple2#_2.2
+\#\ $local22
+\\ local52#
+\/\ /scala/Tuple2.apply().2
+\1\ 3scala/Tuple2#_1.2
+\/\ 0local22
+\5\ 6local52
+\\ local622
+\F\ H$scala/collection/IterableOps#`++`().2
+\@\ Elocal424
+\O\ R&scala/collection/immutable/List#map().2
+\I\ Nlocal42
+\S\ Wlocal725
+\e\ e'scala/collection/immutable/List#`::`().2
+\a\ elocal72
+\[\ _local62'
+\o\ oscala/Predef.$conforms().2*
+ii forcomp/Anagrams.subtract().2-
+ii forcomp/Anagrams.subtract().(x)2+
+ii forcomp/Anagrams.Occurrences#2-
+ii  forcomp/Anagrams.subtract().(y)2+
+i"i -forcomp/Anagrams.Occurrences#2+
+i0i ;forcomp/Anagrams.Occurrences#2-
+i>i ?forcomp/Anagrams.subtract().(y)27
+jj )scala/collection/SeqFactory#unapplySeq().2!
+j	j scala/package.List.2-
+jj forcomp/Anagrams.subtract().(x)24
+
+•• $forcomp/Anagrams.sentenceAnagrams().2>
+
+•• .forcomp/Anagrams.sentenceAnagrams().(sentence)2*
+
+•!• )forcomp/Anagrams.Sentence#2#
+
+•,• 0scala/package.List#2*
+
+•1• 9forcomp/Anagrams.Sentence#2%
+
+•=• @scala/Predef.`???`().2#
+
+˜˜ forcomp/Dictionary.24
+
+™™ $forcomp/Dictionary.loadDictionary().2#
+
+™™ scala/package.List#2$
+
+™™ !scala/Predef.String#2
+
+šš local82)
+
+œœ scala/Option#getOrElse().2%
+
+šš scala/Option.apply().2
+
+šš scala/Option.26
+
+›› "&java/lang/Class#getResourceAsStream().2%
+
+›› scala/Any#getClass().2<
+
+›E› M,scala/collection/IterableOnceOps#mkString().29
+
+›'› ')scala/collection/IterableFactory#apply().2#
+
+›#› 'scala/package.List.2*
+
+œœ scala/sys/package.error().2
+
+œœ 
+scala/sys/2
+
+ž
+ž local924
+
+žž -$scala/io/Source.fromInputStream(+1).2 
+
+žž scala/io/Source.2
+
+žž 	scala/io/2
+
+žž scala/2
+
+ž.ž 8local82G
+
+ž9ž 97scala/io/LowPriorityCodecImplicits#fallbackSystemCodec.2:
+
+ŸŸ *scala/collection/IterableOnceOps#toList().23
+
+ŸŸ #scala/io/BufferedSource#getLines().2
+
+ŸŸ local92
+
+¡¡ local102(
+
+¡¡ scala/package.Exception#2)
+
+¢¢ scala/Predef.println(+1).2'
+
+¢-¢ .java/lang/String#`+`().2
+
+¢/¢ 0local102
+
+££ local102,
+
+¥¥ java/io/InputStream#close().2
+
+¥¥ local8PZ 04820CBA057549003D6A611FFBA7FA05

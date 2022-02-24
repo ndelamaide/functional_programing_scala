@@ -1,0 +1,4 @@
+[debug] "not up to date. inChanged = true, force = false
+[debug] Updating ProjectRef(uri("file:/Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/"), "cs210-interpreter")...
+[debug] Done updating ProjectRef(uri("file:/Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/"), "cs210-interpreter")
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.

@@ -1,0 +1,11 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/src/test/scala/interpreter/RecursiveLanguageSuite.scala:30:19 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m30 |[0m    assertEquals(C([31m"x"[0m),  eval(Match(Cons(C([31m2[0m), Empty),  C([31m0[0m), [31m"x"[0m, [31m"xs"[0m, N([31m"x"[0m)),  Map()))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                   [31m^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |    Found:    ([32m"x"[0m : String)[0m
+[0m[[0m[31merror[0m] [0m[0m   |    Required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0m   |    The following import might make progress towards fixing the problem:[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0m   |      import munit.Clue.generate[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

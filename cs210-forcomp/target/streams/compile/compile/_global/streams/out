@@ -1,0 +1,5 @@
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Deprecation Warning: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-forcomp/src/main/scala/forcomp/Anagrams.scala:37:18 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m37 |[0m    w.toLowerCase.groupBy(([36melem[0m: [35mChar[0m) => elem).mapValues(_.size).toList.sorted[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |    [33m^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[33mmethod[0m [35mgroupBy[0m in [33mclass[0m [35mStringOps[0m is deprecated since 2.13.0: Use `s.toSeq.groupBy(...).view.mapValues(_.unwrap)` instead of `s.groupBy(...)`[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

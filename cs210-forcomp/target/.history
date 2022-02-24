@@ -1,0 +1,6 @@
+test
+~test
+history -c
+test
+grading:test
+git status

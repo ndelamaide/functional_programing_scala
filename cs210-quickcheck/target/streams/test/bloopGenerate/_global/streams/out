@@ -1,0 +1,4 @@
+[debug] [cs210-quickcheck-test] Classpath dependencies List()
+[debug] [cs210-quickcheck-test] Dependencies from configurations List(cs210-quickcheck)
+[debug] Bloop wrote the configuration of project 'cs210-quickcheck-test' to '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-quickcheck/.bloop/cs210-quickcheck-test.json'
+[success] Generated .bloop/cs210-quickcheck-test.json

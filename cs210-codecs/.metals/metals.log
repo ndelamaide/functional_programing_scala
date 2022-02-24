@@ -1,0 +1,890 @@
+2020.11.19 11:36:23 INFO  Started: Metals version 0.9.5 in workspace '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs' for client vscode.
+2020.11.19 11:36:24 INFO  time: initialize in 1.04s
+2020.11.19 11:36:25 WARN  Build server is not auto-connectable.
+2020.11.19 11:36:29 INFO  running '/Users/Nicolas/Library/Caches/Coursier/jvm/adopt@1.8.0-272/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/metals2797935858604390317/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.11.19 11:36:30 WARN  no build target for: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/project/metals.sbt
+2020.11.19 11:36:30 WARN  no build target for: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/project/project/metals.sbt
+2020.11.19 11:36:30 WARN  no build target for: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/project/metals.sbt
+2020.11.19 11:36:30 WARN  no build target for: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/project/project/metals.sbt
+2020.11.19 11:36:29 INFO  skipping build import with status 'Started'
+2020.11.19 11:36:38 INFO  [info] welcome to sbt 1.3.13 (AdoptOpenJDK Java 1.8.0_272)
+2020.11.19 11:36:41 INFO  [info] loading settings for project cs210-codecs-build-build-build from metals.sbt ...
+2020.11.19 11:36:47 INFO  [info] loading project definition from /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/project/project/project
+2020.11.19 11:36:49 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.11.19 11:36:51 INFO  [info] loading settings for project cs210-codecs-build-build from metals.sbt ...
+2020.11.19 11:36:51 INFO  [info] loading project definition from /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/project/project
+2020.11.19 11:36:52 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.11.19 11:36:58 INFO  [success] Generated .bloop/cs210-codecs-build-build.json
+2020.11.19 11:36:58 INFO  [success] Total time: 7 s, completed 19 nov. 2020 11:36:58
+2020.11.19 11:37:01 INFO  [info] loading settings for project cs210-codecs-build from plugins.sbt,metals.sbt,buildSettings.sbt ...
+2020.11.19 11:37:01 INFO  [info] loading project definition from /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/project
+2020.11.19 11:37:03 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.11.19 11:37:03 INFO  [success] Generated .bloop/cs210-codecs-build.json
+2020.11.19 11:37:03 INFO  [info] Compiling 2 Scala sources to /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/project/target/scala-2.12/sbt-1.0/classes ...
+2020.11.19 11:37:06 INFO  [info] Done compiling.
+2020.11.19 11:37:06 INFO  [success] Total time: 5 s, completed 19 nov. 2020 11:37:07
+2020.11.19 11:37:09 INFO  [info] loading settings for project cs210-codecs from assignment.sbt,build.sbt ...
+2020.11.19 11:37:09 INFO  [info] set current project to progfun2-codecs (in build file:/Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/)
+2020.11.19 11:37:12 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.11.19 11:37:12 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.11.19 11:37:12 INFO  [success] Generated .bloop/cs210-codecs-test.json
+2020.11.19 11:37:12 INFO  [success] Generated .bloop/cs210-codecs.json
+2020.11.19 11:37:12 INFO  [success] Total time: 3 s, completed 19 nov. 2020 11:37:13
+2020.11.19 11:37:12 INFO  sbt bloopInstall exit: 0
+2020.11.19 11:37:13 INFO  time: ran 'sbt bloopInstall' in 43s
+2020.11.19 11:37:13 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher5859416453133492077/bsp.socket'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.5-2-eb51d668...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/.bloop/cs210-codecs-test.json'
+[0m[32m[D][0m Loading project from '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/.bloop/cs210-codecs.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:3.0.0-M1.
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.15.0/jline-reader-3.15.0.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.15.0/jline-terminal-jna-3.15.0.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.15.0/jline-terminal-3.15.0.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/7.3.1-scala-1/scala-asm-7.3.1-scala-1.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3.0.0-M1/3.0.0-M1/scala3-compiler_3.0.0-M1-3.0.0-M1.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.0.0-M1/scala3-interfaces-3.0.0-M1.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3.0.0-M1/3.0.0-M1/scala3-library_3.0.0-M1-3.0.0-M1.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3.0.0-M1/3.0.0-M1/tasty-core_3.0.0-M1-3.0.0-M1.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.2.5/compiler-interface-1.2.5.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.2.2/util-interface-1.2.2.jar
+[0m[32m[D][0m Missing analysis file for project 'cs210-codecs'
+[0m[32m[D][0m Missing analysis file for project 'cs210-codecs-test'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher5859416453133492077/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher5859416453133492077/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.19 11:37:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Nicolas/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.11.19 11:37:16 INFO  Attempting to connect to the build server...
+2020.11.19 11:37:16 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher2688306068007380929/bsp.socket'...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher363778873509592757/bsp.socket'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher363778873509592757/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher363778873509592757/bsp.socket...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher2688306068007380929/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher2688306068007380929/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.19 11:37:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Nicolas/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.11.19 11:37:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Nicolas/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.11.19 11:37:16 INFO  time: connected to build server in 3.46s
+2020.11.19 11:37:16 INFO  Connected to Build server v1.4.5-2-eb51d668
+2020.11.19 11:37:16 INFO  time: imported build in 0.13s
+2020.11.19 11:37:26 INFO  time: indexed workspace in 9.76s
+2020.11.19 11:50:55 INFO  compiling cs210-codecs (2 scala sources)
+2020.11.19 11:51:04 INFO  time: compiled cs210-codecs in 9.52s
+2020.11.19 11:54:14 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:54:14 INFO  time: compiled cs210-codecs in 0.83s
+2020.11.19 11:54:14 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:54:15 INFO  time: compiled cs210-codecs in 0.41s
+2020.11.19 11:54:15 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:54:15 INFO  time: compiled cs210-codecs in 0.61s
+2020.11.19 11:54:16 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:54:16 INFO  time: compiled cs210-codecs in 0.5s
+2020.11.19 11:54:16 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:54:18 INFO  time: compiled cs210-codecs in 1.25s
+2020.11.19 11:54:18 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:54:18 INFO  time: compiled cs210-codecs in 0.77s
+2020.11.19 11:54:19 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:54:19 INFO  time: compiled cs210-codecs in 0.61s
+2020.11.19 11:54:35 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:54:35 INFO  time: compiled cs210-codecs in 0.52s
+2020.11.19 11:54:35 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:54:35 INFO  time: compiled cs210-codecs in 0.44s
+2020.11.19 11:54:36 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:54:36 INFO  time: compiled cs210-codecs in 0.42s
+2020.11.19 11:54:36 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:54:36 INFO  time: compiled cs210-codecs in 0.38s
+2020.11.19 11:54:36 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:54:38 INFO  time: compiled cs210-codecs in 0.95s
+2020.11.19 11:54:38 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:54:40 INFO  time: compiled cs210-codecs in 1.98s
+2020.11.19 11:54:40 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:54:40 INFO  time: compiled cs210-codecs in 0.29s
+2020.11.19 11:54:41 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:54:41 INFO  time: compiled cs210-codecs in 0.82s
+2020.11.19 11:55:00 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:01 INFO  time: compiled cs210-codecs in 1.46s
+2020.11.19 11:55:04 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:04 INFO  time: compiled cs210-codecs in 89ms
+2020.11.19 11:55:04 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:04 INFO  time: compiled cs210-codecs in 0.18s
+2020.11.19 11:55:06 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:06 INFO  time: compiled cs210-codecs in 0.18s
+2020.11.19 11:55:08 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:08 INFO  time: compiled cs210-codecs in 0.24s
+2020.11.19 11:55:08 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:08 INFO  time: compiled cs210-codecs in 0.28s
+2020.11.19 11:55:08 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:09 INFO  time: compiled cs210-codecs in 0.3s
+2020.11.19 11:55:09 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:09 INFO  time: compiled cs210-codecs in 0.17s
+2020.11.19 11:55:10 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:10 INFO  time: compiled cs210-codecs in 0.17s
+2020.11.19 11:55:10 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:10 INFO  time: compiled cs210-codecs in 0.15s
+2020.11.19 11:55:11 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:11 INFO  time: compiled cs210-codecs in 0.29s
+2020.11.19 11:55:13 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:13 INFO  time: compiled cs210-codecs in 0.16s
+2020.11.19 11:55:16 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:16 INFO  time: compiled cs210-codecs in 0.31s
+2020.11.19 11:55:20 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:20 INFO  time: compiled cs210-codecs in 0.38s
+2020.11.19 11:55:20 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:20 INFO  time: compiled cs210-codecs in 0.2s
+2020.11.19 11:55:22 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:22 INFO  time: compiled cs210-codecs in 0.66s
+2020.11.19 11:55:25 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:25 INFO  time: compiled cs210-codecs in 0.22s
+2020.11.19 11:55:27 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:27 INFO  time: compiled cs210-codecs in 0.19s
+2020.11.19 11:55:28 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:28 INFO  time: compiled cs210-codecs in 0.18s
+2020.11.19 11:55:28 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:28 INFO  time: compiled cs210-codecs in 0.16s
+2020.11.19 11:55:30 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:30 INFO  time: compiled cs210-codecs in 0.15s
+2020.11.19 11:55:33 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:33 INFO  time: compiled cs210-codecs in 0.15s
+2020.11.19 11:55:34 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:34 INFO  time: compiled cs210-codecs in 0.59s
+2020.11.19 11:55:34 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:35 INFO  time: compiled cs210-codecs in 0.28s
+2020.11.19 11:55:35 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:37 INFO  time: compiled cs210-codecs in 1.43s
+2020.11.19 11:55:37 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:37 INFO  time: compiled cs210-codecs in 0.12s
+2020.11.19 11:55:37 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:38 INFO  time: compiled cs210-codecs in 0.13s
+2020.11.19 11:55:38 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:38 INFO  time: compiled cs210-codecs in 0.12s
+2020.11.19 11:55:40 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:40 INFO  time: compiled cs210-codecs in 0.12s
+2020.11.19 11:55:42 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:42 INFO  time: compiled cs210-codecs in 0.13s
+2020.11.19 11:55:42 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:42 INFO  time: compiled cs210-codecs in 0.15s
+2020.11.19 11:55:43 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:43 INFO  time: compiled cs210-codecs in 0.12s
+2020.11.19 11:55:43 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:44 INFO  time: compiled cs210-codecs in 0.18s
+2020.11.19 11:55:45 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:45 INFO  time: compiled cs210-codecs in 0.11s
+2020.11.19 11:55:48 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:48 INFO  time: compiled cs210-codecs in 0.11s
+2020.11.19 11:55:49 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:49 INFO  time: compiled cs210-codecs in 0.13s
+2020.11.19 11:55:51 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:51 INFO  time: compiled cs210-codecs in 0.14s
+2020.11.19 11:55:51 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:51 INFO  time: compiled cs210-codecs in 0.2s
+2020.11.19 11:55:52 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:52 INFO  time: compiled cs210-codecs in 0.15s
+2020.11.19 11:55:52 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:52 INFO  time: compiled cs210-codecs in 0.1s
+2020.11.19 11:55:53 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:53 INFO  time: compiled cs210-codecs in 0.19s
+2020.11.19 11:55:53 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:53 INFO  time: compiled cs210-codecs in 0.12s
+2020.11.19 11:55:53 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:54 INFO  time: compiled cs210-codecs in 99ms
+2020.11.19 11:55:54 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:54 INFO  time: compiled cs210-codecs in 96ms
+2020.11.19 11:55:54 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:54 INFO  time: compiled cs210-codecs in 0.1s
+2020.11.19 11:55:56 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:56 INFO  time: compiled cs210-codecs in 0.13s
+2020.11.19 11:55:56 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:56 INFO  time: compiled cs210-codecs in 0.13s
+2020.11.19 11:55:58 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:55:58 INFO  time: compiled cs210-codecs in 0.49s
+2020.11.19 11:56:02 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:56:02 INFO  time: compiled cs210-codecs in 0.13s
+2020.11.19 11:56:03 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:56:03 INFO  time: compiled cs210-codecs in 0.31s
+2020.11.19 11:56:03 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:56:03 INFO  time: compiled cs210-codecs in 0.3s
+2020.11.19 11:56:06 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:56:06 INFO  time: compiled cs210-codecs in 0.12s
+2020.11.19 11:56:08 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:56:08 INFO  time: compiled cs210-codecs in 93ms
+2020.11.19 11:56:09 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:56:09 INFO  time: compiled cs210-codecs in 0.3s
+2020.11.19 11:56:09 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:56:11 INFO  time: compiled cs210-codecs in 0.38s
+2020.11.19 11:56:12 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:56:12 INFO  time: compiled cs210-codecs in 86ms
+2020.11.19 11:56:12 INFO  compiling cs210-codecs (1 scala source)
+nov. 19, 2020 11:56:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 460
+2020.11.19 11:56:12 INFO  time: compiled cs210-codecs in 0.1s
+2020.11.19 11:56:13 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:56:13 INFO  time: compiled cs210-codecs in 0.16s
+2020.11.19 11:56:13 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:56:13 INFO  time: compiled cs210-codecs in 0.1s
+nov. 19, 2020 11:56:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 493
+2020.11.19 11:56:28 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:56:28 INFO  time: compiled cs210-codecs in 88ms
+2020.11.19 11:56:28 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:56:28 INFO  time: compiled cs210-codecs in 95ms
+2020.11.19 11:56:30 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 11:56:30 INFO  time: compiled cs210-codecs in 0.47s
+2020.11.19 11:56:30 INFO  compiling cs210-codecs (2 scala sources)
+2020.11.19 11:56:31 INFO  time: compiled cs210-codecs in 0.58s
+nov. 19, 2020 11:57:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 515
+2020.11.19 12:00:17 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:00:17 INFO  time: compiled cs210-codecs in 0.17s
+2020.11.19 12:00:17 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:00:17 INFO  time: compiled cs210-codecs in 0.14s
+2020.11.19 12:00:19 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:00:19 INFO  time: compiled cs210-codecs in 0.21s
+2020.11.19 12:00:19 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:00:19 INFO  time: compiled cs210-codecs in 94ms
+2020.11.19 12:00:21 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:00:21 INFO  time: compiled cs210-codecs in 0.12s
+2020.11.19 12:00:22 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:00:22 INFO  time: compiled cs210-codecs in 0.11s
+2020.11.19 12:00:22 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:00:22 INFO  time: compiled cs210-codecs in 0.1s
+2020.11.19 12:00:24 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:00:24 INFO  time: compiled cs210-codecs in 0.11s
+2020.11.19 12:00:26 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:00:26 INFO  time: compiled cs210-codecs in 0.1s
+2020.11.19 12:00:26 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:00:26 INFO  time: compiled cs210-codecs in 0.21s
+2020.11.19 12:00:30 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:00:30 INFO  time: compiled cs210-codecs in 0.3s
+2020.11.19 12:00:30 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:00:30 INFO  time: compiled cs210-codecs in 0.13s
+2020.11.19 12:00:32 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:00:32 INFO  time: compiled cs210-codecs in 0.11s
+2020.11.19 12:00:32 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:00:33 INFO  time: compiled cs210-codecs in 79ms
+2020.11.19 12:00:34 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:00:34 INFO  time: compiled cs210-codecs in 0.19s
+2020.11.19 12:00:36 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:00:36 INFO  time: compiled cs210-codecs in 99ms
+2020.11.19 12:00:36 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:00:36 INFO  time: compiled cs210-codecs in 93ms
+2020.11.19 12:00:37 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:00:37 INFO  time: compiled cs210-codecs in 0.12s
+2020.11.19 12:00:37 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:00:37 INFO  time: compiled cs210-codecs in 97ms
+2020.11.19 12:00:37 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:00:37 INFO  time: compiled cs210-codecs in 0.1s
+2020.11.19 12:00:43 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:00:43 INFO  time: compiled cs210-codecs in 94ms
+2020.11.19 12:01:02 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:01:02 INFO  time: compiled cs210-codecs in 0.15s
+2020.11.19 12:01:03 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:01:03 INFO  time: compiled cs210-codecs in 0.11s
+2020.11.19 12:01:04 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:01:04 INFO  time: compiled cs210-codecs in 77ms
+2020.11.19 12:01:07 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:01:07 INFO  time: compiled cs210-codecs in 85ms
+2020.11.19 12:01:08 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:01:08 INFO  time: compiled cs210-codecs in 0.12s
+2020.11.19 12:01:08 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:01:08 INFO  time: compiled cs210-codecs in 81ms
+2020.11.19 12:01:11 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:01:11 INFO  time: compiled cs210-codecs in 82ms
+2020.11.19 12:01:12 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:01:12 INFO  time: compiled cs210-codecs in 0.38s
+2020.11.19 12:01:12 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:01:14 INFO  time: compiled cs210-codecs in 0.69s
+2020.11.19 12:01:14 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:01:14 INFO  time: compiled cs210-codecs in 0.1s
+2020.11.19 12:01:15 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:01:15 INFO  time: compiled cs210-codecs in 0.26s
+2020.11.19 12:01:15 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:01:16 INFO  time: compiled cs210-codecs in 0.32s
+2020.11.19 12:01:16 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:01:20 INFO  time: compiled cs210-codecs in 2.37s
+2020.11.19 12:01:20 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:01:20 INFO  time: compiled cs210-codecs in 0.41s
+2020.11.19 12:01:20 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:01:20 INFO  time: compiled cs210-codecs in 0.28s
+2020.11.19 12:01:21 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:01:21 INFO  time: compiled cs210-codecs in 0.26s
+2020.11.19 12:01:21 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:01:21 INFO  time: compiled cs210-codecs in 0.15s
+2020.11.19 12:01:22 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:01:22 INFO  time: compiled cs210-codecs in 0.24s
+2020.11.19 12:01:22 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:01:24 INFO  time: compiled cs210-codecs in 0.28s
+2020.11.19 12:01:24 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:01:24 INFO  time: compiled cs210-codecs in 72ms
+2020.11.19 12:01:25 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:01:25 INFO  time: compiled cs210-codecs in 0.33s
+2020.11.19 12:01:25 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:01:27 INFO  time: compiled cs210-codecs in 0.24s
+2020.11.19 12:01:27 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:01:27 INFO  time: compiled cs210-codecs in 0.24s
+2020.11.19 12:01:30 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:01:30 INFO  time: compiled cs210-codecs in 0.33s
+2020.11.19 12:01:31 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:01:31 INFO  time: compiled cs210-codecs in 0.36s
+2020.11.19 12:01:32 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:01:32 INFO  time: compiled cs210-codecs in 0.32s
+2020.11.19 12:01:32 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:01:33 INFO  time: compiled cs210-codecs in 0.3s
+2020.11.19 12:01:33 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:01:33 INFO  time: compiled cs210-codecs in 0.36s
+2020.11.19 12:01:33 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:01:34 INFO  time: compiled cs210-codecs in 0.27s
+2020.11.19 12:01:34 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:01:34 INFO  time: compiled cs210-codecs in 0.27s
+2020.11.19 12:04:53 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:04:53 INFO  time: compiled cs210-codecs in 0.21s
+2020.11.19 12:04:53 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:04:56 INFO  time: compiled cs210-codecs in 3.09s
+2020.11.19 12:04:56 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:04:56 INFO  time: compiled cs210-codecs in 0.19s
+2020.11.19 12:04:57 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:04:57 INFO  time: compiled cs210-codecs in 0.22s
+2020.11.19 12:05:22 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:05:22 INFO  time: compiled cs210-codecs in 0.23s
+2020.11.19 12:05:22 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:05:22 INFO  time: compiled cs210-codecs in 0.35s
+2020.11.19 12:05:25 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:05:25 INFO  time: compiled cs210-codecs in 0.19s
+2020.11.19 12:05:25 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:05:25 INFO  time: compiled cs210-codecs in 0.21s
+2020.11.19 12:05:26 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:05:26 INFO  time: compiled cs210-codecs in 0.28s
+2020.11.19 12:05:26 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:05:26 INFO  time: compiled cs210-codecs in 0.27s
+2020.11.19 12:05:30 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:05:30 INFO  time: compiled cs210-codecs in 0.44s
+2020.11.19 12:05:30 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:05:30 INFO  time: compiled cs210-codecs in 0.52s
+2020.11.19 12:05:36 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:05:36 INFO  time: compiled cs210-codecs in 0.29s
+2020.11.19 12:05:36 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:05:36 INFO  time: compiled cs210-codecs in 0.27s
+2020.11.19 12:05:40 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:05:40 INFO  time: compiled cs210-codecs in 0.24s
+2020.11.19 12:05:54 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:05:54 INFO  time: compiled cs210-codecs in 0.11s
+2020.11.19 12:06:06 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:06:06 INFO  time: compiled cs210-codecs in 81ms
+2020.11.19 12:06:06 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:06:06 INFO  time: compiled cs210-codecs in 0.22s
+2020.11.19 12:06:07 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:06:07 INFO  time: compiled cs210-codecs in 84ms
+2020.11.19 12:06:08 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:06:12 INFO  time: compiled cs210-codecs in 3.65s
+2020.11.19 12:06:12 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:06:12 INFO  time: compiled cs210-codecs in 0.23s
+2020.11.19 12:08:19 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:08:19 INFO  time: compiled cs210-codecs in 0.13s
+2020.11.19 12:08:19 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:08:19 INFO  time: compiled cs210-codecs in 0.14s
+2020.11.19 12:08:23 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:08:23 INFO  time: compiled cs210-codecs in 0.14s
+2020.11.19 12:08:25 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:08:29 INFO  time: compiled cs210-codecs in 4.17s
+2020.11.19 12:08:29 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:08:29 INFO  time: compiled cs210-codecs in 0.26s
+2020.11.19 12:08:35 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:08:38 INFO  time: compiled cs210-codecs in 2.92s
+2020.11.19 12:08:41 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:08:44 INFO  time: compiled cs210-codecs in 3.45s
+2020.11.19 12:08:44 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:08:47 INFO  time: compiled cs210-codecs in 2.35s
+2020.11.19 12:08:47 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:08:51 INFO  time: compiled cs210-codecs in 3.36s
+2020.11.19 12:08:51 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:08:56 INFO  time: compiled cs210-codecs in 4.71s
+2020.11.19 12:08:56 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:09:09 INFO  time: compiled cs210-codecs in 13s
+2020.11.19 12:09:10 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:25:35 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+2020.11.19 12:32:14 INFO  Started: Metals version 0.9.5 in workspace '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs' for client vscode.
+2020.11.19 12:32:15 INFO  time: initialize in 0.59s
+2020.11.19 12:32:15 INFO  Attempting to connect to the build server...
+2020.11.19 12:32:16 WARN  no build target for: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/src/main/scala/codecs/Codecs.scala
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher8646034242872861088/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.11.19 12:32:15 INFO  skipping build import with status 'Installed'
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+2020.11.19 12:32:20 INFO  no build target: using presentation compiler with only scala-library
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.5-2-eb51d668...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/.bloop/cs210-codecs-test.json'
+[0m[32m[D][0m Loading project from '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/.bloop/cs210-codecs.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:3.0.0-M1.
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.15.0/jline-reader-3.15.0.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.15.0/jline-terminal-jna-3.15.0.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.15.0/jline-terminal-3.15.0.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/7.3.1-scala-1/scala-asm-7.3.1-scala-1.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3.0.0-M1/3.0.0-M1/scala3-compiler_3.0.0-M1-3.0.0-M1.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.0.0-M1/scala3-interfaces-3.0.0-M1.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3.0.0-M1/3.0.0-M1/scala3-library_3.0.0-M1-3.0.0-M1.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3.0.0-M1/3.0.0-M1/tasty-core_3.0.0-M1-3.0.0-M1.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.2.5/compiler-interface-1.2.5.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.2.2/util-interface-1.2.2.jar
+[0m[32m[D][0m Skipped configuration of SemanticDB in unsupported 3.0.0-M1 projects
+[0m[32m[D][0m Missing analysis file for project 'cs210-codecs-test'
+[0m[32m[D][0m Loading previous analysis for 'cs210-codecs' from '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_3.0.0-M1.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher8646034242872861088/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher8646034242872861088/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.19 12:32:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Nicolas/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.11.19 12:32:21 INFO  Attempting to connect to the build server...
+2020.11.19 12:32:21 INFO  Attempting to connect to the build server...Starting the bsp launcher for bloop...
+
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher2835675380209589522/bsp.socket'...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher8736670703001389293/bsp.socket'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher2835675380209589522/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher2835675380209589522/bsp.socket...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher8736670703001389293/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher8736670703001389293/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.19 12:32:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Nicolas/Library/Caches/org.scalameta.metals/bsp.trace.json
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.19 12:32:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Nicolas/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.11.19 12:32:21 INFO  time: connected to build server in 5.83s
+2020.11.19 12:32:21 INFO  Connected to Build server v1.4.5-2-eb51d668
+2020.11.19 12:32:21 INFO  time: imported build in 0.15s
+2020.11.19 12:32:29 INFO  time: indexed workspace in 7.51s
+2020.11.19 12:32:30 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:32:36 INFO  time: compiled cs210-codecs in 5.54s
+nov. 19, 2020 12:35:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 14
+2020.11.19 12:36:45 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:36:46 INFO  time: compiled cs210-codecs in 1.13s
+2020.11.19 12:36:46 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:36:47 INFO  time: compiled cs210-codecs in 1.3s
+2020.11.19 12:36:50 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:36:50 INFO  time: compiled cs210-codecs in 0.49s
+2020.11.19 12:36:50 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:36:51 INFO  time: compiled cs210-codecs in 0.45s
+2020.11.19 12:36:51 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:36:51 INFO  time: compiled cs210-codecs in 0.31s
+2020.11.19 12:36:52 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:36:52 INFO  time: compiled cs210-codecs in 0.37s
+2020.11.19 12:36:52 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:36:54 INFO  time: compiled cs210-codecs in 0.7s
+2020.11.19 12:36:58 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:36:58 INFO  time: compiled cs210-codecs in 0.29s
+2020.11.19 12:37:01 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:37:01 INFO  time: compiled cs210-codecs in 0.58s
+2020.11.19 12:37:02 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:37:02 INFO  time: compiled cs210-codecs in 0.92s
+2020.11.19 12:37:02 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:37:04 INFO  time: compiled cs210-codecs in 0.86s
+2020.11.19 12:37:04 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:37:04 INFO  time: compiled cs210-codecs in 0.49s
+2020.11.19 12:37:07 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:37:07 INFO  time: compiled cs210-codecs in 0.18s
+2020.11.19 12:37:07 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:37:08 INFO  time: compiled cs210-codecs in 0.2s
+2020.11.19 12:37:10 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:37:10 INFO  time: compiled cs210-codecs in 0.19s
+2020.11.19 12:37:10 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:37:10 INFO  time: compiled cs210-codecs in 0.14s
+2020.11.19 12:37:11 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:37:11 INFO  time: compiled cs210-codecs in 0.13s
+2020.11.19 12:37:19 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:37:19 INFO  time: compiled cs210-codecs in 0.23s
+2020.11.19 12:37:25 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:37:26 INFO  time: compiled cs210-codecs in 1.02s
+2020.11.19 12:37:29 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:37:29 INFO  time: compiled cs210-codecs in 0.15s
+nov. 19, 2020 12:37:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 149
+2020.11.19 12:37:45 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:37:45 INFO  time: compiled cs210-codecs in 0.21s
+2020.11.19 12:37:47 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:37:47 INFO  time: compiled cs210-codecs in 0.19s
+2020.11.19 12:37:49 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:37:49 INFO  time: compiled cs210-codecs in 0.89s
+2020.11.19 12:37:49 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:37:50 INFO  time: compiled cs210-codecs in 0.14s
+2020.11.19 12:37:51 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:37:51 INFO  time: compiled cs210-codecs in 0.27s
+2020.11.19 12:37:51 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:37:51 INFO  time: compiled cs210-codecs in 0.21s
+2020.11.19 12:38:13 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:38:13 INFO  time: compiled cs210-codecs in 0.14s
+2020.11.19 12:38:13 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:38:13 INFO  time: compiled cs210-codecs in 0.17s
+2020.11.19 12:38:15 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:38:15 INFO  time: compiled cs210-codecs in 0.76s
+2020.11.19 12:38:15 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:38:16 INFO  time: compiled cs210-codecs in 0.35s
+2020.11.19 12:38:45 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:38:45 INFO  time: compiled cs210-codecs in 0.36s
+2020.11.19 12:38:47 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:38:48 INFO  time: compiled cs210-codecs in 1.24s
+2020.11.19 12:38:51 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:38:54 INFO  time: compiled cs210-codecs in 3.5s
+2020.11.19 12:38:54 INFO  compiling cs210-codecs (2 scala sources)
+2020.11.19 12:38:58 INFO  time: compiled cs210-codecs in 3.44s
+2020.11.19 12:39:47 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:39:47 INFO  time: compiled cs210-codecs in 0.18s
+2020.11.19 12:42:19 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:42:19 INFO  time: compiled cs210-codecs in 0.41s
+2020.11.19 12:42:19 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:42:21 INFO  time: compiled cs210-codecs in 0.39s
+2020.11.19 12:42:21 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:42:22 INFO  time: compiled cs210-codecs in 0.77s
+2020.11.19 12:42:29 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:42:29 INFO  time: compiled cs210-codecs in 0.6s
+2020.11.19 12:42:29 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:42:30 INFO  time: compiled cs210-codecs in 0.45s
+nov. 19, 2020 12:42:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 350
+2020.11.19 12:42:57 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:42:58 INFO  time: compiled cs210-codecs in 1.08s
+2020.11.19 12:42:58 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:43:00 INFO  time: compiled cs210-codecs in 1.69s
+2020.11.19 12:43:02 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:43:02 INFO  time: compiled cs210-codecs in 0.66s
+2020.11.19 12:43:08 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:43:08 INFO  time: compiled cs210-codecs in 0.19s
+2020.11.19 12:43:08 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:43:08 INFO  time: compiled cs210-codecs in 0.16s
+2020.11.19 12:43:10 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:43:10 INFO  time: compiled cs210-codecs in 0.15s
+2020.11.19 12:43:11 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:43:11 INFO  time: compiled cs210-codecs in 0.14s
+2020.11.19 12:43:13 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:43:13 INFO  time: compiled cs210-codecs in 0.65s
+2020.11.19 12:43:13 INFO  compiling cs210-codecs (2 scala sources)
+2020.11.19 12:43:14 INFO  time: compiled cs210-codecs in 0.75s
+2020.11.19 12:43:26 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:43:26 INFO  time: compiled cs210-codecs in 0.76s
+2020.11.19 12:43:29 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:43:29 INFO  time: compiled cs210-codecs in 0.99s
+2020.11.19 12:43:38 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:43:38 INFO  time: compiled cs210-codecs in 0.15s
+2020.11.19 12:43:43 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:43:43 INFO  time: compiled cs210-codecs in 0.18s
+2020.11.19 12:43:49 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:43:49 INFO  time: compiled cs210-codecs in 0.22s
+2020.11.19 12:43:49 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:43:49 INFO  time: compiled cs210-codecs in 0.14s
+2020.11.19 12:43:50 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:43:50 INFO  time: compiled cs210-codecs in 0.24s
+2020.11.19 12:43:55 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:43:55 INFO  time: compiled cs210-codecs in 0.13s
+2020.11.19 12:43:56 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:43:56 INFO  time: compiled cs210-codecs in 0.48s
+2020.11.19 12:44:00 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:44:00 INFO  time: compiled cs210-codecs in 0.45s
+2020.11.19 12:44:00 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:44:05 INFO  time: compiled cs210-codecs in 3.79s
+2020.11.19 12:44:05 INFO  compiling cs210-codecs (2 scala sources)
+2020.11.19 12:44:05 INFO  time: compiled cs210-codecs in 0.59s
+2020.11.19 12:44:38 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:44:38 INFO  time: compiled cs210-codecs in 0.13s
+2020.11.19 12:44:38 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:44:38 INFO  time: compiled cs210-codecs in 0.11s
+2020.11.19 12:46:31 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:46:31 INFO  time: compiled cs210-codecs in 0.5s
+2020.11.19 12:46:31 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:46:31 INFO  time: compiled cs210-codecs in 0.35s
+2020.11.19 12:46:33 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:46:33 INFO  time: compiled cs210-codecs in 0.73s
+2020.11.19 12:46:35 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:46:35 INFO  time: compiled cs210-codecs in 0.14s
+2020.11.19 12:46:37 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:46:37 INFO  time: compiled cs210-codecs in 0.11s
+2020.11.19 12:46:39 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:46:39 INFO  time: compiled cs210-codecs in 0.11s
+2020.11.19 12:46:40 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:46:40 INFO  time: compiled cs210-codecs in 0.16s
+2020.11.19 12:46:41 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:46:41 INFO  time: compiled cs210-codecs in 0.11s
+2020.11.19 12:46:41 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:46:42 INFO  time: compiled cs210-codecs in 0.42s
+2020.11.19 12:46:42 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:46:42 INFO  time: compiled cs210-codecs in 0.17s
+2020.11.19 12:46:44 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:46:44 INFO  time: compiled cs210-codecs in 0.13s
+2020.11.19 12:46:44 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:46:44 INFO  time: compiled cs210-codecs in 0.26s
+2020.11.19 12:46:47 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:46:47 INFO  time: compiled cs210-codecs in 0.11s
+2020.11.19 12:46:47 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:46:47 INFO  time: compiled cs210-codecs in 0.14s
+2020.11.19 12:46:47 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:46:48 INFO  time: compiled cs210-codecs in 0.3s
+2020.11.19 12:46:48 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:46:48 INFO  time: compiled cs210-codecs in 0.26s
+2020.11.19 12:46:51 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:46:51 INFO  time: compiled cs210-codecs in 0.32s
+2020.11.19 12:46:53 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:46:56 INFO  time: compiled cs210-codecs in 3.02s
+2020.11.19 12:47:00 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:47:00 INFO  time: compiled cs210-codecs in 0.41s
+2020.11.19 12:47:03 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:47:03 INFO  time: compiled cs210-codecs in 0.11s
+2020.11.19 12:47:04 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:47:04 INFO  time: compiled cs210-codecs in 0.1s
+2020.11.19 12:47:05 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:47:05 INFO  time: compiled cs210-codecs in 0.6s
+2020.11.19 12:47:06 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:47:06 INFO  time: compiled cs210-codecs in 0.3s
+2020.11.19 12:47:08 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:47:08 INFO  time: compiled cs210-codecs in 0.25s
+2020.11.19 12:48:06 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:48:08 INFO  time: compiled cs210-codecs in 2.45s
+2020.11.19 12:48:08 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:48:08 INFO  time: compiled cs210-codecs in 0.25s
+2020.11.19 12:48:08 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:48:08 INFO  time: compiled cs210-codecs in 0.36s
+2020.11.19 12:48:10 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:48:10 INFO  time: compiled cs210-codecs in 0.11s
+2020.11.19 12:48:26 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:48:26 INFO  time: compiled cs210-codecs in 0.2s
+2020.11.19 12:48:26 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:48:27 INFO  time: compiled cs210-codecs in 0.26s
+2020.11.19 12:48:27 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:48:27 INFO  time: compiled cs210-codecs in 0.23s
+2020.11.19 12:48:43 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:48:43 INFO  time: compiled cs210-codecs in 0.24s
+2020.11.19 12:48:50 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:48:50 INFO  time: compiled cs210-codecs in 0.42s
+2020.11.19 12:48:51 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:48:51 INFO  time: compiled cs210-codecs in 0.26s
+2020.11.19 12:48:59 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:48:59 INFO  time: compiled cs210-codecs in 0.39s
+2020.11.19 12:49:00 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:49:00 INFO  time: compiled cs210-codecs in 0.39s
+2020.11.19 12:49:00 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:49:02 INFO  time: compiled cs210-codecs in 0.29s
+2020.11.19 12:49:04 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:49:04 INFO  time: compiled cs210-codecs in 0.27s
+2020.11.19 12:49:06 INFO  compiling cs210-codecs (1 scala source)
+nov. 19, 2020 12:49:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 822
+2020.11.19 12:49:09 INFO  time: compiled cs210-codecs in 2.78s
+2020.11.19 12:49:09 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:49:09 INFO  time: compiled cs210-codecs in 0.26s
+2020.11.19 12:49:31 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:49:31 INFO  time: compiled cs210-codecs in 0.16s
+2020.11.19 12:49:31 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:49:31 INFO  time: compiled cs210-codecs in 0.51s
+2020.11.19 12:49:34 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:49:34 INFO  time: compiled cs210-codecs in 0.51s
+2020.11.19 12:53:25 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:53:25 INFO  time: compiled cs210-codecs in 99ms
+2020.11.19 12:53:26 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:53:26 INFO  time: compiled cs210-codecs in 0.11s
+2020.11.19 12:58:29 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:58:29 INFO  time: compiled cs210-codecs in 0.11s
+2020.11.19 12:58:31 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:58:31 INFO  time: compiled cs210-codecs in 0.32s
+2020.11.19 12:58:32 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:58:32 INFO  time: compiled cs210-codecs in 0.61s
+2020.11.19 12:58:32 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:58:32 INFO  time: compiled cs210-codecs in 0.33s
+2020.11.19 12:58:34 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:58:34 INFO  time: compiled cs210-codecs in 0.44s
+2020.11.19 12:58:36 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:58:36 INFO  time: compiled cs210-codecs in 0.21s
+2020.11.19 12:58:36 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:58:38 INFO  time: compiled cs210-codecs in 0.48s
+2020.11.19 12:58:38 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:58:38 INFO  time: compiled cs210-codecs in 0.27s
+2020.11.19 12:58:38 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:58:38 INFO  time: compiled cs210-codecs in 0.24s
+2020.11.19 12:58:39 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:58:39 INFO  time: compiled cs210-codecs in 0.86s
+2020.11.19 12:58:39 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:58:40 INFO  time: compiled cs210-codecs in 0.37s
+2020.11.19 12:58:40 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:58:40 INFO  time: compiled cs210-codecs in 0.24s
+2020.11.19 12:58:41 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:58:47 INFO  time: compiled cs210-codecs in 5.74s
+2020.11.19 12:58:47 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:58:47 INFO  time: compiled cs210-codecs in 0.33s
+2020.11.19 12:58:50 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:58:50 INFO  time: compiled cs210-codecs in 0.4s
+2020.11.19 12:58:50 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:58:50 INFO  time: compiled cs210-codecs in 0.29s
+2020.11.19 12:58:50 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:58:54 INFO  time: compiled cs210-codecs in 3.38s
+2020.11.19 12:58:54 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:58:54 INFO  time: compiled cs210-codecs in 0.19s
+2020.11.19 12:59:34 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:59:34 INFO  time: compiled cs210-codecs in 0.11s
+2020.11.19 12:59:34 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:59:38 INFO  time: compiled cs210-codecs in 3.89s
+2020.11.19 12:59:38 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:59:41 INFO  time: compiled cs210-codecs in 2.67s
+2020.11.19 12:59:46 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:59:46 INFO  time: compiled cs210-codecs in 0.14s
+2020.11.19 12:59:48 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:59:51 INFO  time: compiled cs210-codecs in 2.77s
+2020.11.19 12:59:51 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:59:53 INFO  time: compiled cs210-codecs in 2.65s
+2020.11.19 12:59:53 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:59:57 INFO  time: compiled cs210-codecs in 4.09s
+2020.11.19 12:59:57 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 12:59:59 INFO  time: compiled cs210-codecs in 2.09s
+2020.11.19 12:59:59 INFO  compiling cs210-codecs (1 scala source)
+2020.11.19 13:00:17 INFO  time: compiled cs210-codecs in 17s
+2020.11.19 13:00:19 INFO  compiling cs210-codecs (1 scala source)
+nov. 19, 2020 1:25:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2183
+2020.11.19 13:25:29 INFO  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/src/main/scala/codecs/Codecs.scala:225:35: stale bloop error: Found:    Option[codecs.Json]
+Required: Option[A]
+        case Json.Obj(x) => (x.get(name)).deco
+                                  ^
+2020.11.19 13:25:29 INFO  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/src/main/scala/codecs/Codecs.scala:225:35: stale bloop error: Found:    Option[codecs.Json]
+Required: Option[A]
+        case Json.Obj(x) => (x.get(name)).deco
+                                  ^
+2020.11.19 13:25:29 INFO  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/src/main/scala/codecs/Codecs.scala:225:35: stale bloop error: Found:    Option[codecs.Json]
+Required: Option[A]
+        case Json.Obj(x) => (x.get(name)).deco
+                                  ^
+2020.11.19 13:25:29 INFO  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/src/main/scala/codecs/Codecs.scala:225:35: stale bloop error: Found:    Option[codecs.Json]
+Required: Option[A]
+        case Json.Obj(x) => (x.get(name)).deco
+                                  ^
+2020.11.19 13:25:29 INFO  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/src/main/scala/codecs/Codecs.scala:225:35: stale bloop error: Found:    Option[codecs.Json]
+Required: Option[A]
+        case Json.Obj(x) => (x.get(name)).deco
+                                  ^
+2020.11.19 13:25:29 INFO  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/src/main/scala/codecs/Codecs.scala:225:35: stale bloop error: Found:    Option[codecs.Json]
+Required: Option[A]
+        case Json.Obj(x) => (x.get(name)).deco
+                                  ^
+2020.11.19 13:25:29 INFO  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/src/main/scala/codecs/Codecs.scala:225:35: stale bloop error: Found:    Option[codecs.Json]
+Required: Option[A]
+        case Json.Obj(x) => (x.get(name)).deco
+                                  ^
+2020.11.19 13:25:29 INFO  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/src/main/scala/codecs/Codecs.scala:225:35: stale bloop error: Found:    Option[codecs.Json]
+Required: Option[A]
+        case Json.Obj(x) => (x.get(name)).deco
+                                  ^
+2020.11.19 13:25:29 INFO  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/src/main/scala/codecs/Codecs.scala:225:35: stale bloop error: Found:    Option[codecs.Json]
+Required: Option[A]
+        case Json.Obj(x) => (x.get(name)).deco
+                                  ^
+2020.11.19 13:25:30 INFO  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/src/main/scala/codecs/Codecs.scala:225:35: stale bloop error: Found:    Option[codecs.Json]
+Required: Option[A]
+        case Json.Obj(x) => (x.get(name)).deco
+                                  ^
+2020.11.19 13:25:29 INFO  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/src/main/scala/codecs/Codecs.scala:225:35: stale bloop error: Found:    Option[codecs.Json]
+Required: Option[A]
+        case Json.Obj(x) => (x.get(name)).deco
+                                  ^
+2020.11.19 13:25:30 INFO  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/src/main/scala/codecs/Codecs.scala:225:35: stale bloop error: Found:    Option[codecs.Json]
+Required: Option[A]
+        case Json.Obj(x) => (x.get(name)).deco
+                                  ^
+2020.11.19 13:25:30 INFO  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/src/main/scala/codecs/Codecs.scala:225:35: stale bloop error: Found:    Option[codecs.Json]
+Required: Option[A]
+        case Json.Obj(x) => (x.get(name)).deco
+                                  ^
+2020.11.19 13:25:30 INFO  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/src/main/scala/codecs/Codecs.scala:225:35: stale bloop error: Found:    Option[codecs.Json]
+Required: Option[A]
+        case Json.Obj(x) => (x.get(name)).deco
+                                  ^
+2020.11.19 13:25:30 INFO  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/src/main/scala/codecs/Codecs.scala:225:35: stale bloop error: Found:    Option[codecs.Json]
+Required: Option[A]
+        case Json.Obj(x) => (x.get(name)).deco
+                                  ^
+2020.11.19 13:25:30 INFO  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/src/main/scala/codecs/Codecs.scala:225:35: stale bloop error: Found:    Option[codecs.Json]
+Required: Option[A]
+        case Json.Obj(x) => (x.get(name)).deco
+                                  ^
+2020.11.19 13:25:30 INFO  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/src/main/scala/codecs/Codecs.scala:225:35: stale bloop error: Found:    Option[codecs.Json]
+Required: Option[A]
+        case Json.Obj(x) => (x.get(name)).deco
+                                  ^
+2020.11.19 13:25:30 INFO  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/src/main/scala/codecs/Codecs.scala:225:35: stale bloop error: Found:    Option[codecs.Json]
+Required: Option[A]
+        case Json.Obj(x) => (x.get(name)).deco
+                                  ^
+2020.11.19 13:25:30 INFO  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/src/main/scala/codecs/Codecs.scala:225:35: stale bloop error: Found:    Option[codecs.Json]
+Required: Option[A]
+        case Json.Obj(x) => (x.get(name)).deco
+                                  ^
+2020.11.19 13:25:30 INFO  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/src/main/scala/codecs/Codecs.scala:225:35: stale bloop error: Found:    Option[codecs.Json]
+Required: Option[A]
+        case Json.Obj(x) => (x.get(name)).deco
+                                  ^
+2020.11.19 13:25:30 INFO  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/src/main/scala/codecs/Codecs.scala:225:35: stale bloop error: Found:    Option[codecs.Json]
+Required: Option[A]
+        case Json.Obj(x) => (x.get(name)).deco
+                                  ^
+2020.11.19 13:25:30 INFO  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/src/main/scala/codecs/Codecs.scala:225:35: stale bloop error: Found:    Option[codecs.Json]
+Required: Option[A]
+        case Json.Obj(x) => (x.get(name)).deco
+                                  ^
+2020.11.19 13:27:34 INFO  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/src/main/scala/codecs/Codecs.scala:225:35: stale bloop error: Found:    Option[codecs.Json]
+Required: Option[A]
+        case Json.Obj(x) => (x.get(name)).deco
+                                  ^
+2020.11.19 13:27:34 INFO  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/src/main/scala/codecs/Codecs.scala:225:35: stale bloop error: Found:    Option[codecs.Json]
+Required: Option[A]
+        case Json.Obj(x) => (x.get(name)).deco
+                                  ^
+2020.11.19 13:27:34 INFO  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/src/main/scala/codecs/Codecs.scala:225:35: stale bloop error: Found:    Option[codecs.Json]
+Required: Option[A]
+        case Json.Obj(x) => (x.get(name)).deco
+                                  ^
+2020.11.19 14:04:57 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...

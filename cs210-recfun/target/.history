@@ -1,0 +1,6 @@
+~test
+compile
+~test
+test
+grading:test
+git status

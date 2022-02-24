@@ -1,0 +1,92 @@
+
+š.src/main/scala/forcomp/AnagramsInterface.scala*4
+forcomp/AnagramsInterface#*AnagramsInterface€*7
+%forcomp/AnagramsInterface#`<init>`(). €@*<init>€*F
+,forcomp/AnagramsInterface#wordOccurrences(). *wordOccurrences€*9
+/forcomp/AnagramsInterface#wordOccurrences().(w)*w€*N
+0forcomp/AnagramsInterface#sentenceOccurrences(). *sentenceOccurrences€*=
+3forcomp/AnagramsInterface#sentenceOccurrences().(s)*s€*V
+4forcomp/AnagramsInterface#dictionaryByOccurrences(). *dictionaryByOccurrences€*@
+)forcomp/AnagramsInterface#wordAnagrams(). *wordAnagrams€*<
+/forcomp/AnagramsInterface#wordAnagrams().(word)*word€*@
+)forcomp/AnagramsInterface#combinations(). *combinations€*J
+6forcomp/AnagramsInterface#combinations().(occurrences)*occurrences€*8
+%forcomp/AnagramsInterface#subtract(). *subtract€*2
+(forcomp/AnagramsInterface#subtract().(x)*x€*2
+(forcomp/AnagramsInterface#subtract().(y)*y€*H
+-forcomp/AnagramsInterface#sentenceAnagrams(). *sentenceAnagrams€*H
+7forcomp/AnagramsInterface#sentenceAnagrams().(sentence)*sentence€2
+ forcomp/2(
+ forcomp/AnagramsInterface#23
+ %forcomp/AnagramsInterface#`<init>`().2:
+ ,forcomp/AnagramsInterface#wordOccurrences().2=
+ /forcomp/AnagramsInterface#wordOccurrences().(w)2"
+ scala/Predef.String#2!
+" &scala/package.List#2
+( ,scala/Char#2
+. 1
+scala/Int#2>
+ 0forcomp/AnagramsInterface#sentenceOccurrences().2A
+ 3forcomp/AnagramsInterface#sentenceOccurrences().(s)2!
+ !scala/package.List#2"
+" (scala/Predef.String#2!
+, 0scala/package.List#2
+2 6scala/Char#2
+8 ;
+scala/Int#2B
+		 4forcomp/AnagramsInterface#dictionaryByOccurrences().2
+		 "scala/Predef.Map#2!
+	#	 'scala/package.List#2
+	)	 -scala/Char#2
+	/	 2
+scala/Int#2!
+	6	 :scala/package.List#2"
+	;	 Ascala/Predef.String#27
+
+
+ )forcomp/AnagramsInterface#wordAnagrams().2=
+
+
+ /forcomp/AnagramsInterface#wordAnagrams().(word)2"
+
+
+ scala/Predef.String#2!
+
+"
+ &scala/package.List#2"
+
+'
+ -scala/Predef.String#27
+ )forcomp/AnagramsInterface#combinations().2D
+ 6forcomp/AnagramsInterface#combinations().(occurrences)2!
+  $scala/package.List#2
+& *scala/Char#2
+, /
+scala/Int#2!
+4 8scala/package.List#2!
+9 =scala/package.List#2
+? Cscala/Char#2
+E H
+scala/Int#23
+ %forcomp/AnagramsInterface#subtract().26
+ (forcomp/AnagramsInterface#subtract().(x)2!
+ scala/package.List#2
+ scala/Char#2
+ !
+scala/Int#26
+% &(forcomp/AnagramsInterface#subtract().(y)2!
+( ,scala/package.List#2
+. 2scala/Char#2
+4 7
+scala/Int#2!
+< @scala/package.List#2
+B Fscala/Char#2
+H K
+scala/Int#2;
+ -forcomp/AnagramsInterface#sentenceAnagrams().2E
+ 7forcomp/AnagramsInterface#sentenceAnagrams().(sentence)2!
+! %scala/package.List#2"
+& ,scala/Predef.String#2!
+0 4scala/package.List#2!
+5 9scala/package.List#2"
+: @scala/Predef.String#PZ 3D20C3A6BB413A4DBAD7660F6F384F38

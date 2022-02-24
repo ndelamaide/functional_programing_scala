@@ -1,0 +1,1230 @@
+2020.09.24 12:07:25 INFO  started: Metals version 0.9.4 in workspace '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets' for client vscode.
+2020.09.24 12:07:26 INFO  time: initialize in 0.41s
+2020.09.24 12:07:29 INFO  running '/Users/Nicolas/Library/Caches/Coursier/jvm/adopt@1.8.0-252/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/metals4837348490257466112/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.09.24 12:07:29 INFO  skipping build import with status 'Started'
+2020.09.24 12:07:37 INFO  [info] welcome to sbt 1.3.13 (AdoptOpenJDK Java 1.8.0_252)
+2020.09.24 12:07:40 INFO  [info] loading settings for project cs210-funsets-build-build-build from metals.sbt ...
+2020.09.24 12:07:46 INFO  [info] loading project definition from /Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets/project/project/project
+2020.09.24 12:07:48 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.09.24 12:07:50 INFO  [info] loading settings for project cs210-funsets-build-build from metals.sbt ...
+2020.09.24 12:07:50 INFO  [info] loading project definition from /Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets/project/project
+2020.09.24 12:07:51 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.09.24 12:07:57 INFO  [success] Generated .bloop/cs210-funsets-build-build.json
+2020.09.24 12:07:57 INFO  [success] Total time: 6 s, completed 24 sept. 2020 12:07:57
+2020.09.24 12:07:58 INFO  [info] loading settings for project cs210-funsets-build from plugins.sbt,metals.sbt,buildSettings.sbt ...
+2020.09.24 12:07:58 INFO  [info] loading project definition from /Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets/project
+2020.09.24 12:08:00 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.09.24 12:08:00 INFO  [success] Generated .bloop/cs210-funsets-build.json
+2020.09.24 12:08:00 INFO  [success] Total time: 2 s, completed 24 sept. 2020 12:08:00
+2020.09.24 12:08:03 INFO  [info] loading settings for project cs210-funsets from assignment.sbt,build.sbt ...
+2020.09.24 12:08:03 INFO  [info] set current project to progfun1-funsets (in build file:/Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets/)
+2020.09.24 12:08:04 INFO  [success] Generated .bloop/cs210-funsets-test.json
+2020.09.24 12:08:04 INFO  [success] Generated .bloop/cs210-funsets.json
+2020.09.24 12:08:04 INFO  [success] Total time: 0 s, completed 24 sept. 2020 12:08:04
+2020.09.24 12:08:04 INFO  build tool exit: 0
+2020.09.24 12:08:04 INFO  time: ran 'sbt bloopInstall' in 35s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher8210206238854545593/bsp.socket'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.4-13-408f4d80...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets/.bloop/cs210-funsets.json'
+[0m[32m[D][0m Loading project from '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets/.bloop/cs210-funsets-test.json'
+[0m[32m[D][0m Cache miss for scala instance ch.epfl.lamp:scala-compiler:0.27.0-RC1.
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/lamp/dotty-compiler_0.27/0.27.0-RC1/dotty-compiler_0.27-0.27.0-RC1.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/lamp/dotty-interfaces/0.27.0-RC1/dotty-interfaces-0.27.0-RC1.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.27/0.27.0-RC1/dotty-library_0.27-0.27.0-RC1.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/lamp/tasty-core_0.27/0.27.0-RC1/tasty-core_0.27-0.27.0-RC1.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.15.0/jline-reader-3.15.0.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.15.0/jline-terminal-jna-3.15.0.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.15.0/jline-terminal-3.15.0.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/7.3.1-scala-1/scala-asm-7.3.1-scala-1.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.2.5/compiler-interface-1.2.5.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.2.2/util-interface-1.2.2.jar
+[0m[32m[D][0m Missing analysis file for project 'cs210-funsets'
+[0m[32m[D][0m Missing analysis file for project 'cs210-funsets-test'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher8210206238854545593/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher8210206238854545593/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.09.24 12:08:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Nicolas/Library/Caches/org.scalameta.metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher4096377068115061508/bsp.socket'...
+Waiting for the bsp connection to come up...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher6043324893535589428/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher6043324893535589428/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher6043324893535589428/bsp.socket...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher4096377068115061508/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher4096377068115061508/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.09.24 12:08:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Nicolas/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.09.24 12:08:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Nicolas/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.09.24 12:08:08 INFO  time: connected to build server in 3.86s
+2020.09.24 12:08:08 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.09.24 12:08:08 INFO  time: imported build in 0.14s
+2020.09.24 12:08:18 INFO  time: indexed workspace in 9.86s
+2020.09.24 13:38:55 INFO  compiling cs210-funsets (3 scala sources)
+2020.09.24 13:39:00 INFO  time: compiled cs210-funsets in 5.01s
+2020.09.24 13:48:12 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 13:48:12 INFO  time: compiled cs210-funsets in 0.51s
+2020.09.24 13:48:12 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 13:48:12 INFO  time: compiled cs210-funsets in 0.26s
+2020.09.24 13:48:33 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 13:48:33 INFO  time: compiled cs210-funsets in 0.36s
+2020.09.24 13:48:33 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 13:48:34 INFO  time: compiled cs210-funsets in 0.34s
+2020.09.24 13:48:50 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 13:48:50 INFO  time: compiled cs210-funsets in 0.32s
+2020.09.24 13:49:56 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 13:49:57 INFO  time: compiled cs210-funsets in 1.11s
+2020.09.24 13:49:57 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 13:49:57 INFO  time: compiled cs210-funsets in 0.59s
+2020.09.24 13:50:26 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 13:50:27 INFO  time: compiled cs210-funsets in 1.28s
+2020.09.24 13:57:06 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 13:57:06 INFO  time: compiled cs210-funsets in 0.22s
+2020.09.24 13:57:08 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 13:57:08 INFO  time: compiled cs210-funsets in 0.21s
+2020.09.24 13:57:08 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 13:57:09 INFO  time: compiled cs210-funsets in 0.46s
+2020.09.24 13:57:42 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 13:57:42 INFO  time: compiled cs210-funsets in 0.86s
+2020.09.24 13:57:43 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 13:57:43 INFO  time: compiled cs210-funsets in 0.49s
+2020.09.24 13:57:55 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 13:57:55 INFO  time: compiled cs210-funsets in 0.46s
+2020.09.24 13:58:13 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 13:58:13 INFO  time: compiled cs210-funsets in 0.64s
+2020.09.24 13:58:17 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 13:58:17 INFO  time: compiled cs210-funsets in 0.28s
+2020.09.24 13:58:59 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 13:58:59 INFO  time: compiled cs210-funsets in 0.31s
+2020.09.24 13:58:59 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 13:58:59 INFO  time: compiled cs210-funsets in 0.11s
+2020.09.24 13:59:00 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 13:59:00 INFO  time: compiled cs210-funsets in 88ms
+2020.09.24 13:59:00 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 13:59:01 INFO  time: compiled cs210-funsets in 0.11s
+2020.09.24 13:59:04 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 13:59:04 INFO  time: compiled cs210-funsets in 0.1s
+2020.09.24 13:59:12 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 13:59:12 INFO  time: compiled cs210-funsets in 0.33s
+2020.09.24 13:59:13 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 13:59:13 INFO  time: compiled cs210-funsets in 0.1s
+2020.09.24 13:59:18 INFO  compiling cs210-funsets-test (1 scala source)
+2020.09.24 13:59:18 INFO  time: compiled cs210-funsets-test in 0.83s
+2020.09.24 13:59:26 INFO  compiling cs210-funsets-test (1 scala source)
+2020.09.24 13:59:26 INFO  time: compiled cs210-funsets-test in 0.52s
+2020.09.24 13:59:26 INFO  compiling cs210-funsets-test (1 scala source)
+2020.09.24 13:59:27 INFO  time: compiled cs210-funsets-test in 0.79s
+2020.09.24 14:01:28 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Nicolas/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2020.09.24 14:01:28 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Nicolas/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2020.09.24 14:01:28 INFO  Starting debug proxy for [funsets.FunSetSuite]
+2020.09.24 14:01:29 INFO  Listening for transport dt_socket at address: 55014
+2020.09.24 14:01:29 INFO  Trying to attach to remote debuggee VM localhost:55014 .
+2020.09.24 14:01:34 INFO  Attaching to debuggee VM succeeded.
+2020.09.24 14:01:34 INFO  [32mfunsets.FunSetSuite:[0m
+2020.09.24 14:01:34 INFO  [32m  + [0m[32mcontains is implemented[0m [90m0.034s[0m
+2020.09.24 14:01:34 INFO  [32m  + [0m[32msingleton set one contains one[0m [90m0.004s[0m
+2020.09.24 14:01:34 INFO  [91m==> X [0m[91mfunsets.FunSetSuite[0m.[91munion contains all elements of each set[0m  [90m0.006s[0m scala.NotImplementedError: an implementation is missing
+2020.09.24 14:01:34 INFO  [90m    at [0m[90mscala.Predef$.???[0m[90m([0m[90mPredef.scala[0m:[90m347[0m[90m)[0m
+2020.09.24 14:01:34 INFO  [1m    at [0m[1mfunsets.FunSets.union[0m[1m([0m[1mFunSets.scala[0m:[1m29[0m[1m)[0m
+2020.09.24 14:01:34 INFO  [1m    at [0m[1mfunsets.FunSets.union$[0m[1m([0m[1mFunSets.scala[0m:[1m6[0m[1m)[0m
+2020.09.24 14:01:34 INFO  [1m    at [0m[1mfunsets.FunSets$.union[0m[1m([0m[1mFunSets.scala[0m:[1m92[0m[1m)[0m
+2020.09.24 14:01:34 INFO  [1m    at [0m[1mfunsets.FunSetSuite$$anon$2.this[0m[1m([0m[1mFunSetSuite.scala[0m:[1m65[0m[1m)[0m
+2020.09.24 14:01:34 INFO  [1m    at [0m[1mfunsets.FunSetSuite.$init$$$anonfun$3[0m[1m([0m[1mFunSetSuite.scala[0m:[1m69[0m[1m)[0m
+2020.09.24 14:01:34 INFO  Execution took 44ms
+2020.09.24 14:01:34 INFO  3 tests, 2 passed, 1 failed
+2020.09.24 14:01:34 INFO  
+2020.09.24 14:01:34 INFO  ===============================================
+2020.09.24 14:01:34 INFO  Total duration: 44ms
+2020.09.24 14:01:34 INFO  Canceling debug proxy for [funsets.FunSetSuite]
+2020.09.24 14:01:34 INFO  1 failed
+2020.09.24 14:01:34 INFO  
+2020.09.24 14:01:34 INFO  Failed:
+2020.09.24 14:01:34 INFO  - funsets.FunSetSuite:
+2020.09.24 14:01:34 INFO    * funsets.FunSetSuite.union contains all elements of each set - scala.NotImplementedError: an implementation is missing
+2020.09.24 14:01:34 INFO  ===============================================
+2020.09.24 14:01:37 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Nicolas/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2020.09.24 14:01:37 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Nicolas/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2020.09.24 14:01:37 INFO  Starting debug proxy for [funsets.FunSetSuite]
+2020.09.24 14:01:37 INFO  Listening for transport dt_socket at address: 55024
+2020.09.24 14:01:37 INFO  Trying to attach to remote debuggee VM localhost:55024 .
+2020.09.24 14:01:37 INFO  Attaching to debuggee VM succeeded.
+2020.09.24 14:01:37 INFO  [32mfunsets.FunSetSuite:[0m
+2020.09.24 14:01:37 INFO  [32m  + [0m[32mcontains is implemented[0m [90m0.038s[0m
+2020.09.24 14:01:37 INFO  [32m  + [0m[32msingleton set one contains one[0m [90m0.004s[0m
+2020.09.24 14:01:37 INFO  [91m==> X [0m[91mfunsets.FunSetSuite[0m.[91munion contains all elements of each set[0m  [90m0.007s[0m scala.NotImplementedError: an implementation is missing
+2020.09.24 14:01:37 INFO  [90m    at [0m[90mscala.Predef$.???[0m[90m([0m[90mPredef.scala[0m:[90m347[0m[90m)[0m
+2020.09.24 14:01:37 INFO  [1m    at [0m[1mfunsets.FunSets.union[0m[1m([0m[1mFunSets.scala[0m:[1m29[0m[1m)[0m
+2020.09.24 14:01:37 INFO  [1m    at [0m[1mfunsets.FunSets.union$[0m[1m([0m[1mFunSets.scala[0m:[1m6[0m[1m)[0m
+2020.09.24 14:01:37 INFO  [1m    at [0m[1mfunsets.FunSets$.union[0m[1m([0m[1mFunSets.scala[0m:[1m92[0m[1m)[0m
+2020.09.24 14:01:37 INFO  [1m    at [0m[1mfunsets.FunSetSuite$$anon$2.this[0m[1m([0m[1mFunSetSuite.scala[0m:[1m65[0m[1m)[0m
+2020.09.24 14:01:37 INFO  [1m    at [0m[1mfunsets.FunSetSuite.$init$$$anonfun$3[0m[1m([0m[1mFunSetSuite.scala[0m:[1m69[0m[1m)[0m
+2020.09.24 14:01:37 INFO  Execution took 49ms
+2020.09.24 14:01:37 INFO  3 tests, 2 passed, 1 failed
+2020.09.24 14:01:37 INFO  
+2020.09.24 14:01:37 INFO  ===============================================
+2020.09.24 14:01:37 INFO  Total duration: 49ms
+2020.09.24 14:01:37 INFO  1 failed
+2020.09.24 14:01:37 INFO  
+2020.09.24 14:01:37 INFO  Failed:
+2020.09.24 14:01:37 INFO  - funsets.FunSetSuite:
+2020.09.24 14:01:37 INFO    * funsets.FunSetSuite.union contains all elements of each set - scala.NotImplementedError: an implementation is missing
+2020.09.24 14:01:37 INFO  ===============================================
+2020.09.24 14:01:37 INFO  Canceling debug proxy for [funsets.FunSetSuite]
+2020.09.24 14:02:27 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:02:27 INFO  time: compiled cs210-funsets in 0.18s
+2020.09.24 14:02:33 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:02:33 INFO  time: compiled cs210-funsets in 0.13s
+2020.09.24 14:09:47 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:09:47 INFO  time: compiled cs210-funsets in 0.25s
+2020.09.24 14:09:52 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Nicolas/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2020.09.24 14:09:52 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Nicolas/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2020.09.24 14:09:52 INFO  Starting debug proxy for [funsets.FunSetSuite]
+2020.09.24 14:09:53 INFO  Listening for transport dt_socket at address: 55125
+2020.09.24 14:09:53 INFO  Trying to attach to remote debuggee VM localhost:55125 .
+2020.09.24 14:09:53 INFO  Attaching to debuggee VM succeeded.
+2020.09.24 14:09:53 INFO  [32mfunsets.FunSetSuite:[0m
+2020.09.24 14:09:53 INFO  [32m  + [0m[32mcontains is implemented[0m [90m0.035s[0m
+2020.09.24 14:09:53 INFO  [32m  + [0m[32msingleton set one contains one[0m [90m0.004s[0m
+2020.09.24 14:09:53 INFO  [32m  + [0m[32munion contains all elements of each set[0m [90m0.007s[0m
+2020.09.24 14:09:53 INFO  Execution took 46ms
+2020.09.24 14:09:53 INFO  3 tests, 3 passed
+2020.09.24 14:09:53 INFO  All tests in funsets.FunSetSuite passed
+2020.09.24 14:09:53 INFO  
+2020.09.24 14:09:52 INFO  Canceling debug proxy for [funsets.FunSetSuite]
+2020.09.24 14:09:53 INFO  ===============================================
+2020.09.24 14:09:53 INFO  Total duration: 46ms
+2020.09.24 14:09:53 INFO  All 1 test suites passed.
+2020.09.24 14:09:53 INFO  ===============================================
+2020.09.24 14:13:55 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:13:55 INFO  time: compiled cs210-funsets in 0.22s
+2020.09.24 14:13:55 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:13:55 INFO  time: compiled cs210-funsets in 0.12s
+2020.09.24 14:13:57 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:13:57 INFO  time: compiled cs210-funsets in 0.12s
+2020.09.24 14:14:48 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:14:48 INFO  time: compiled cs210-funsets in 0.47s
+2020.09.24 14:14:48 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:14:49 INFO  time: compiled cs210-funsets in 0.11s
+2020.09.24 14:14:49 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:14:51 INFO  time: compiled cs210-funsets in 1.4s
+2020.09.24 14:14:51 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:14:51 INFO  time: compiled cs210-funsets in 92ms
+2020.09.24 14:14:52 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:14:52 INFO  time: compiled cs210-funsets in 0.13s
+2020.09.24 14:14:52 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:14:52 INFO  time: compiled cs210-funsets in 0.22s
+2020.09.24 14:14:52 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:14:52 INFO  time: compiled cs210-funsets in 85ms
+2020.09.24 14:14:54 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:14:54 INFO  time: compiled cs210-funsets in 89ms
+2020.09.24 14:14:56 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:14:56 INFO  time: compiled cs210-funsets in 89ms
+2020.09.24 14:14:57 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:14:57 INFO  time: compiled cs210-funsets in 82ms
+2020.09.24 14:14:58 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:14:58 INFO  time: compiled cs210-funsets in 0.31s
+2020.09.24 14:15:01 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:15:01 INFO  time: compiled cs210-funsets in 0.44s
+2020.09.24 14:15:01 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:15:02 INFO  time: compiled cs210-funsets in 0.32s
+2020.09.24 14:15:02 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:15:02 INFO  time: compiled cs210-funsets in 0.28s
+2020.09.24 14:15:05 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:15:05 INFO  time: compiled cs210-funsets in 83ms
+2020.09.24 14:15:11 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:15:11 INFO  time: compiled cs210-funsets in 67ms
+2020.09.24 14:15:11 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:15:11 INFO  time: compiled cs210-funsets in 81ms
+2020.09.24 14:15:13 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:15:13 INFO  time: compiled cs210-funsets in 67ms
+2020.09.24 14:15:14 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:15:14 INFO  time: compiled cs210-funsets in 67ms
+2020.09.24 14:15:14 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:15:14 INFO  time: compiled cs210-funsets in 0.24s
+2020.09.24 14:15:15 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:15:15 INFO  time: compiled cs210-funsets in 0.26s
+2020.09.24 14:15:17 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:15:17 INFO  time: compiled cs210-funsets in 99ms
+2020.09.24 14:15:17 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:15:17 INFO  time: compiled cs210-funsets in 77ms
+2020.09.24 14:15:18 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:15:18 INFO  time: compiled cs210-funsets in 0.23s
+2020.09.24 14:15:20 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:15:20 INFO  time: compiled cs210-funsets in 0.21s
+2020.09.24 14:15:22 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:15:22 INFO  time: compiled cs210-funsets in 63ms
+2020.09.24 14:15:26 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:15:26 INFO  time: compiled cs210-funsets in 82ms
+2020.09.24 14:15:26 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:15:26 INFO  time: compiled cs210-funsets in 72ms
+2020.09.24 14:15:28 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:15:28 INFO  time: compiled cs210-funsets in 58ms
+2020.09.24 14:15:30 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:15:32 INFO  time: compiled cs210-funsets in 1.65s
+2020.09.24 14:15:32 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:15:32 INFO  time: compiled cs210-funsets in 88ms
+2020.09.24 14:15:35 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:15:35 INFO  time: compiled cs210-funsets in 0.11s
+2020.09.24 14:15:36 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:15:36 INFO  time: compiled cs210-funsets in 78ms
+2020.09.24 14:15:38 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:15:38 INFO  time: compiled cs210-funsets in 63ms
+2020.09.24 14:15:40 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:15:40 INFO  time: compiled cs210-funsets in 58ms
+2020.09.24 14:15:41 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:15:41 INFO  time: compiled cs210-funsets in 65ms
+2020.09.24 14:15:41 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:15:41 INFO  time: compiled cs210-funsets in 0.18s
+2020.09.24 14:15:58 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:15:58 INFO  time: compiled cs210-funsets in 0.2s
+2020.09.24 14:16:01 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:01 INFO  time: compiled cs210-funsets in 0.11s
+2020.09.24 14:16:03 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:03 INFO  time: compiled cs210-funsets in 65ms
+2020.09.24 14:16:04 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:04 INFO  time: compiled cs210-funsets in 0.43s
+2020.09.24 14:16:04 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:04 INFO  time: compiled cs210-funsets in 77ms
+2020.09.24 14:16:05 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:05 INFO  time: compiled cs210-funsets in 95ms
+2020.09.24 14:16:05 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:05 INFO  time: compiled cs210-funsets in 80ms
+2020.09.24 14:16:05 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:05 INFO  time: compiled cs210-funsets in 64ms
+2020.09.24 14:16:07 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:07 INFO  time: compiled cs210-funsets in 67ms
+2020.09.24 14:16:07 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:07 INFO  time: compiled cs210-funsets in 81ms
+2020.09.24 14:16:07 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:07 INFO  time: compiled cs210-funsets in 62ms
+2020.09.24 14:16:09 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:09 INFO  time: compiled cs210-funsets in 60ms
+2020.09.24 14:16:09 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:09 INFO  time: compiled cs210-funsets in 65ms
+2020.09.24 14:16:11 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:11 INFO  time: compiled cs210-funsets in 0.21s
+2020.09.24 14:16:14 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:14 INFO  time: compiled cs210-funsets in 0.34s
+2020.09.24 14:16:15 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:15 INFO  time: compiled cs210-funsets in 0.21s
+2020.09.24 14:16:26 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:26 INFO  time: compiled cs210-funsets in 0.1s
+2020.09.24 14:16:26 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:26 INFO  time: compiled cs210-funsets in 74ms
+2020.09.24 14:16:28 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:28 INFO  time: compiled cs210-funsets in 0.19s
+2020.09.24 14:16:29 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:29 INFO  time: compiled cs210-funsets in 53ms
+2020.09.24 14:16:29 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:30 INFO  time: compiled cs210-funsets in 66ms
+2020.09.24 14:16:31 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:31 INFO  time: compiled cs210-funsets in 0.18s
+2020.09.24 14:16:36 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:36 INFO  time: compiled cs210-funsets in 0.15s
+2020.09.24 14:16:37 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:37 INFO  time: compiled cs210-funsets in 67ms
+2020.09.24 14:16:38 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:40 INFO  time: compiled cs210-funsets in 1.62s
+2020.09.24 14:16:40 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:40 INFO  time: compiled cs210-funsets in 57ms
+2020.09.24 14:16:41 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:41 INFO  time: compiled cs210-funsets in 54ms
+2020.09.24 14:16:43 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:43 INFO  time: compiled cs210-funsets in 61ms
+2020.09.24 14:16:43 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:43 INFO  time: compiled cs210-funsets in 66ms
+2020.09.24 14:16:45 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:45 INFO  time: compiled cs210-funsets in 0.26s
+2020.09.24 14:16:46 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:46 INFO  time: compiled cs210-funsets in 72ms
+2020.09.24 14:16:46 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:46 INFO  time: compiled cs210-funsets in 54ms
+2020.09.24 14:16:48 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:16:48 INFO  time: compiled cs210-funsets in 0.18s
+2020.09.24 14:17:03 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:17:03 INFO  time: compiled cs210-funsets in 63ms
+2020.09.24 14:17:16 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:17:16 INFO  time: compiled cs210-funsets in 71ms
+2020.09.24 14:17:20 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:17:20 INFO  time: compiled cs210-funsets in 0.36s
+2020.09.24 14:17:24 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:17:24 INFO  time: compiled cs210-funsets in 42ms
+2020.09.24 14:17:25 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:17:25 INFO  time: compiled cs210-funsets in 57ms
+2020.09.24 14:17:25 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:17:25 INFO  time: compiled cs210-funsets in 56ms
+2020.09.24 14:17:27 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:17:27 INFO  time: compiled cs210-funsets in 42ms
+2020.09.24 14:17:28 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:17:28 INFO  time: compiled cs210-funsets in 44ms
+2020.09.24 14:17:28 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:17:28 INFO  time: compiled cs210-funsets in 60ms
+2020.09.24 14:17:31 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:17:31 INFO  time: compiled cs210-funsets in 0.18s
+2020.09.24 14:19:04 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:19:04 INFO  time: compiled cs210-funsets in 0.2s
+2020.09.24 14:20:17 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:20:17 INFO  time: compiled cs210-funsets in 0.53s
+2020.09.24 14:20:18 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:20:18 INFO  time: compiled cs210-funsets in 79ms
+2020.09.24 14:20:20 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:20:20 INFO  time: compiled cs210-funsets in 85ms
+2020.09.24 14:20:24 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:20:24 INFO  time: compiled cs210-funsets in 78ms
+2020.09.24 14:20:24 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:20:24 INFO  time: compiled cs210-funsets in 69ms
+2020.09.24 14:20:26 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:20:26 INFO  time: compiled cs210-funsets in 0.17s
+2020.09.24 14:20:27 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:20:27 INFO  time: compiled cs210-funsets in 0.18s
+2020.09.24 14:20:27 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:20:27 INFO  time: compiled cs210-funsets in 70ms
+2020.09.24 14:20:31 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:20:31 INFO  time: compiled cs210-funsets in 68ms
+2020.09.24 14:20:35 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:20:37 INFO  time: compiled cs210-funsets in 2.28s
+2020.09.24 14:20:37 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:20:37 INFO  time: compiled cs210-funsets in 92ms
+2020.09.24 14:20:37 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:20:37 INFO  time: compiled cs210-funsets in 0.23s
+2020.09.24 14:22:19 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:22:19 INFO  time: compiled cs210-funsets in 70ms
+2020.09.24 14:24:13 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:24:13 INFO  time: compiled cs210-funsets in 54ms
+2020.09.24 14:24:17 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:24:17 INFO  time: compiled cs210-funsets in 53ms
+2020.09.24 14:24:19 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:24:19 INFO  time: compiled cs210-funsets in 49ms
+2020.09.24 14:24:21 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:24:21 INFO  time: compiled cs210-funsets in 56ms
+2020.09.24 14:24:23 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:24:23 INFO  time: compiled cs210-funsets in 63ms
+2020.09.24 14:24:25 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:24:25 INFO  time: compiled cs210-funsets in 0.12s
+2020.09.24 14:24:25 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:24:25 INFO  time: compiled cs210-funsets in 61ms
+2020.09.24 14:24:26 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:24:26 INFO  time: compiled cs210-funsets in 43ms
+2020.09.24 14:24:28 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:24:28 INFO  time: compiled cs210-funsets in 52ms
+2020.09.24 14:24:28 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:24:28 INFO  time: compiled cs210-funsets in 45ms
+2020.09.24 14:24:29 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:24:29 INFO  time: compiled cs210-funsets in 72ms
+2020.09.24 14:24:30 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:24:30 INFO  time: compiled cs210-funsets in 49ms
+2020.09.24 14:24:32 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:24:32 INFO  time: compiled cs210-funsets in 42ms
+2020.09.24 14:24:33 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:24:33 INFO  time: compiled cs210-funsets in 44ms
+2020.09.24 14:24:33 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:24:33 INFO  time: compiled cs210-funsets in 56ms
+2020.09.24 14:24:34 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:24:34 INFO  time: compiled cs210-funsets in 52ms
+2020.09.24 14:24:36 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:24:36 INFO  time: compiled cs210-funsets in 43ms
+2020.09.24 14:24:40 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:24:40 INFO  time: compiled cs210-funsets in 72ms
+2020.09.24 14:24:40 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:24:40 INFO  time: compiled cs210-funsets in 0.1s
+2020.09.24 14:24:40 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:24:40 INFO  time: compiled cs210-funsets in 44ms
+2020.09.24 14:24:44 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:24:44 INFO  time: compiled cs210-funsets in 42ms
+2020.09.24 14:24:47 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:24:47 INFO  time: compiled cs210-funsets in 47ms
+2020.09.24 14:24:48 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:24:48 INFO  time: compiled cs210-funsets in 48ms
+2020.09.24 14:24:48 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:24:48 INFO  time: compiled cs210-funsets in 58ms
+2020.09.24 14:24:50 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:24:50 INFO  time: compiled cs210-funsets in 47ms
+2020.09.24 14:24:52 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:24:52 INFO  time: compiled cs210-funsets in 64ms
+2020.09.24 14:24:52 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:24:52 INFO  time: compiled cs210-funsets in 45ms
+2020.09.24 14:24:53 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:24:53 INFO  time: compiled cs210-funsets in 45ms
+2020.09.24 14:24:54 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:24:54 INFO  time: compiled cs210-funsets in 62ms
+2020.09.24 14:25:00 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:25:00 INFO  time: compiled cs210-funsets in 47ms
+2020.09.24 14:25:00 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:25:00 INFO  time: compiled cs210-funsets in 0.14s
+2020.09.24 14:25:04 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:25:04 INFO  time: compiled cs210-funsets in 48ms
+2020.09.24 14:25:05 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:25:05 INFO  time: compiled cs210-funsets in 47ms
+2020.09.24 14:31:16 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:31:16 INFO  time: compiled cs210-funsets in 56ms
+2020.09.24 14:31:16 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:31:17 INFO  time: compiled cs210-funsets in 74ms
+2020.09.24 14:31:18 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:31:18 INFO  time: compiled cs210-funsets in 94ms
+2020.09.24 14:31:34 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:31:34 INFO  time: compiled cs210-funsets in 80ms
+2020.09.24 14:31:36 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:31:36 INFO  time: compiled cs210-funsets in 58ms
+2020.09.24 14:31:42 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:31:42 INFO  time: compiled cs210-funsets in 0.2s
+2020.09.24 14:31:42 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:31:43 INFO  time: compiled cs210-funsets in 0.37s
+2020.09.24 14:31:43 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:31:43 INFO  time: compiled cs210-funsets in 52ms
+2020.09.24 14:31:43 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:31:44 INFO  time: compiled cs210-funsets in 84ms
+2020.09.24 14:31:44 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:31:46 INFO  time: compiled cs210-funsets in 0.22s
+2020.09.24 14:31:50 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:31:50 INFO  time: compiled cs210-funsets in 63ms
+2020.09.24 14:31:50 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:31:50 INFO  time: compiled cs210-funsets in 66ms
+2020.09.24 14:31:51 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:31:51 INFO  time: compiled cs210-funsets in 47ms
+2020.09.24 14:31:51 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:31:51 INFO  time: compiled cs210-funsets in 54ms
+2020.09.24 14:31:53 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:31:53 INFO  time: compiled cs210-funsets in 0.36s
+sept. 24, 2020 2:31:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1417
+2020.09.24 14:31:58 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:31:58 INFO  time: compiled cs210-funsets in 63ms
+2020.09.24 14:31:58 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:31:58 INFO  time: compiled cs210-funsets in 76ms
+2020.09.24 14:32:13 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:32:13 INFO  time: compiled cs210-funsets in 74ms
+2020.09.24 14:32:15 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:32:15 INFO  time: compiled cs210-funsets in 58ms
+2020.09.24 14:32:15 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:32:15 INFO  time: compiled cs210-funsets in 73ms
+2020.09.24 14:32:17 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:32:17 INFO  time: compiled cs210-funsets in 0.22s
+2020.09.24 14:32:20 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:32:20 INFO  time: compiled cs210-funsets in 82ms
+2020.09.24 14:32:21 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:32:21 INFO  time: compiled cs210-funsets in 0.14s
+2020.09.24 14:32:21 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:32:24 INFO  time: compiled cs210-funsets in 2.91s
+2020.09.24 14:32:24 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:32:24 INFO  time: compiled cs210-funsets in 0.18s
+2020.09.24 14:32:31 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:32:31 INFO  time: compiled cs210-funsets in 0.14s
+2020.09.24 14:32:33 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:32:33 INFO  time: compiled cs210-funsets in 0.14s
+2020.09.24 14:32:33 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:32:33 INFO  time: compiled cs210-funsets in 51ms
+2020.09.24 14:32:36 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:32:36 INFO  time: compiled cs210-funsets in 71ms
+2020.09.24 14:32:36 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:32:36 INFO  time: compiled cs210-funsets in 0.22s
+2020.09.24 14:32:37 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:32:37 INFO  time: compiled cs210-funsets in 89ms
+2020.09.24 14:32:40 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:32:40 INFO  time: compiled cs210-funsets in 0.27s
+2020.09.24 14:32:44 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:32:44 INFO  time: compiled cs210-funsets in 46ms
+2020.09.24 14:32:44 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:32:44 INFO  time: compiled cs210-funsets in 58ms
+2020.09.24 14:32:46 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:32:46 INFO  time: compiled cs210-funsets in 52ms
+2020.09.24 14:32:46 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:32:46 INFO  time: compiled cs210-funsets in 45ms
+2020.09.24 14:32:47 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:32:47 INFO  time: compiled cs210-funsets in 47ms
+2020.09.24 14:32:47 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:32:47 INFO  time: compiled cs210-funsets in 0.15s
+2020.09.24 14:32:54 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:32:54 INFO  time: compiled cs210-funsets in 61ms
+2020.09.24 14:32:54 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:32:54 INFO  time: compiled cs210-funsets in 0.13s
+2020.09.24 14:32:56 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:32:56 INFO  time: compiled cs210-funsets in 0.1s
+2020.09.24 14:32:56 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:32:56 INFO  time: compiled cs210-funsets in 0.11s
+2020.09.24 14:32:57 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:32:57 INFO  time: compiled cs210-funsets in 0.15s
+2020.09.24 14:32:57 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:32:57 INFO  time: compiled cs210-funsets in 0.14s
+2020.09.24 14:33:28 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:33:28 INFO  time: compiled cs210-funsets in 87ms
+2020.09.24 14:33:28 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:33:28 INFO  time: compiled cs210-funsets in 63ms
+2020.09.24 14:33:29 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:33:29 INFO  time: compiled cs210-funsets in 59ms
+2020.09.24 14:36:05 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:36:05 INFO  time: compiled cs210-funsets in 53ms
+2020.09.24 14:36:12 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:36:12 INFO  time: compiled cs210-funsets in 71ms
+2020.09.24 14:36:15 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:36:15 INFO  time: compiled cs210-funsets in 0.36s
+2020.09.24 14:36:15 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:36:15 INFO  time: compiled cs210-funsets in 52ms
+2020.09.24 14:36:19 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:36:19 INFO  time: compiled cs210-funsets in 53ms
+2020.09.24 14:36:20 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:36:20 INFO  time: compiled cs210-funsets in 56ms
+2020.09.24 14:36:23 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:36:23 INFO  time: compiled cs210-funsets in 48ms
+2020.09.24 14:36:25 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:36:25 INFO  time: compiled cs210-funsets in 49ms
+2020.09.24 14:36:27 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:36:27 INFO  time: compiled cs210-funsets in 49ms
+2020.09.24 14:36:35 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:36:35 INFO  time: compiled cs210-funsets in 62ms
+2020.09.24 14:36:35 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:36:35 INFO  time: compiled cs210-funsets in 0.26s
+2020.09.24 14:36:50 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:36:50 INFO  time: compiled cs210-funsets in 55ms
+2020.09.24 14:36:50 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:36:51 INFO  time: compiled cs210-funsets in 54ms
+2020.09.24 14:36:52 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:36:52 INFO  time: compiled cs210-funsets in 44ms
+2020.09.24 14:36:52 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:36:52 INFO  time: compiled cs210-funsets in 62ms
+2020.09.24 14:36:53 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:36:53 INFO  time: compiled cs210-funsets in 68ms
+2020.09.24 14:36:53 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:36:53 INFO  time: compiled cs210-funsets in 66ms
+2020.09.24 14:36:57 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:36:57 INFO  time: compiled cs210-funsets in 68ms
+2020.09.24 14:36:57 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:36:57 INFO  time: compiled cs210-funsets in 0.25s
+2020.09.24 14:37:02 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:37:02 INFO  time: compiled cs210-funsets in 0.2s
+2020.09.24 14:37:02 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:37:02 INFO  time: compiled cs210-funsets in 58ms
+2020.09.24 14:37:04 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:37:04 INFO  time: compiled cs210-funsets in 0.12s
+2020.09.24 14:37:04 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:37:04 INFO  time: compiled cs210-funsets in 0.17s
+2020.09.24 14:37:06 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:37:06 INFO  time: compiled cs210-funsets in 0.13s
+2020.09.24 14:37:51 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:37:53 INFO  time: compiled cs210-funsets in 2.48s
+2020.09.24 14:37:55 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:37:55 INFO  time: compiled cs210-funsets in 72ms
+2020.09.24 14:37:56 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:37:56 INFO  time: compiled cs210-funsets in 51ms
+2020.09.24 14:37:56 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:37:56 INFO  time: compiled cs210-funsets in 66ms
+2020.09.24 14:37:57 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:37:57 INFO  time: compiled cs210-funsets in 69ms
+2020.09.24 14:37:57 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:37:57 INFO  time: compiled cs210-funsets in 57ms
+2020.09.24 14:37:59 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:37:59 INFO  time: compiled cs210-funsets in 53ms
+2020.09.24 14:39:20 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:39:20 INFO  time: compiled cs210-funsets in 57ms
+2020.09.24 14:39:20 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:39:20 INFO  time: compiled cs210-funsets in 47ms
+2020.09.24 14:40:10 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:40:10 INFO  time: compiled cs210-funsets in 55ms
+2020.09.24 14:40:10 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:40:10 INFO  time: compiled cs210-funsets in 67ms
+2020.09.24 14:40:11 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:40:15 INFO  time: compiled cs210-funsets in 3.78s
+2020.09.24 14:40:15 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:40:15 INFO  time: compiled cs210-funsets in 0.19s
+2020.09.24 14:40:16 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:40:16 INFO  time: compiled cs210-funsets in 49ms
+2020.09.24 14:40:19 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:40:19 INFO  time: compiled cs210-funsets in 50ms
+sept. 24, 2020 2:40:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1857
+2020.09.24 14:40:19 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:40:19 INFO  time: compiled cs210-funsets in 0.17s
+2020.09.24 14:40:22 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:40:24 INFO  time: compiled cs210-funsets in 2.4s
+2020.09.24 14:40:37 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:40:37 INFO  time: compiled cs210-funsets in 67ms
+2020.09.24 14:41:32 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:41:32 INFO  time: compiled cs210-funsets in 78ms
+2020.09.24 14:41:50 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:41:50 INFO  time: compiled cs210-funsets in 58ms
+2020.09.24 14:41:50 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:41:50 INFO  time: compiled cs210-funsets in 54ms
+2020.09.24 14:41:52 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:41:52 INFO  time: compiled cs210-funsets in 73ms
+2020.09.24 14:42:10 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:42:10 INFO  time: compiled cs210-funsets in 74ms
+2020.09.24 14:42:10 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:42:10 INFO  time: compiled cs210-funsets in 68ms
+2020.09.24 14:42:10 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:42:10 INFO  time: compiled cs210-funsets in 55ms
+2020.09.24 14:42:12 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:42:15 INFO  time: compiled cs210-funsets in 3.28s
+2020.09.24 14:42:15 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:42:15 INFO  time: compiled cs210-funsets in 48ms
+2020.09.24 14:42:17 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:42:17 INFO  time: compiled cs210-funsets in 60ms
+2020.09.24 14:42:20 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:42:20 INFO  time: compiled cs210-funsets in 52ms
+2020.09.24 14:42:23 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:42:23 INFO  time: compiled cs210-funsets in 85ms
+2020.09.24 14:42:23 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:42:23 INFO  time: compiled cs210-funsets in 62ms
+2020.09.24 14:42:24 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:42:24 INFO  time: compiled cs210-funsets in 50ms
+2020.09.24 14:42:28 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:42:31 INFO  time: compiled cs210-funsets in 2.59s
+2020.09.24 14:42:34 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:42:34 INFO  time: compiled cs210-funsets in 99ms
+2020.09.24 14:42:34 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:42:34 INFO  time: compiled cs210-funsets in 75ms
+2020.09.24 14:42:34 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:42:34 INFO  time: compiled cs210-funsets in 56ms
+2020.09.24 14:42:36 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:42:36 INFO  time: compiled cs210-funsets in 54ms
+2020.09.24 14:42:38 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:42:38 INFO  time: compiled cs210-funsets in 57ms
+2020.09.24 14:42:38 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:42:40 INFO  time: compiled cs210-funsets in 1.74s
+2020.09.24 14:42:42 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:42:42 INFO  time: compiled cs210-funsets in 55ms
+2020.09.24 14:42:44 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:42:44 INFO  time: compiled cs210-funsets in 59ms
+2020.09.24 14:42:44 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:42:44 INFO  time: compiled cs210-funsets in 66ms
+2020.09.24 14:42:46 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:42:47 INFO  time: compiled cs210-funsets in 1.64s
+2020.09.24 14:42:47 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:42:47 INFO  time: compiled cs210-funsets in 54ms
+2020.09.24 14:42:49 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:42:49 INFO  time: compiled cs210-funsets in 48ms
+2020.09.24 14:42:58 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:42:59 INFO  time: compiled cs210-funsets in 1.75s
+2020.09.24 14:42:59 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:42:59 INFO  time: compiled cs210-funsets in 61ms
+2020.09.24 14:43:05 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:43:07 INFO  time: compiled cs210-funsets in 1.8s
+2020.09.24 14:43:07 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:43:09 INFO  time: compiled cs210-funsets in 2.17s
+2020.09.24 14:43:09 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:43:11 INFO  time: compiled cs210-funsets in 1.9s
+2020.09.24 14:43:11 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:43:13 INFO  time: compiled cs210-funsets in 1.67s
+2020.09.24 14:43:13 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 14:56:05 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+2020.09.24 14:57:34 INFO  started: Metals version 0.9.4 in workspace '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets' for client vscode.
+2020.09.24 14:57:34 INFO  time: initialize in 0.56s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher276415437250046267/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.09.24 14:57:35 INFO  skipping build import with status 'Installed'
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+2020.09.24 14:57:48 INFO  no build target: using presentation compiler with only scala-library
+2020.09.24 14:57:48 WARN  no build target for: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets/src/main/scala/funsets/FunSets.scala
+sept. 24, 2020 2:57:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+error: Giving up on waiting for a connection, printing embedded bloop logs:
+> 
+error: Trying a tcp-based connection to the server instead...
+Opening a bsp server connection with 'bsp --protocol tcp --port 26051'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+error: Giving up on waiting for a connection, printing embedded bloop logs:
+> 
+error: The launcher failed to establish a bsp connection, aborting...
+2020.09.24 14:58:43 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$1.run(BloopServers.scala:111)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.09.24 14:59:16 INFO  shutting down Metals
+2020.09.24 15:00:59 INFO  started: Metals version 0.9.4 in workspace '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets' for client vscode.
+2020.09.24 15:01:00 INFO  time: initialize in 0.79s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher5983743637938294851/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.09.24 15:01:01 INFO  skipping build import with status 'Installed'
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+2020.09.24 15:01:04 INFO  no build target: using presentation compiler with only scala-library
+2020.09.24 15:01:04 WARN  no build target for: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets/src/main/scala/funsets/FunSets.scala
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+2020.09.24 15:01:20 INFO  shutting down Metals
+2020.09.24 15:03:57 INFO  started: Metals version 0.9.4 in workspace '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets' for client vscode.
+2020.09.24 15:03:58 INFO  time: initialize in 0.51s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher3283487887709079610/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.09.24 15:03:59 INFO  skipping build import with status 'Installed'
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+2020.09.24 15:04:03 INFO  no build target: using presentation compiler with only scala-library
+2020.09.24 15:04:03 WARN  no build target for: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets/src/main/scala/funsets/FunSets.scala
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.4-13-408f4d80...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets/.bloop/cs210-funsets.json'
+[0m[32m[D][0m Loading project from '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets/.bloop/cs210-funsets-test.json'
+[0m[32m[D][0m Cache miss for scala instance ch.epfl.lamp:scala-compiler:0.27.0-RC1.
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/lamp/dotty-compiler_0.27/0.27.0-RC1/dotty-compiler_0.27-0.27.0-RC1.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/lamp/dotty-interfaces/0.27.0-RC1/dotty-interfaces-0.27.0-RC1.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.27/0.27.0-RC1/dotty-library_0.27-0.27.0-RC1.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/lamp/tasty-core_0.27/0.27.0-RC1/tasty-core_0.27-0.27.0-RC1.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.15.0/jline-reader-3.15.0.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.15.0/jline-terminal-jna-3.15.0.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.15.0/jline-terminal-3.15.0.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/7.3.1-scala-1/scala-asm-7.3.1-scala-1.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.2.5/compiler-interface-1.2.5.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.2.2/util-interface-1.2.2.jar
+[0m[32m[D][0m Skipped configuration of SemanticDB in unsupported 0.27.0-RC1 projects
+[0m[32m[D][0m Loading previous analysis for 'cs210-funsets-test' from '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_0.27.zip'.
+[0m[32m[D][0m Loading previous analysis for 'cs210-funsets' from '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_0.27.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher3283487887709079610/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher3283487887709079610/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.09.24 15:04:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Nicolas/Library/Caches/org.scalameta.metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher511924121301032534/bsp.socket'...
+Starting the bsp launcher for bloop...
+Waiting for the bsp connection to come up...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher780801243372626840/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher780801243372626840/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher780801243372626840/bsp.socket...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher511924121301032534/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher511924121301032534/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.09.24 15:04:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Nicolas/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.09.24 15:04:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Nicolas/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.09.24 15:04:06 INFO  time: connected to build server in 7.78s
+2020.09.24 15:04:06 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.09.24 15:04:06 INFO  time: imported build in 0.17s
+2020.09.24 15:04:14 INFO  time: indexed workspace in 7.96s
+2020.09.24 15:04:16 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 15:04:22 INFO  time: compiled cs210-funsets in 6.47s
+2020.09.24 15:07:54 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 15:07:55 INFO  time: compiled cs210-funsets in 1s
+2020.09.24 15:08:02 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 15:08:03 INFO  time: compiled cs210-funsets in 1.02s
+2020.09.24 15:09:49 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+2020.09.24 15:10:06 INFO  started: Metals version 0.9.4 in workspace '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets' for client vscode.
+2020.09.24 15:10:07 INFO  time: initialize in 0.39s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher8990570534691897726/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher8990570534691897726/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher8990570534691897726/bsp.socket...
+2020.09.24 15:10:08 INFO  skipping build import with status 'Installed'
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.09.24 15:10:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Nicolas/Library/Caches/org.scalameta.metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher7769026033089527771/bsp.socket'...
+Waiting for the bsp connection to come up...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher4689726861876635755/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher4689726861876635755/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher4689726861876635755/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher7769026033089527771/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher7769026033089527771/bsp.socket...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.09.24 15:10:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Nicolas/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.09.24 15:10:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Nicolas/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.09.24 15:10:08 INFO  time: connected to build server in 0.86s
+2020.09.24 15:10:08 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.09.24 15:10:10 INFO  no build target: using presentation compiler with only scala-library
+sept. 24, 2020 3:10:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2
+2020.09.24 15:10:16 INFO  time: indexed workspace in 7.88s
+2020.09.24 15:10:43 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 15:10:43 INFO  time: compiled cs210-funsets in 0.58s
+2020.09.24 15:10:46 INFO  compiling cs210-funsets (1 scala source)
+2020.09.24 15:10:46 INFO  time: compiled cs210-funsets in 0.61s
+2020.09.24 15:12:01 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.01.21 18:25:02 INFO  Started: Metals version 0.9.10 in workspace '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets' for client vscode 1.52.1.[0m
+[0m2021.01.21 18:25:02 INFO  time: initialize in 0.66s[0m
+[0m2021.01.21 18:25:03 WARN  resetting database: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets/.metals/metals.h2.db[0m
+[0m2021.01.21 18:25:03 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher2167245675452413446/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets/.bloop/cs210-funsets-test.json'
+[0m[32m[D][0m Loading project from '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets/.bloop/cs210-funsets.json'
+[0m[32m[D][0m Cache miss for scala instance ch.epfl.lamp:scala-compiler:0.27.0-RC1.
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/lamp/dotty-compiler_0.27/0.27.0-RC1/dotty-compiler_0.27-0.27.0-RC1.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/lamp/dotty-interfaces/0.27.0-RC1/dotty-interfaces-0.27.0-RC1.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.27/0.27.0-RC1/dotty-library_0.27-0.27.0-RC1.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/lamp/tasty-core_0.27/0.27.0-RC1/tasty-core_0.27-0.27.0-RC1.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.15.0/jline-reader-3.15.0.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.15.0/jline-terminal-jna-3.15.0.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.15.0/jline-terminal-3.15.0.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/7.3.1-scala-1/scala-asm-7.3.1-scala-1.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.2.5/compiler-interface-1.2.5.jar
+[0m[32m[D][0m   => /Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.2.2/util-interface-1.2.2.jar
+[0m[32m[D][0m Skipped configuration of SemanticDB in unsupported 0.27.0-RC1 projects
+[0m[32m[D][0m Loading previous analysis for 'cs210-funsets' from '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_0.27.zip'.
+[0m[32m[D][0m Loading previous analysis for 'cs210-funsets-test' from '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_0.27.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher2167245675452413446/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher2167245675452413446/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.01.21 18:25:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Nicolas/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.01.21 18:25:04 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+[0m2021.01.21 18:25:04 INFO  Attempting to connect to the build server...[0m
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher2370112152696606476/bsp.socket'...
+Waiting for the bsp connection to come up...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher3963373373363177960/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher2370112152696606476/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher2370112152696606476/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.01.21 18:25:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Nicolas/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher3963373373363177960/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/bsp-launcher3963373373363177960/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.01.21 18:25:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Nicolas/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.01.21 18:25:06 INFO  time: connected to build server in 2.71s[0m
+[0m2021.01.21 18:25:06 INFO  Connected to Build server v1.4.5-6-4768184c[0m
+[0m2021.01.21 18:25:06 INFO  time: imported build in 0.12s[0m
+[0m2021.01.21 18:25:08 INFO  no build target: using presentation compiler with only scala-library[0m
+janv. 21, 2021 6:25:11 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: file%3A%2F%2F%2FUsers%2FNicolas%2FDesktop%2FMA1%2FFP%2Flabs%2Fcs210-funsets%2Fsrc%2Fmain%2Fscala%2Ffunsets%2FFunSets.scala:64: error: ; expected but else found
+      else if (contains(s, a) && !p(a)) then
+      ^
+file%3A%2F%2F%2FUsers%2FNicolas%2FDesktop%2FMA1%2FFP%2Flabs%2Fcs210-funsets%2Fsrc%2Fmain%2Fscala%2Ffunsets%2FFunSets.scala:64: error: ; expected but else found
+      else if (contains(s, a) && !p(a)) then
+      ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:739)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:745)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:753)
+	at scala.meta.internal.parsers.ScalametaParser.blockStatSeq(ScalametaParser.scala:4792)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$block$1(ScalametaParser.scala:2897)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:720)
+	at scala.meta.internal.parsers.ScalametaParser.block(ScalametaParser.scala:2890)
+	at scala.meta.internal.parsers.ScalametaParser.blockOrCase$1(ScalametaParser.scala:2878)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockExpr$3(ScalametaParser.scala:2881)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:621)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockExpr$1(ScalametaParser.scala:2881)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:720)
+	at scala.meta.internal.parsers.ScalametaParser.blockExpr(ScalametaParser.scala:2874)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$1(ScalametaParser.scala:2697)
+	at scala.meta.internal.parsers.ScalametaParser.atPosTry(ScalametaParser.scala:713)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosTry(ScalametaParser.scala:723)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2667)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2665)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2649)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2629)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$13(ScalametaParser.scala:2214)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:720)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$1(ScalametaParser.scala:2214)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:720)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:2098)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1993)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:2021)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$funDefRest$1(ScalametaParser.scala:4094)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.funDefRest(ScalametaParser.scala:4036)
+	at scala.meta.internal.parsers.ScalametaParser.funDefOrDclOrExtensionOrSecondaryCtor(ScalametaParser.scala:3980)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3833)
+	at scala.meta.internal.parsers.ScalametaParser.localDef(ScalametaParser.scala:4760)
+	at scala.meta.internal.parsers.ScalametaParser.blockStatSeq(ScalametaParser.scala:4787)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$block$1(ScalametaParser.scala:2897)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:720)
+	at scala.meta.internal.parsers.ScalametaParser.block(ScalametaParser.scala:2890)
+	at scala.meta.internal.parsers.ScalametaParser.blockOrCase$1(ScalametaParser.scala:2878)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockExpr$3(ScalametaParser.scala:2881)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:621)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockExpr$1(ScalametaParser.scala:2881)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:720)
+	at scala.meta.internal.parsers.ScalametaParser.blockExpr(ScalametaParser.scala:2874)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$1(ScalametaParser.scala:2697)
+	at scala.meta.internal.parsers.ScalametaParser.atPosTry(ScalametaParser.scala:713)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosTry(ScalametaParser.scala:723)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2667)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2665)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2649)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2629)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$13(ScalametaParser.scala:2214)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:720)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$1(ScalametaParser.scala:2214)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:720)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:2098)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1993)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:2021)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$funDefRest$1(ScalametaParser.scala:4094)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.funDefRest(ScalametaParser.scala:4036)
+	at scala.meta.internal.parsers.ScalametaParser.funDefOrDclOrExtensionOrSecondaryCtor(ScalametaParser.scala:3980)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3833)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3818)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1$1.applyOrElse(ScalametaParser.scala:4715)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1$1.applyOrElse(ScalametaParser.scala:4709)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4653)
+	at scala.meta.internal.parsers.ScalametaParser.templateStats(ScalametaParser.scala:4725)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:4705)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:4559)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:621)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4559)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4567)
+	at scala.meta.internal.parsers.ScalametaParser.template(ScalametaParser.scala:4498)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$template$1(ScalametaParser.scala:4517)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:720)
+	at scala.meta.internal.parsers.ScalametaParser.template(ScalametaParser.scala:4502)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4543)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$traitDef$1(ScalametaParser.scala:4203)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.traitDef(ScalametaParser.scala:4181)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:4159)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:4151)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:4675)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:4663)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4653)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4662)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4868)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$9(ScalametaParser.scala:4874)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4874)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:720)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4842)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4825)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:720)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4824)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4830)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$259.apply(ScalametaParser.scala:4887)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:11)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:196)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:34)
+
+[0m2021.01.21 18:25:21 INFO  time: indexed workspace in 14s[0m
+[0m2021.01.21 18:25:21 INFO  compiling cs210-funsets-test (1 scala source)[0m
+[0m2021.01.21 18:25:28 INFO  time: compiled cs210-funsets-test in 6.9s[0m
+[0m2021.01.21 18:26:18 INFO  compiling cs210-funsets (1 scala source)[0m
+[0m2021.01.21 18:26:19 INFO  time: compiled cs210-funsets in 1.22s[0m
+[0m2021.01.21 18:26:21 INFO  compiling cs210-funsets (1 scala source)[0m
+[0m2021.01.21 18:26:22 INFO  time: compiled cs210-funsets in 1.39s[0m
+[0m2021.01.21 18:26:22 INFO  compiling cs210-funsets (1 scala source)[0m
+[0m2021.01.21 18:26:24 INFO  time: compiled cs210-funsets in 1.44s[0m
+[0m2021.01.21 18:26:50 INFO  compiling cs210-funsets (1 scala source)[0m
+[0m2021.01.21 18:26:50 INFO  time: compiled cs210-funsets in 0.83s[0m
+[0m2021.01.21 18:26:53 INFO  compiling cs210-funsets (1 scala source)[0m
+[0m2021.01.21 18:26:53 INFO  time: compiled cs210-funsets in 0.5s[0m
+[0m2021.01.21 18:26:56 INFO  compiling cs210-funsets (1 scala source)[0m
+[0m2021.01.21 18:26:56 INFO  time: compiled cs210-funsets in 0.72s[0m
+[0m2021.01.21 18:26:58 INFO  compiling cs210-funsets (1 scala source)[0m
+[0m2021.01.21 18:26:58 INFO  time: compiled cs210-funsets in 0.84s[0m
+[0m2021.01.21 18:27:02 INFO  compiling cs210-funsets (1 scala source)[0m
+[0m2021.01.21 18:27:02 INFO  time: compiled cs210-funsets in 0.47s[0m
+[0m2021.01.21 18:27:02 INFO  compiling cs210-funsets (1 scala source)[0m
+[0m2021.01.21 18:27:03 INFO  time: compiled cs210-funsets in 0.57s[0m
+[0m2021.01.21 18:27:03 INFO  compiling cs210-funsets (1 scala source)[0m
+[0m2021.01.21 18:27:03 INFO  time: compiled cs210-funsets in 0.38s[0m
+[0m2021.01.21 18:27:03 INFO  compiling cs210-funsets (1 scala source)[0m
+[0m2021.01.21 18:27:03 INFO  time: compiled cs210-funsets in 0.28s[0m
+[0m2021.01.21 18:27:17 INFO  compiling cs210-funsets (1 scala source)[0m
+[0m2021.01.21 18:27:17 INFO  time: compiled cs210-funsets in 0.78s[0m
+[0m2021.01.21 18:27:19 INFO  compiling cs210-funsets (1 scala source)[0m
+[0m2021.01.21 18:27:19 INFO  time: compiled cs210-funsets in 0.46s[0m
+[0m2021.01.21 18:27:33 INFO  compiling cs210-funsets (1 scala source)[0m
+[0m2021.01.21 18:27:33 INFO  time: compiled cs210-funsets in 0.32s[0m
+[0m2021.01.21 18:27:58 INFO  compiling cs210-funsets (1 scala source)[0m
+[0m2021.01.21 18:27:58 INFO  time: compiled cs210-funsets in 0.29s[0m
+[0m2021.01.21 18:27:58 INFO  compiling cs210-funsets (1 scala source)[0m
+[0m2021.01.21 18:27:59 INFO  time: compiled cs210-funsets in 0.28s[0m
+[0m2021.01.21 18:27:59 INFO  compiling cs210-funsets (1 scala source)[0m
+[0m2021.01.21 18:27:59 INFO  time: compiled cs210-funsets in 0.61s[0m
+[0m2021.01.21 18:28:02 INFO  compiling cs210-funsets (1 scala source)[0m
+[0m2021.01.21 18:28:02 INFO  time: compiled cs210-funsets in 0.25s[0m
+[0m2021.01.21 18:28:03 INFO  compiling cs210-funsets (1 scala source)[0m
+[0m2021.01.21 18:28:03 INFO  time: compiled cs210-funsets in 0.28s[0m
+[0m2021.01.21 18:28:07 INFO  compiling cs210-funsets (1 scala source)[0m
+[0m2021.01.21 18:28:07 INFO  time: compiled cs210-funsets in 0.24s[0m
+[0m2021.01.21 18:28:09 INFO  compiling cs210-funsets (1 scala source)[0m
+[0m2021.01.21 18:28:09 INFO  time: compiled cs210-funsets in 0.4s[0m
+[0m2021.01.21 18:28:41 INFO  compiling cs210-funsets (1 scala source)[0m
+[0m2021.01.21 18:28:41 INFO  time: compiled cs210-funsets in 0.36s[0m
+[0m2021.01.21 18:28:42 INFO  compiling cs210-funsets (1 scala source)[0m
+[0m2021.01.21 18:28:42 INFO  time: compiled cs210-funsets in 0.41s[0m
+[0m2021.01.21 18:28:50 INFO  compiling cs210-funsets (1 scala source)[0m
+[0m2021.01.21 18:28:50 INFO  time: compiled cs210-funsets in 0.25s[0m
+[0m2021.01.21 18:28:54 INFO  compiling cs210-funsets (1 scala source)[0m
+[0m2021.01.21 18:28:54 INFO  time: compiled cs210-funsets in 0.29s[0m
+[0m2021.01.21 18:29:43 INFO  shutting down Metals[0m
+[0m2021.01.21 18:29:43 INFO  Shut down connection with build server.[0m
+[0m2021.01.21 18:29:43 INFO  Shut down connection with build server.[0m
+[0m2021.01.21 18:29:43 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...

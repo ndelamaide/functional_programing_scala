@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/src/main/scala/codecs/Codecs.scala:260:75 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m260 |[0m    ObjectEncoder.field[[35mList[Person][0m]([31m"people"[0m).transform[[35mContacts[0m]([36mp[0m => p.head())[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                                                         [31m^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |                         value head is not a member of codecs.Contacts[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

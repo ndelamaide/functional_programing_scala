@@ -1,0 +1,20 @@
+[0m[[0m[31merror[0m] [0m[0merror while loading QuickCheckHeap 8$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-quickcheck/target/scala-0.27/classes/quickcheck/QuickCheckHeap 8.class' has location not matching its contents: contains class quickcheck.QuickCheckHeap[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading QuickCheckHeap 7$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-quickcheck/target/scala-0.27/classes/quickcheck/QuickCheckHeap 7.class' has location not matching its contents: contains class quickcheck.QuickCheckHeap[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading QuickCheckHeap 6$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-quickcheck/target/scala-0.27/classes/quickcheck/QuickCheckHeap 6.class' has location not matching its contents: contains class quickcheck.QuickCheckHeap[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading QuickCheckHeap 5$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-quickcheck/target/scala-0.27/classes/quickcheck/QuickCheckHeap 5.class' has location not matching its contents: contains class quickcheck.QuickCheckHeap[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading QuickCheckHeap 4$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-quickcheck/target/scala-0.27/classes/quickcheck/QuickCheckHeap 4.class' has location not matching its contents: contains class quickcheck.QuickCheckHeap[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading QuickCheckHeap 3$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-quickcheck/target/scala-0.27/classes/quickcheck/QuickCheckHeap 3.class' has location not matching its contents: contains class quickcheck.QuickCheckHeap[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading QuickCheckHeap 2$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-quickcheck/target/scala-0.27/classes/quickcheck/QuickCheckHeap 2.class' has location not matching its contents: contains class quickcheck.QuickCheckHeap[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-quickcheck/src/main/scala/quickcheck/QuickCheck.scala:46:43 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m46 |[0m      [33mif[0m (isEmpty(h1) && isEmpty(h2)) [33mthen[0m True[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                           [31m^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                 Found:    org.scalacheck.Prop.True.type[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                 Required: Boolean[0m
+[0m[[0m[31merror[0m] [0m[0m8 errors found[0m

@@ -1,0 +1,823 @@
+
+š×7src/test/scala/interpreter/RecursiveLanguageSuite.scala*B
+#interpreter/RecursiveLanguageSuite#*RecursiveLanguageSuite€*@
+.interpreter/RecursiveLanguageSuite#`<init>`(). €@*<init>€*
+local0*test€*
+local1*a€*
+local2*b€*
+local3*c€*
+local4 €*call€*
+local5 €*result€*
+local6 €*msg€*6
+'interpreter/RecursiveLanguageSuite#sum. €*sum€*6
+'interpreter/RecursiveLanguageSuite#div. €*div€*
+local7 €*list1€*
+local8 €*call1€*
+local9 €*list2€*
+local10 €*call2€*
+local11 €*list1€*
+local12 €*call1€*
+local13 €*list2€*
+local14 €*call2€*
+local15 €*plus_one€*
+local16 €*list1€*
+local17 €*list2€*
+local18 €*pairMap€*H
+0interpreter/RecursiveLanguageSuite#munitTimeout. €*munitTimeout€2
+ interpreter/21
+ #interpreter/RecursiveLanguageSuite#2<
+% %.interpreter/RecursiveLanguageSuite#`<init>`().2(
+3 3munit/FunSuite#`<init>`().2
++ 3munit/FunSuite#2
+% *munit/2,
+	 interpreter/RecursiveLanguage.2:
+$ ,,interpreter/RecursiveLanguage.Expr.Constant.2:
+$ ,,interpreter/RecursiveLanguage.Expr.Constant#26
+3 7(interpreter/RecursiveLanguage.Expr.Name.26
+3 7(interpreter/RecursiveLanguage.Expr.Name#21
+ "#interpreter/RecursiveLanguage.Expr.2$
+ munit/FunSuite#test().2
+ local02
+ local12
+ 
+scala/Int#2
+ local22
+ 
+scala/Int#2
+ local32
+  #
+scala/Int#2
+& *scala/Unit#2
+
+ local42>
+ 0interpreter/RecursiveLanguage.Expr.Call.apply().26
+ (interpreter/RecursiveLanguage.Expr.Call.2>
+ 0interpreter/RecursiveLanguage.Expr.Call.apply().26
+ (interpreter/RecursiveLanguage.Expr.Call.2>
+ 0interpreter/RecursiveLanguage.Expr.Name.apply().26
+ (interpreter/RecursiveLanguage.Expr.Name.2B
+( (4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+' (,interpreter/RecursiveLanguage.Expr.Constant.2
+) *local12B
+/ /4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+. /,interpreter/RecursiveLanguage.Expr.Constant.2
+0 1local22
+
+ local523
+ %interpreter/RecursiveLanguage.eval().2
+ local428
+ )*interpreter/RecursiveLanguage.definitions.2.
+		  munit/Assertions#assertEquals().2B
+		 4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+		 ,interpreter/RecursiveLanguage.Expr.Constant.2
+		 local32
+		 local52B
+	 	  4munit/internal/MacroCompat.LocationMacro#generate().2!
+	 	  scala/`<:<`.refl().2
+ local02
+ local02
+ local02
+ local02
+ local02
+ local02
+ local02
+ local02
+ local02B
+ 4munit/internal/MacroCompat.LocationMacro#generate().2$
+ munit/FunSuite#test().2.
+  munit/Assertions#assertEquals().27
+ )interpreter/RecursiveLanguage.Expr.Empty.23
+ %interpreter/RecursiveLanguage.eval().27
+ ")interpreter/RecursiveLanguage.Expr.Empty.22
+' '$scala/collection/MapFactory#apply().2
+$ 'scala/Predef.Map.2B
++ +4munit/internal/MacroCompat.LocationMacro#generate().2!
++ +scala/`<:<`.refl().2.
+  munit/Assertions#assertEquals().2>
+ 0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+ (interpreter/RecursiveLanguage.Expr.Cons.2B
+ 4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+ ,interpreter/RecursiveLanguage.Expr.Constant.27
+ !)interpreter/RecursiveLanguage.Expr.Empty.23
+$ (%interpreter/RecursiveLanguage.eval().2>
+- -0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+) -(interpreter/RecursiveLanguage.Expr.Cons.2B
+/ /4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+. /,interpreter/RecursiveLanguage.Expr.Constant.27
+4 9)interpreter/RecursiveLanguage.Expr.Empty.22
+? ?$scala/collection/MapFactory#apply().2
+< ?scala/Predef.Map.2B
+C C4munit/internal/MacroCompat.LocationMacro#generate().2!
+C Cscala/`<:<`.refl().2.
+  munit/Assertions#assertEquals().2>
+ 0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+ (interpreter/RecursiveLanguage.Expr.Cons.2B
+ 4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+ ,interpreter/RecursiveLanguage.Expr.Constant.27
+ !)interpreter/RecursiveLanguage.Expr.Empty.23
+$ (%interpreter/RecursiveLanguage.eval().2>
+- -0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+) -(interpreter/RecursiveLanguage.Expr.Cons.2?
+3 31interpreter/RecursiveLanguage.Expr.BinOp.apply().27
+. 3)interpreter/RecursiveLanguage.Expr.BinOp.28
+; ?*interpreter/RecursiveLanguage.BinOps.Plus.23
+4 :%interpreter/RecursiveLanguage.BinOps.2B
+B B4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+A B,interpreter/RecursiveLanguage.Expr.Constant.2B
+H H4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+G H,interpreter/RecursiveLanguage.Expr.Constant.27
+N S)interpreter/RecursiveLanguage.Expr.Empty.22
+Y Y$scala/collection/MapFactory#apply().2
+V Yscala/Predef.Map.2B
+] ]4munit/internal/MacroCompat.LocationMacro#generate().2!
+] ]scala/`<:<`.refl().2.
+  munit/Assertions#assertEquals().2B
+ 4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+ ,interpreter/RecursiveLanguage.Expr.Constant.23
+ %interpreter/RecursiveLanguage.eval().2?
+" "1interpreter/RecursiveLanguage.Expr.Match.apply().27
+ ")interpreter/RecursiveLanguage.Expr.Match.27
+# ()interpreter/RecursiveLanguage.Expr.Empty.2B
+8 84interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+7 8,interpreter/RecursiveLanguage.Expr.Constant.2B
+I I4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+H I,interpreter/RecursiveLanguage.Expr.Constant.22
+U U$scala/collection/MapFactory#apply().2
+R Uscala/Predef.Map.2B
+Y Y4munit/internal/MacroCompat.LocationMacro#generate().2!
+Y Yscala/`<:<`.refl().2.
+  munit/Assertions#assertEquals().2B
+ 4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+ ,interpreter/RecursiveLanguage.Expr.Constant.23
+ %interpreter/RecursiveLanguage.eval().2?
+" "1interpreter/RecursiveLanguage.Expr.Match.apply().27
+ ")interpreter/RecursiveLanguage.Expr.Match.2>
+' '0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+# '(interpreter/RecursiveLanguage.Expr.Cons.27
+( -)interpreter/RecursiveLanguage.Expr.Empty.27
+/ 4)interpreter/RecursiveLanguage.Expr.Empty.2B
+8 84interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+7 8,interpreter/RecursiveLanguage.Expr.Constant.2B
+I I4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+H I,interpreter/RecursiveLanguage.Expr.Constant.22
+U U$scala/collection/MapFactory#apply().2
+R Uscala/Predef.Map.2B
+Y Y4munit/internal/MacroCompat.LocationMacro#generate().2!
+Y Yscala/`<:<`.refl().2.
+  munit/Assertions#assertEquals().2B
+ 4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+ ,interpreter/RecursiveLanguage.Expr.Constant.23
+ %interpreter/RecursiveLanguage.eval().2?
+" "1interpreter/RecursiveLanguage.Expr.Match.apply().27
+ ")interpreter/RecursiveLanguage.Expr.Match.2>
+' '0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+# '(interpreter/RecursiveLanguage.Expr.Cons.2B
+) )4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+( ),interpreter/RecursiveLanguage.Expr.Constant.27
+. 3)interpreter/RecursiveLanguage.Expr.Empty.2B
+8 84interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+7 8,interpreter/RecursiveLanguage.Expr.Constant.2>
+I I0interpreter/RecursiveLanguage.Expr.Name.apply().26
+H I(interpreter/RecursiveLanguage.Expr.Name.22
+U U$scala/collection/MapFactory#apply().2
+R Uscala/Predef.Map.2B
+Y Y4munit/internal/MacroCompat.LocationMacro#generate().2!
+Y Yscala/`<:<`.refl().2.
+  munit/Assertions#assertEquals().27
+ )interpreter/RecursiveLanguage.Expr.Empty.23
+ %interpreter/RecursiveLanguage.eval().2?
+" "1interpreter/RecursiveLanguage.Expr.Match.apply().27
+ ")interpreter/RecursiveLanguage.Expr.Match.2>
+' '0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+# '(interpreter/RecursiveLanguage.Expr.Cons.2B
+) )4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+( ),interpreter/RecursiveLanguage.Expr.Constant.27
+. 3)interpreter/RecursiveLanguage.Expr.Empty.2B
+8 84interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+7 8,interpreter/RecursiveLanguage.Expr.Constant.2>
+I I0interpreter/RecursiveLanguage.Expr.Name.apply().26
+H I(interpreter/RecursiveLanguage.Expr.Name.22
+U U$scala/collection/MapFactory#apply().2
+R Uscala/Predef.Map.2B
+Y Y4munit/internal/MacroCompat.LocationMacro#generate().2!
+Y Yscala/`<:<`.refl().23
+!! 
+%interpreter/RecursiveLanguage.eval().2?
+!! 1interpreter/RecursiveLanguage.Expr.Match.apply().27
+!! )interpreter/RecursiveLanguage.Expr.Match.2B
+!! 4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+!! ,interpreter/RecursiveLanguage.Expr.Constant.2B
+!! 4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+!! ,interpreter/RecursiveLanguage.Expr.Constant.2B
+!(! (4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+!'! (,interpreter/RecursiveLanguage.Expr.Constant.22
+!1! 1$scala/collection/MapFactory#apply().2
+!.! 1scala/Predef.Map.2(
+"" 
+munit/Assertions#fail(+1).2B
+"R" R4munit/internal/MacroCompat.LocationMacro#generate().2D
+$$ 6interpreter/RecursiveLanguage.EvalException.unapply().2:
+$$ ,interpreter/RecursiveLanguage.EvalException.2
+$$ local62B
+&& 4munit/internal/MacroCompat.LocationMacro#generate().2$
+(( munit/FunSuite#test().2.
+))  munit/Assertions#assertEquals().27
+)) )scala/collection/IterableFactory#apply().2
+)) scala/Predef.Set.27
+) ) ()interpreter/RecursiveLanguage.freeVars().27
+))) .)interpreter/RecursiveLanguage.Expr.Empty.2B
+)0) 04munit/internal/MacroCompat.LocationMacro#generate().2!
+)0) 0scala/`<:<`.refl().2.
+**  munit/Assertions#assertEquals().27
+** )scala/collection/IterableFactory#apply().2
+** scala/Predef.Set.27
+* * ()interpreter/RecursiveLanguage.freeVars().2>
+*-* -0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+*)* -(interpreter/RecursiveLanguage.Expr.Cons.2>
+*/* /0interpreter/RecursiveLanguage.Expr.Name.apply().26
+*.* /(interpreter/RecursiveLanguage.Expr.Name.2>
+*7* 70interpreter/RecursiveLanguage.Expr.Name.apply().26
+*6* 7(interpreter/RecursiveLanguage.Expr.Name.2B
+*?* ?4munit/internal/MacroCompat.LocationMacro#generate().2!
+*?* ?scala/`<:<`.refl().2.
+++  munit/Assertions#assertEquals().27
+++ )scala/collection/IterableFactory#apply().2
+++ scala/Predef.Set.27
++ + ()interpreter/RecursiveLanguage.freeVars().2?
++.+ .1interpreter/RecursiveLanguage.Expr.Match.apply().27
++)+ .)interpreter/RecursiveLanguage.Expr.Match.27
++/+ 4)interpreter/RecursiveLanguage.Expr.Empty.2B
++7+ 74interpreter/RecursiveLanguage.Expr.Constant.apply().2:
++6+ 7,interpreter/RecursiveLanguage.Expr.Constant.2>
++I+ I0interpreter/RecursiveLanguage.Expr.Name.apply().26
++H+ I(interpreter/RecursiveLanguage.Expr.Name.2B
++Q+ Q4munit/internal/MacroCompat.LocationMacro#generate().2!
++Q+ Qscala/`<:<`.refl().2.
+,,  munit/Assertions#assertEquals().27
+,, )scala/collection/IterableFactory#apply().2
+,, scala/Predef.Set.27
+, , ()interpreter/RecursiveLanguage.freeVars().2?
+,., .1interpreter/RecursiveLanguage.Expr.Match.apply().27
+,), .)interpreter/RecursiveLanguage.Expr.Match.27
+,/, 4)interpreter/RecursiveLanguage.Expr.Empty.2B
+,7, 74interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+,6, 7,interpreter/RecursiveLanguage.Expr.Constant.2>
+,I, I0interpreter/RecursiveLanguage.Expr.Name.apply().26
+,H, I(interpreter/RecursiveLanguage.Expr.Name.2B
+,Q, Q4munit/internal/MacroCompat.LocationMacro#generate().2!
+,Q, Qscala/`<:<`.refl().2.
+--  munit/Assertions#assertEquals().27
+-- )scala/collection/IterableFactory#apply().2
+-- scala/Predef.Set.27
+- - ()interpreter/RecursiveLanguage.freeVars().2?
+-.- .1interpreter/RecursiveLanguage.Expr.Match.apply().27
+-)- .)interpreter/RecursiveLanguage.Expr.Match.27
+-/- 4)interpreter/RecursiveLanguage.Expr.Empty.2>
+-7- 70interpreter/RecursiveLanguage.Expr.Name.apply().26
+-6- 7(interpreter/RecursiveLanguage.Expr.Name.2B
+-I- I4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+-H- I,interpreter/RecursiveLanguage.Expr.Constant.2B
+-O- O4munit/internal/MacroCompat.LocationMacro#generate().2!
+-O- Oscala/`<:<`.refl().2B
+.. 4munit/internal/MacroCompat.LocationMacro#generate().2$
+00 munit/FunSuite#test().2.
+11  munit/Assertions#assertEquals().2>
+11 0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+11 (interpreter/RecursiveLanguage.Expr.Cons.2>
+11 0interpreter/RecursiveLanguage.Expr.Name.apply().26
+11 (interpreter/RecursiveLanguage.Expr.Name.2>
+11 0interpreter/RecursiveLanguage.Expr.Name.apply().26
+11 (interpreter/RecursiveLanguage.Expr.Name.2;
+1'1 3-interpreter/RecursiveLanguage.alphaConvert().2>
+181 80interpreter/RecursiveLanguage.Expr.Cons.apply().26
+141 8(interpreter/RecursiveLanguage.Expr.Cons.2>
+1:1 :0interpreter/RecursiveLanguage.Expr.Name.apply().26
+191 :(interpreter/RecursiveLanguage.Expr.Name.2>
+1B1 B0interpreter/RecursiveLanguage.Expr.Name.apply().26
+1A1 B(interpreter/RecursiveLanguage.Expr.Name.2B
+1T1 T4munit/internal/MacroCompat.LocationMacro#generate().2!
+1T1 Tscala/`<:<`.refl().2.
+22  munit/Assertions#assertEquals().2?
+22 1interpreter/RecursiveLanguage.Expr.Match.apply().27
+22 )interpreter/RecursiveLanguage.Expr.Match.27
+22 )interpreter/RecursiveLanguage.Expr.Empty.2B
+22 4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+22 ,interpreter/RecursiveLanguage.Expr.Constant.2>
+212 10interpreter/RecursiveLanguage.Expr.Name.apply().26
+202 1(interpreter/RecursiveLanguage.Expr.Name.2;
+292 E-interpreter/RecursiveLanguage.alphaConvert().2?
+2K2 K1interpreter/RecursiveLanguage.Expr.Match.apply().27
+2F2 K)interpreter/RecursiveLanguage.Expr.Match.27
+2L2 Q)interpreter/RecursiveLanguage.Expr.Empty.2B
+2T2 T4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+2S2 T,interpreter/RecursiveLanguage.Expr.Constant.2>
+2f2 f0interpreter/RecursiveLanguage.Expr.Name.apply().26
+2e2 f(interpreter/RecursiveLanguage.Expr.Name.2B
+2x2 x4munit/internal/MacroCompat.LocationMacro#generate().2!
+2x2 xscala/`<:<`.refl().2.
+33  munit/Assertions#assertEquals().2?
+33 1interpreter/RecursiveLanguage.Expr.Match.apply().27
+33 )interpreter/RecursiveLanguage.Expr.Match.27
+33 )interpreter/RecursiveLanguage.Expr.Empty.2B
+33 4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+33 ,interpreter/RecursiveLanguage.Expr.Constant.2>
+313 10interpreter/RecursiveLanguage.Expr.Name.apply().26
+303 1(interpreter/RecursiveLanguage.Expr.Name.2;
+393 E-interpreter/RecursiveLanguage.alphaConvert().2?
+3K3 K1interpreter/RecursiveLanguage.Expr.Match.apply().27
+3F3 K)interpreter/RecursiveLanguage.Expr.Match.27
+3L3 Q)interpreter/RecursiveLanguage.Expr.Empty.2B
+3T3 T4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+3S3 T,interpreter/RecursiveLanguage.Expr.Constant.2>
+3f3 f0interpreter/RecursiveLanguage.Expr.Name.apply().26
+3e3 f(interpreter/RecursiveLanguage.Expr.Name.2B
+3x3 x4munit/internal/MacroCompat.LocationMacro#generate().2!
+3x3 xscala/`<:<`.refl().2.
+44  munit/Assertions#assertEquals().2?
+44 1interpreter/RecursiveLanguage.Expr.Match.apply().27
+44 )interpreter/RecursiveLanguage.Expr.Match.27
+44 )interpreter/RecursiveLanguage.Expr.Empty.2>
+44 0interpreter/RecursiveLanguage.Expr.Name.apply().26
+44 (interpreter/RecursiveLanguage.Expr.Name.2B
+414 14interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+404 1,interpreter/RecursiveLanguage.Expr.Constant.2;
+494 E-interpreter/RecursiveLanguage.alphaConvert().2?
+4K4 K1interpreter/RecursiveLanguage.Expr.Match.apply().27
+4F4 K)interpreter/RecursiveLanguage.Expr.Match.27
+4L4 Q)interpreter/RecursiveLanguage.Expr.Empty.2>
+4T4 T0interpreter/RecursiveLanguage.Expr.Name.apply().26
+4S4 T(interpreter/RecursiveLanguage.Expr.Name.2B
+4f4 f4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+4e4 f,interpreter/RecursiveLanguage.Expr.Constant.2B
+4x4 x4munit/internal/MacroCompat.LocationMacro#generate().2!
+4x4 xscala/`<:<`.refl().2.
+55  munit/Assertions#assertEquals().2?
+55 1interpreter/RecursiveLanguage.Expr.Match.apply().27
+55 )interpreter/RecursiveLanguage.Expr.Match.27
+55 )interpreter/RecursiveLanguage.Expr.Empty.2>
+55 0interpreter/RecursiveLanguage.Expr.Name.apply().26
+55 (interpreter/RecursiveLanguage.Expr.Name.2B
+515 14interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+505 1,interpreter/RecursiveLanguage.Expr.Constant.2;
+595 E-interpreter/RecursiveLanguage.alphaConvert().2?
+5K5 K1interpreter/RecursiveLanguage.Expr.Match.apply().27
+5F5 K)interpreter/RecursiveLanguage.Expr.Match.27
+5L5 Q)interpreter/RecursiveLanguage.Expr.Empty.2>
+5T5 T0interpreter/RecursiveLanguage.Expr.Name.apply().26
+5S5 T(interpreter/RecursiveLanguage.Expr.Name.2B
+5f5 f4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+5e5 f,interpreter/RecursiveLanguage.Expr.Constant.2B
+5x5 x4munit/internal/MacroCompat.LocationMacro#generate().2!
+5x5 xscala/`<:<`.refl().2.
+66  munit/Assertions#assertEquals().2?
+66 1interpreter/RecursiveLanguage.Expr.Match.apply().27
+66 )interpreter/RecursiveLanguage.Expr.Match.27
+66 )interpreter/RecursiveLanguage.Expr.Empty.2B
+66 4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+66 ,interpreter/RecursiveLanguage.Expr.Constant.2>
+616 10interpreter/RecursiveLanguage.Expr.Name.apply().26
+606 1(interpreter/RecursiveLanguage.Expr.Name.2;
+696 E-interpreter/RecursiveLanguage.alphaConvert().2?
+6K6 K1interpreter/RecursiveLanguage.Expr.Match.apply().27
+6F6 K)interpreter/RecursiveLanguage.Expr.Match.27
+6L6 Q)interpreter/RecursiveLanguage.Expr.Empty.2B
+6T6 T4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+6S6 T,interpreter/RecursiveLanguage.Expr.Constant.2>
+6f6 f0interpreter/RecursiveLanguage.Expr.Name.apply().26
+6e6 f(interpreter/RecursiveLanguage.Expr.Name.2B
+6x6 x4munit/internal/MacroCompat.LocationMacro#generate().2!
+6x6 xscala/`<:<`.refl().2B
+77 4munit/internal/MacroCompat.LocationMacro#generate().25
+99 	'interpreter/RecursiveLanguageSuite#sum.2-
+99 scala/Predef.ArrowAssoc#`->`().2(
+99 scala/Predef.ArrowAssoc().2=
+99 /interpreter/RecursiveLanguage.Expr.Fun.apply().25
+99 'interpreter/RecursiveLanguage.Expr.Fun.2=
+9!9 !/interpreter/RecursiveLanguage.Expr.Fun.apply().25
+99 !'interpreter/RecursiveLanguage.Expr.Fun.2?
+9,9 ,1interpreter/RecursiveLanguage.Expr.BinOp.apply().27
+9'9 ,)interpreter/RecursiveLanguage.Expr.BinOp.28
+949 8*interpreter/RecursiveLanguage.BinOps.Plus.23
+9-9 3%interpreter/RecursiveLanguage.BinOps.2>
+9;9 ;0interpreter/RecursiveLanguage.Expr.Name.apply().26
+9:9 ;(interpreter/RecursiveLanguage.Expr.Name.2>
+9C9 C0interpreter/RecursiveLanguage.Expr.Name.apply().26
+9B9 C(interpreter/RecursiveLanguage.Expr.Name.25
+:: 	'interpreter/RecursiveLanguageSuite#div.2-
+:: scala/Predef.ArrowAssoc#`->`().2(
+:: scala/Predef.ArrowAssoc().2=
+:: /interpreter/RecursiveLanguage.Expr.Fun.apply().25
+:: 'interpreter/RecursiveLanguage.Expr.Fun.2=
+:!: !/interpreter/RecursiveLanguage.Expr.Fun.apply().25
+:: !'interpreter/RecursiveLanguage.Expr.Fun.2?
+:,: ,1interpreter/RecursiveLanguage.Expr.BinOp.apply().27
+:': ,)interpreter/RecursiveLanguage.Expr.BinOp.2=
+:4: =/interpreter/RecursiveLanguage.BinOps.DividedBy.23
+:-: 3%interpreter/RecursiveLanguage.BinOps.2>
+:@: @0interpreter/RecursiveLanguage.Expr.Name.apply().26
+:?: @(interpreter/RecursiveLanguage.Expr.Name.2>
+:H: H0interpreter/RecursiveLanguage.Expr.Name.apply().26
+:G: H(interpreter/RecursiveLanguage.Expr.Name.2$
+<< munit/FunSuite#test().2
+== local72>
+== 0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+== (interpreter/RecursiveLanguage.Expr.Cons.2B
+== 4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+== ,interpreter/RecursiveLanguage.Expr.Constant.2>
+== 0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+== (interpreter/RecursiveLanguage.Expr.Cons.2B
+=!= !4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+= = !,interpreter/RecursiveLanguage.Expr.Constant.2>
+=*= *0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+=&= *(interpreter/RecursiveLanguage.Expr.Cons.2B
+=,= ,4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+=+= ,,interpreter/RecursiveLanguage.Expr.Constant.27
+=1= 6)interpreter/RecursiveLanguage.Expr.Empty.2
+>> local82>
+>> 0interpreter/RecursiveLanguage.Expr.Call.apply().26
+>> (interpreter/RecursiveLanguage.Expr.Call.2>
+>> 0interpreter/RecursiveLanguage.Expr.Call.apply().26
+>> (interpreter/RecursiveLanguage.Expr.Call.2>
+>> 0interpreter/RecursiveLanguage.Expr.Call.apply().26
+>> (interpreter/RecursiveLanguage.Expr.Call.2>
+> >  0interpreter/RecursiveLanguage.Expr.Name.apply().26
+>>  (interpreter/RecursiveLanguage.Expr.Name.2
+>.> 3local72B
+>7> 74interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+>6> 7,interpreter/RecursiveLanguage.Expr.Constant.2>
+>@> @0interpreter/RecursiveLanguage.Expr.Name.apply().26
+>?> @(interpreter/RecursiveLanguage.Expr.Name.2.
+??  munit/Assertions#assertEquals().2B
+?? 4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+?? ,interpreter/RecursiveLanguage.Expr.Constant.23
+?? %interpreter/RecursiveLanguage.eval().2
+?? #local826
+?1? 2(scala/collection/immutable/MapOps#`+`().28
+?%? 0*interpreter/RecursiveLanguage.definitions.25
+?3? 6'interpreter/RecursiveLanguageSuite#sum.2B
+?8? 84munit/internal/MacroCompat.LocationMacro#generate().2!
+?8? 8scala/`<:<`.refl().2
+AA local92>
+AA 0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+AA (interpreter/RecursiveLanguage.Expr.Cons.2B
+AA 4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+AA ,interpreter/RecursiveLanguage.Expr.Constant.2>
+AA 0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+AA (interpreter/RecursiveLanguage.Expr.Cons.2B
+A!A !4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+A A !,interpreter/RecursiveLanguage.Expr.Constant.2>
+A*A *0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+A&A *(interpreter/RecursiveLanguage.Expr.Cons.2B
+A,A ,4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+A+A ,,interpreter/RecursiveLanguage.Expr.Constant.2>
+A5A 50interpreter/RecursiveLanguage.Expr.Cons.apply().26
+A1A 5(interpreter/RecursiveLanguage.Expr.Cons.2B
+A7A 74interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+A6A 7,interpreter/RecursiveLanguage.Expr.Constant.2>
+A@A @0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+A<A @(interpreter/RecursiveLanguage.Expr.Cons.2B
+ABA B4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+AAA B,interpreter/RecursiveLanguage.Expr.Constant.2>
+AKA K0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+AGA K(interpreter/RecursiveLanguage.Expr.Cons.2B
+AMA M4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+ALA M,interpreter/RecursiveLanguage.Expr.Constant.27
+ARA W)interpreter/RecursiveLanguage.Expr.Empty.2
+BB local102>
+BB 0interpreter/RecursiveLanguage.Expr.Call.apply().26
+BB (interpreter/RecursiveLanguage.Expr.Call.2>
+BB 0interpreter/RecursiveLanguage.Expr.Call.apply().26
+BB (interpreter/RecursiveLanguage.Expr.Call.2>
+BB 0interpreter/RecursiveLanguage.Expr.Call.apply().26
+BB (interpreter/RecursiveLanguage.Expr.Call.2>
+B B  0interpreter/RecursiveLanguage.Expr.Name.apply().26
+BB  (interpreter/RecursiveLanguage.Expr.Name.2
+B.B 3local92B
+B7B 74interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+B6B 7,interpreter/RecursiveLanguage.Expr.Constant.2>
+BCB C0interpreter/RecursiveLanguage.Expr.Name.apply().26
+BBB C(interpreter/RecursiveLanguage.Expr.Name.2.
+CC  munit/Assertions#assertEquals().2B
+CC 4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+CC ,interpreter/RecursiveLanguage.Expr.Constant.23
+CC %interpreter/RecursiveLanguage.eval().2
+CC #local1026
+C1C 2(scala/collection/immutable/MapOps#`+`().28
+C%C 0*interpreter/RecursiveLanguage.definitions.25
+C3C 6'interpreter/RecursiveLanguageSuite#div.2B
+C8C 84munit/internal/MacroCompat.LocationMacro#generate().2!
+C8C 8scala/`<:<`.refl().2B
+DD 4munit/internal/MacroCompat.LocationMacro#generate().2$
+FF munit/FunSuite#test().2
+GG local112>
+GG 0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+GG (interpreter/RecursiveLanguage.Expr.Cons.2B
+GG 4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+GG ,interpreter/RecursiveLanguage.Expr.Constant.2>
+GG 0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+GG (interpreter/RecursiveLanguage.Expr.Cons.2B
+G!G !4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+G G !,interpreter/RecursiveLanguage.Expr.Constant.2>
+G*G *0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+G&G *(interpreter/RecursiveLanguage.Expr.Cons.2B
+G,G ,4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+G+G ,,interpreter/RecursiveLanguage.Expr.Constant.27
+G1G 6)interpreter/RecursiveLanguage.Expr.Empty.2
+HH local122>
+HH 0interpreter/RecursiveLanguage.Expr.Call.apply().26
+HH (interpreter/RecursiveLanguage.Expr.Call.2>
+HH 0interpreter/RecursiveLanguage.Expr.Call.apply().26
+HH (interpreter/RecursiveLanguage.Expr.Call.2>
+HH 0interpreter/RecursiveLanguage.Expr.Call.apply().26
+HH (interpreter/RecursiveLanguage.Expr.Call.2>
+H H  0interpreter/RecursiveLanguage.Expr.Name.apply().26
+HH  (interpreter/RecursiveLanguage.Expr.Name.2
+H/H 4local112B
+H8H 84interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+H7H 8,interpreter/RecursiveLanguage.Expr.Constant.2>
+HAH A0interpreter/RecursiveLanguage.Expr.Name.apply().26
+H@H A(interpreter/RecursiveLanguage.Expr.Name.2.
+II  munit/Assertions#assertEquals().2B
+II 4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+II ,interpreter/RecursiveLanguage.Expr.Constant.23
+II %interpreter/RecursiveLanguage.eval().2
+II #local1226
+I1I 2(scala/collection/immutable/MapOps#`+`().28
+I%I 0*interpreter/RecursiveLanguage.definitions.25
+I3I 6'interpreter/RecursiveLanguageSuite#sum.2B
+I8I 84munit/internal/MacroCompat.LocationMacro#generate().2!
+I8I 8scala/`<:<`.refl().2
+KK local132>
+KK 0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+KK (interpreter/RecursiveLanguage.Expr.Cons.2B
+KK 4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+KK ,interpreter/RecursiveLanguage.Expr.Constant.2>
+K%K %0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+K!K %(interpreter/RecursiveLanguage.Expr.Cons.2B
+K'K '4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+K&K ',interpreter/RecursiveLanguage.Expr.Constant.2>
+K4K 40interpreter/RecursiveLanguage.Expr.Cons.apply().26
+K0K 4(interpreter/RecursiveLanguage.Expr.Cons.2B
+K6K 64interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+K5K 6,interpreter/RecursiveLanguage.Expr.Constant.2>
+KBK B0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+K>K B(interpreter/RecursiveLanguage.Expr.Cons.2B
+KDK D4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+KCK D,interpreter/RecursiveLanguage.Expr.Constant.2>
+KOK O0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+KKK O(interpreter/RecursiveLanguage.Expr.Cons.2B
+KQK Q4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+KPK Q,interpreter/RecursiveLanguage.Expr.Constant.2>
+K[K [0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+KWK [(interpreter/RecursiveLanguage.Expr.Cons.2B
+K]K ]4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+K\K ],interpreter/RecursiveLanguage.Expr.Constant.27
+KbK g)interpreter/RecursiveLanguage.Expr.Empty.2
+LL local142>
+LL 0interpreter/RecursiveLanguage.Expr.Call.apply().26
+LL (interpreter/RecursiveLanguage.Expr.Call.2>
+LL 0interpreter/RecursiveLanguage.Expr.Call.apply().26
+LL (interpreter/RecursiveLanguage.Expr.Call.2>
+LL 0interpreter/RecursiveLanguage.Expr.Call.apply().26
+LL (interpreter/RecursiveLanguage.Expr.Call.2>
+L L  0interpreter/RecursiveLanguage.Expr.Name.apply().26
+LL  (interpreter/RecursiveLanguage.Expr.Name.2
+L/L 4local132B
+L8L 84interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+L7L 8,interpreter/RecursiveLanguage.Expr.Constant.2>
+L?L ?0interpreter/RecursiveLanguage.Expr.Name.apply().26
+L>L ?(interpreter/RecursiveLanguage.Expr.Name.2.
+MM  munit/Assertions#assertEquals().2B
+MM 4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+MM ,interpreter/RecursiveLanguage.Expr.Constant.23
+MM %interpreter/RecursiveLanguage.eval().2
+MM $local1426
+M2M 3(scala/collection/immutable/MapOps#`+`().28
+M&M 1*interpreter/RecursiveLanguage.definitions.25
+M4M 7'interpreter/RecursiveLanguageSuite#div.2B
+M9M 94munit/internal/MacroCompat.LocationMacro#generate().2!
+M9M 9scala/`<:<`.refl().2B
+NN 4munit/internal/MacroCompat.LocationMacro#generate().2$
+PP munit/FunSuite#test().2.
+RR  munit/Assertions#assertEquals().2>
+RR 0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+RR (interpreter/RecursiveLanguage.Expr.Cons.2B
+RR 4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+RR ,interpreter/RecursiveLanguage.Expr.Constant.27
+RR !)interpreter/RecursiveLanguage.Expr.Empty.23
+R$R (%interpreter/RecursiveLanguage.eval().2>
+S
+S 
+0interpreter/RecursiveLanguage.Expr.Call.apply().26
+SS 
+(interpreter/RecursiveLanguage.Expr.Call.2>
+SS 0interpreter/RecursiveLanguage.Expr.Name.apply().26
+SS (interpreter/RecursiveLanguage.Expr.Name.2>
+SS 0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+SS (interpreter/RecursiveLanguage.Expr.Cons.2B
+SS 4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+SS ,interpreter/RecursiveLanguage.Expr.Constant.27
+S S %)interpreter/RecursiveLanguage.Expr.Empty.22
+T	T 	$scala/collection/MapFactory#apply().2
+TT 	scala/Predef.Map.2-
+TT scala/Predef.ArrowAssoc#`->`().2(
+T
+T 
+scala/Predef.ArrowAssoc().2=
+TT /interpreter/RecursiveLanguage.Expr.Fun.apply().25
+TT 'interpreter/RecursiveLanguage.Expr.Fun.2?
+T!T !1interpreter/RecursiveLanguage.Expr.Match.apply().27
+TT !)interpreter/RecursiveLanguage.Expr.Match.2>
+T#T #0interpreter/RecursiveLanguage.Expr.Name.apply().26
+T"T #(interpreter/RecursiveLanguage.Expr.Name.2B
+T+T +4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+T*T +,interpreter/RecursiveLanguage.Expr.Constant.2>
+T;T ;0interpreter/RecursiveLanguage.Expr.Name.apply().26
+T:T ;(interpreter/RecursiveLanguage.Expr.Name.2B
+UU 4munit/internal/MacroCompat.LocationMacro#generate().2!
+UU scala/`<:<`.refl().2.
+XX  munit/Assertions#assertEquals().27
+XX )interpreter/RecursiveLanguage.Expr.Empty.23
+XX %interpreter/RecursiveLanguage.eval().2>
+Y
+Y 
+0interpreter/RecursiveLanguage.Expr.Call.apply().26
+YY 
+(interpreter/RecursiveLanguage.Expr.Call.2>
+YY 0interpreter/RecursiveLanguage.Expr.Name.apply().26
+YY (interpreter/RecursiveLanguage.Expr.Name.27
+YY )interpreter/RecursiveLanguage.Expr.Empty.22
+Z	Z 	$scala/collection/MapFactory#apply().2
+ZZ 	scala/Predef.Map.2-
+ZZ scala/Predef.ArrowAssoc#`->`().2(
+Z
+Z 
+scala/Predef.ArrowAssoc().2=
+ZZ /interpreter/RecursiveLanguage.Expr.Fun.apply().25
+ZZ 'interpreter/RecursiveLanguage.Expr.Fun.2?
+Z!Z !1interpreter/RecursiveLanguage.Expr.Match.apply().27
+ZZ !)interpreter/RecursiveLanguage.Expr.Match.2>
+Z#Z #0interpreter/RecursiveLanguage.Expr.Name.apply().26
+Z"Z #(interpreter/RecursiveLanguage.Expr.Name.2>
+Z+Z +0interpreter/RecursiveLanguage.Expr.Name.apply().26
+Z*Z +(interpreter/RecursiveLanguage.Expr.Name.2B
+Z=Z =4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+Z<Z =,interpreter/RecursiveLanguage.Expr.Constant.2B
+[[ 4munit/internal/MacroCompat.LocationMacro#generate().2!
+[[ scala/`<:<`.refl().2.
+^^  munit/Assertions#assertEquals().2B
+^^ 4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+^^ ,interpreter/RecursiveLanguage.Expr.Constant.23
+^^ %interpreter/RecursiveLanguage.eval().2>
+_
+_ 
+0interpreter/RecursiveLanguage.Expr.Call.apply().26
+__ 
+(interpreter/RecursiveLanguage.Expr.Call.2>
+__ 0interpreter/RecursiveLanguage.Expr.Name.apply().26
+__ (interpreter/RecursiveLanguage.Expr.Name.2>
+__ 0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+__ (interpreter/RecursiveLanguage.Expr.Cons.2B
+__ 4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+__ ,interpreter/RecursiveLanguage.Expr.Constant.27
+_ _ %)interpreter/RecursiveLanguage.Expr.Empty.22
+`	` 	$scala/collection/MapFactory#apply().2
+`` 	scala/Predef.Map.2-
+`` scala/Predef.ArrowAssoc#`->`().2(
+`
+` 
+scala/Predef.ArrowAssoc().2=
+`` /interpreter/RecursiveLanguage.Expr.Fun.apply().25
+`` 'interpreter/RecursiveLanguage.Expr.Fun.2?
+`!` !1interpreter/RecursiveLanguage.Expr.Match.apply().27
+`` !)interpreter/RecursiveLanguage.Expr.Match.2>
+`#` #0interpreter/RecursiveLanguage.Expr.Name.apply().26
+`"` #(interpreter/RecursiveLanguage.Expr.Name.2B
+`+` +4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+`*` +,interpreter/RecursiveLanguage.Expr.Constant.2>
+`;` ;0interpreter/RecursiveLanguage.Expr.Name.apply().26
+`:` ;(interpreter/RecursiveLanguage.Expr.Name.2B
+aa 4munit/internal/MacroCompat.LocationMacro#generate().2!
+aa scala/`<:<`.refl().2B
+bb 4munit/internal/MacroCompat.LocationMacro#generate().2$
+dd munit/FunSuite#test().2
+hh local152-
+hh  scala/Predef.ArrowAssoc#`->`().2(
+hh scala/Predef.ArrowAssoc().2=
+h$h $/interpreter/RecursiveLanguage.Expr.Fun.apply().25
+h!h $'interpreter/RecursiveLanguage.Expr.Fun.2?
+h1h 11interpreter/RecursiveLanguage.Expr.BinOp.apply().27
+h,h 1)interpreter/RecursiveLanguage.Expr.BinOp.28
+h9h =*interpreter/RecursiveLanguage.BinOps.Plus.23
+h2h 8%interpreter/RecursiveLanguage.BinOps.2B
+h@h @4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+h?h @,interpreter/RecursiveLanguage.Expr.Constant.2>
+hFh F0interpreter/RecursiveLanguage.Expr.Name.apply().26
+hEh F(interpreter/RecursiveLanguage.Expr.Name.2
+ii local162>
+ii 0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+ii (interpreter/RecursiveLanguage.Expr.Cons.2B
+ii 4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+ii ,interpreter/RecursiveLanguage.Expr.Constant.2>
+ii 0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+ii (interpreter/RecursiveLanguage.Expr.Cons.2B
+i!i !4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+i i !,interpreter/RecursiveLanguage.Expr.Constant.2>
+i*i *0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+i&i *(interpreter/RecursiveLanguage.Expr.Cons.2B
+i,i ,4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+i+i ,,interpreter/RecursiveLanguage.Expr.Constant.27
+i1i 6)interpreter/RecursiveLanguage.Expr.Empty.2
+jj local172>
+jj 0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+jj (interpreter/RecursiveLanguage.Expr.Cons.2B
+jj 4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+jj ,interpreter/RecursiveLanguage.Expr.Constant.2>
+jj 0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+jj (interpreter/RecursiveLanguage.Expr.Cons.2B
+j!j !4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+j j !,interpreter/RecursiveLanguage.Expr.Constant.2>
+j*j *0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+j&j *(interpreter/RecursiveLanguage.Expr.Cons.2B
+j,j ,4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+j+j ,,interpreter/RecursiveLanguage.Expr.Constant.27
+j1j 6)interpreter/RecursiveLanguage.Expr.Empty.2.
+kk  munit/Assertions#assertEquals().2
+kk local1723
+kk %interpreter/RecursiveLanguage.eval().2>
+k!k !0interpreter/RecursiveLanguage.Expr.Call.apply().26
+kk !(interpreter/RecursiveLanguage.Expr.Call.2>
+k&k &0interpreter/RecursiveLanguage.Expr.Call.apply().26
+k"k &(interpreter/RecursiveLanguage.Expr.Call.2>
+k(k (0interpreter/RecursiveLanguage.Expr.Name.apply().26
+k'k ((interpreter/RecursiveLanguage.Expr.Name.2
+k1k 6local162>
+k:k :0interpreter/RecursiveLanguage.Expr.Name.apply().26
+k9k :(interpreter/RecursiveLanguage.Expr.Name.26
+kUk V(scala/collection/immutable/MapOps#`+`().28
+kIk T*interpreter/RecursiveLanguage.definitions.2
+kWk _local152B
+kak a4munit/internal/MacroCompat.LocationMacro#generate().2!
+kak ascala/`<:<`.refl().2B
+ll 4munit/internal/MacroCompat.LocationMacro#generate().2$
+nn munit/FunSuite#test().2
+pp local182-
+pp scala/Predef.ArrowAssoc#`->`().2(
+pp scala/Predef.ArrowAssoc().2=
+p"p "/interpreter/RecursiveLanguage.Expr.Fun.apply().25
+pp "'interpreter/RecursiveLanguage.Expr.Fun.2=
+p.p ./interpreter/RecursiveLanguage.Expr.Fun.apply().25
+p+p .'interpreter/RecursiveLanguage.Expr.Fun.2?
+qq 1interpreter/RecursiveLanguage.Expr.Match.apply().27
+qq )interpreter/RecursiveLanguage.Expr.Match.2>
+r	r 	0interpreter/RecursiveLanguage.Expr.Name.apply().26
+rr 	(interpreter/RecursiveLanguage.Expr.Name.27
+ss )interpreter/RecursiveLanguage.Expr.Empty.2>
+uu 0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+uu (interpreter/RecursiveLanguage.Expr.Cons.2>
+uu 0interpreter/RecursiveLanguage.Expr.Call.apply().26
+uu (interpreter/RecursiveLanguage.Expr.Call.2>
+uu 0interpreter/RecursiveLanguage.Expr.Name.apply().26
+uu (interpreter/RecursiveLanguage.Expr.Name.2>
+u"u "0interpreter/RecursiveLanguage.Expr.Name.apply().26
+u!u "(interpreter/RecursiveLanguage.Expr.Name.2>
+u1u 10interpreter/RecursiveLanguage.Expr.Call.apply().26
+u-u 1(interpreter/RecursiveLanguage.Expr.Call.2>
+u3u 30interpreter/RecursiveLanguage.Expr.Name.apply().26
+u2u 3(interpreter/RecursiveLanguage.Expr.Name.2>
+uBu B0interpreter/RecursiveLanguage.Expr.Name.apply().26
+uAu B(interpreter/RecursiveLanguage.Expr.Name.2.
+ww  munit/Assertions#assertEquals().2>
+ww 0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+ww (interpreter/RecursiveLanguage.Expr.Cons.2B
+ww 4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+ww ,interpreter/RecursiveLanguage.Expr.Constant.2B
+ww 4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+ww ,interpreter/RecursiveLanguage.Expr.Constant.23
+w$w (%interpreter/RecursiveLanguage.eval().2>
+w-w -0interpreter/RecursiveLanguage.Expr.Call.apply().26
+w)w -(interpreter/RecursiveLanguage.Expr.Call.2>
+w2w 20interpreter/RecursiveLanguage.Expr.Call.apply().26
+w.w 2(interpreter/RecursiveLanguage.Expr.Call.2>
+w4w 40interpreter/RecursiveLanguage.Expr.Name.apply().26
+w3w 4(interpreter/RecursiveLanguage.Expr.Name.2>
+wEw E0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+wAw E(interpreter/RecursiveLanguage.Expr.Cons.2B
+wGw G4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+wFw G,interpreter/RecursiveLanguage.Expr.Constant.2B
+wMw M4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+wLw M,interpreter/RecursiveLanguage.Expr.Constant.2>
+wUw U0interpreter/RecursiveLanguage.Expr.Name.apply().26
+wTw U(interpreter/RecursiveLanguage.Expr.Name.26
+wlw m(scala/collection/immutable/MapOps#`+`().28
+w`w k*interpreter/RecursiveLanguage.definitions.2
+wnw ulocal182B
+www w4munit/internal/MacroCompat.LocationMacro#generate().2!
+www wscala/`<:<`.refl().2B
+xx 4munit/internal/MacroCompat.LocationMacro#generate().2>
+zz 0interpreter/RecursiveLanguageSuite#munitTimeout.2;
+z@z @-scala/concurrent/duration/Duration.apply(+2).21
+z8z @#scala/concurrent/duration/Duration.2(
+z/z 7scala/concurrent/duration/2
+z$z .scala/concurrent/2
+zz #scala/PZ BE95ADC8BE2CE7438B18313326E52A62

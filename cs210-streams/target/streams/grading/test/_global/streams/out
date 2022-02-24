@@ -1,0 +1,12 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for org.scalacheck.ScalaCheckFramework produced 0 initial tasks for 0 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for munit.Framework produced 1 initial tasks for 1 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(streams.BloxorzSuite, sbt.ForkMain$SubclassFingerscan@36fec90c, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 21 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0mSummary for ScalaCheck not available.[0m
+[0m[[0m[0mdebug[0m] [0m[0mSummary for munit not available.[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 21, Failed 0, Errors 0, Passed 21[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	streams.BloxorzSuite[0m

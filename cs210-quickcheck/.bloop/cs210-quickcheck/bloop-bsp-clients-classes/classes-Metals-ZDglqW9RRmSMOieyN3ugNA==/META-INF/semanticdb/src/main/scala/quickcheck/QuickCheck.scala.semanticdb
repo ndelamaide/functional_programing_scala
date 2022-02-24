@@ -1,0 +1,71 @@
+
+¬*src/main/scala/quickcheck/QuickCheck.scala*3
+quickcheck/QuickCheckHeap# *QuickCheckHeap€*7
+%quickcheck/QuickCheckHeap#`<init>`(). €@*<init>€*5
+"quickcheck/QuickCheckHeap#genHeap. À*genHeap€*5
+"quickcheck/QuickCheckHeap#arbHeap. à*arbHeap€*
+local0*h€*
+local1 €*m€*
+local2*b€*
+local3*t€2
+ quickcheck/2
+ org/scalacheck/2
+ 
+org/2'
+ org/scalacheck/Arbitrary.2!
+ 
+org/scalacheck/Gen.25
+ 'org/scalacheck/Prop.BooleanOperators().2"
+ org/scalacheck/Prop.2(
+ quickcheck/QuickCheckHeap#23
+& &%quickcheck/QuickCheckHeap#`<init>`().23
+0 0%org/scalacheck/Properties#`<init>`().2(
+& 0org/scalacheck/Properties#2!
+> Equickcheck/IntHeap#20
+		 "quickcheck/QuickCheckHeap#genHeap.2!
+		 org/scalacheck/Gen#2 
+		 quickcheck/Heap#H#2#
+		  scala/Predef.`???`().20
+
+
+ "quickcheck/QuickCheckHeap#arbHeap.2'
+
+
+ &org/scalacheck/Arbitrary#2 
+
+'
+ (quickcheck/Heap#H#2:
+
+5
+ 5,org/scalacheck/ArbitraryLowPriority#apply().2'
+
+,
+ 5org/scalacheck/Arbitrary.20
+
+6
+ ="quickcheck/QuickCheckHeap#genHeap.2C
+
+ 
+5org/scalacheck/Properties#PropertySpecifier#update().21
+ 
+#org/scalacheck/Properties#property.2-
+ org/scalacheck/Prop.forAll(+8).2
+  local02 
+" #quickcheck/Heap#H#2
+ 	local12(
+ quickcheck/Heap#isEmpty().2
+ local02(
+& -quickcheck/Heap#findMin().2
+. /local02!
+ scala/Int#`==`(+3).2(
+ quickcheck/Heap#findMin().2'
+ quickcheck/Heap#insert().2
+ local12
+ local02
+ local120
+ "org/scalacheck/Prop.propBoolean().2
+ local220
+ "quickcheck/QuickCheckHeap#arbHeap.2;
+ -org/scalacheck/ShrinkLowPriority#shrinkAny().25
+ 'org/scalacheck/util/Pretty.prettyAny().2
+ local3PZ CF898862BE59BBFDAA9B139006F230A8

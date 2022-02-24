@@ -1,0 +1,1 @@
+["sbt.Task[scala.collection.immutable.Map[java.lang.String, scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]]",{"0.27.0-RC1":{"hashes":[["/Users/Nicolas/Desktop/MA1/FP/labs/cs210-streams/src/test/scala/streams/BloxorzSuite.scala","73d885a26ba6a90eb5a87e1a81d361da96df1c71"]],"lastModifiedTimes":[]}}]

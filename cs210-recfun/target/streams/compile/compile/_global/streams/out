@@ -1,0 +1,39 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-recfun/src/main/scala/recfun/RecFun.scala:27:6 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m27 |[0m      [33melse[0m count(chars.tail,parentheses)[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [31m^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |      end of statement expected but 'else' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E040] Syntax Error: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-recfun/src/main/scala/recfun/RecFun.scala:27:11 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m27 |[0m      [33melse[0m count(chars.tail,parentheses)[0m
+[0m[[0m[31merror[0m] [0m[0m   |           [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |           ';' expected, but identifier found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-recfun/src/main/scala/recfun/RecFun.scala:25:49 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m25 |[0m      [33melse[0m [33mif[0m chars.head == [31m')'[0m [33mthen[0m parentheses > [31m0[0m &&[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                     [31m^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |postfix operator `&&` needs to be enabled[0m
+[0m[[0m[31merror[0m] [0m[0m   |by making the implicit value scala.language.postfixOps visible.[0m
+[0m[[0m[31merror[0m] [0m[0m   |----[0m
+[0m[[0m[31merror[0m] [0m[0m   |This can be achieved by adding the import clause 'import scala.language.postfixOps'[0m
+[0m[[0m[31merror[0m] [0m[0m   |or by setting the compiler option -language:postfixOps.[0m
+[0m[[0m[31merror[0m] [0m[0m   |See the Scaladoc for value scala.language.postfixOps for a discussion[0m
+[0m[[0m[31merror[0m] [0m[0m   |why the feature needs to be explicitly enabled.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-recfun/src/main/scala/recfun/RecFun.scala:26:3 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m26 |[0m   count(chars.tail, parentheses-[31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m   |   [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |   Not found: count[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-recfun/src/main/scala/recfun/RecFun.scala:26:9 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m26 |[0m   count(chars.tail, parentheses-[31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m   |         [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |         Not found: chars[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-recfun/src/main/scala/recfun/RecFun.scala:26:21 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m26 |[0m   count(chars.tail, parentheses-[31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                     [31m^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                     Not found: parentheses[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-recfun/src/main/scala/recfun/RecFun.scala:29:4 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m29 |[0m    count(chars,[31m0[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m   |    [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |    Not found: count[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-recfun/src/main/scala/recfun/RecFun.scala:29:10 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m29 |[0m    count(chars,[31m0[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m   |          [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |          Not found: chars[0m
+[0m[[0m[31merror[0m] [0m[0m8 errors found[0m

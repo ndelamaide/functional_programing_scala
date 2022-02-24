@@ -1,0 +1,4 @@
+[debug] "not up to date. inChanged = true, force = false
+[debug] Updating ProjectRef(uri("file:/Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/project/project/project/"), "cs210-codecs-build-build-build")...
+[debug] Done updating ProjectRef(uri("file:/Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/project/project/project/"), "cs210-codecs-build-build-build")
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.

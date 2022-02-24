@@ -1,0 +1,2381 @@
+
+ŒÄ2src/main/scala/interpreter/RecursiveLanguage.scala*:
+interpreter/RecursiveLanguage.
+ *RecursiveLanguageÄ*4
+#interpreter/RecursiveLanguage.Expr# îÄ*ExprÄ*@
+.interpreter/RecursiveLanguage.Expr#`<init>`(). Ä@*<init>Ä*2
+#interpreter/RecursiveLanguage.Expr.
+ *ExprÄ*A
+,interpreter/RecursiveLanguage.Expr.Constant# àÅ*ConstantÄ*I
+7interpreter/RecursiveLanguage.Expr.Constant#`<init>`(). Ä@*<init>Ä*O
+>interpreter/RecursiveLanguage.Expr.Constant#`<init>`().(value) Ä*valueÄ*C
+2interpreter/RecursiveLanguage.Expr.Constant#value. Ä*valueÄ*@
+3interpreter/RecursiveLanguage.Expr.Constant#copy().*copyÄ*H
+:interpreter/RecursiveLanguage.Expr.Constant#copy().(value)*valueÄ*T
+=interpreter/RecursiveLanguage.Expr.Constant#copy$default$1().*copy$default$1Ä*F
+6interpreter/RecursiveLanguage.Expr.Constant#ordinal().*ordinalÄ*<
+1interpreter/RecursiveLanguage.Expr.Constant#_1().*_1Ä*?
+,interpreter/RecursiveLanguage.Expr.Constant.
+ *ConstantÄ*B
+4interpreter/RecursiveLanguage.Expr.Constant.apply().*applyÄ*I
+;interpreter/RecursiveLanguage.Expr.Constant.apply().(value)*valueÄ*F
+6interpreter/RecursiveLanguage.Expr.Constant.unapply().*unapplyÄ*G
+;interpreter/RecursiveLanguage.Expr.Constant.unapply().(x$1)*x$1Ä*H
+7interpreter/RecursiveLanguage.Expr.Constant.toString().*toStringÄ*9
+(interpreter/RecursiveLanguage.Expr.Name# àÅ*NameÄ*E
+3interpreter/RecursiveLanguage.Expr.Name#`<init>`(). Ä@*<init>Ä*I
+9interpreter/RecursiveLanguage.Expr.Name#`<init>`().(name) Ä*nameÄ*=
+-interpreter/RecursiveLanguage.Expr.Name#name. Ä*nameÄ*<
+/interpreter/RecursiveLanguage.Expr.Name#copy().*copyÄ*B
+5interpreter/RecursiveLanguage.Expr.Name#copy().(name)*nameÄ*P
+9interpreter/RecursiveLanguage.Expr.Name#copy$default$1().*copy$default$1Ä*B
+2interpreter/RecursiveLanguage.Expr.Name#ordinal().*ordinalÄ*8
+-interpreter/RecursiveLanguage.Expr.Name#_1().*_1Ä*7
+(interpreter/RecursiveLanguage.Expr.Name.
+ *NameÄ*>
+0interpreter/RecursiveLanguage.Expr.Name.apply().*applyÄ*C
+6interpreter/RecursiveLanguage.Expr.Name.apply().(name)*nameÄ*B
+2interpreter/RecursiveLanguage.Expr.Name.unapply().*unapplyÄ*C
+7interpreter/RecursiveLanguage.Expr.Name.unapply().(x$1)*x$1Ä*D
+3interpreter/RecursiveLanguage.Expr.Name.toString().*toStringÄ*;
+)interpreter/RecursiveLanguage.Expr.BinOp# àÅ*BinOpÄ*F
+4interpreter/RecursiveLanguage.Expr.BinOp#`<init>`(). Ä@*<init>Ä*F
+8interpreter/RecursiveLanguage.Expr.BinOp#`<init>`().(op) Ä*opÄ*J
+:interpreter/RecursiveLanguage.Expr.BinOp#`<init>`().(arg1) Ä*arg1Ä*J
+:interpreter/RecursiveLanguage.Expr.BinOp#`<init>`().(arg2) Ä*arg2Ä*:
+,interpreter/RecursiveLanguage.Expr.BinOp#op. Ä*opÄ*>
+.interpreter/RecursiveLanguage.Expr.BinOp#arg1. Ä*arg1Ä*>
+.interpreter/RecursiveLanguage.Expr.BinOp#arg2. Ä*arg2Ä*=
+0interpreter/RecursiveLanguage.Expr.BinOp#copy().*copyÄ*?
+4interpreter/RecursiveLanguage.Expr.BinOp#copy().(op)*opÄ*C
+6interpreter/RecursiveLanguage.Expr.BinOp#copy().(arg1)*arg1Ä*C
+6interpreter/RecursiveLanguage.Expr.BinOp#copy().(arg2)*arg2Ä*Q
+:interpreter/RecursiveLanguage.Expr.BinOp#copy$default$1().*copy$default$1Ä*Q
+:interpreter/RecursiveLanguage.Expr.BinOp#copy$default$2().*copy$default$2Ä*Q
+:interpreter/RecursiveLanguage.Expr.BinOp#copy$default$3().*copy$default$3Ä*C
+3interpreter/RecursiveLanguage.Expr.BinOp#ordinal().*ordinalÄ*9
+.interpreter/RecursiveLanguage.Expr.BinOp#_1().*_1Ä*9
+.interpreter/RecursiveLanguage.Expr.BinOp#_2().*_2Ä*9
+.interpreter/RecursiveLanguage.Expr.BinOp#_3().*_3Ä*9
+)interpreter/RecursiveLanguage.Expr.BinOp.
+ *BinOpÄ*?
+1interpreter/RecursiveLanguage.Expr.BinOp.apply().*applyÄ*@
+5interpreter/RecursiveLanguage.Expr.BinOp.apply().(op)*opÄ*D
+7interpreter/RecursiveLanguage.Expr.BinOp.apply().(arg1)*arg1Ä*D
+7interpreter/RecursiveLanguage.Expr.BinOp.apply().(arg2)*arg2Ä*C
+3interpreter/RecursiveLanguage.Expr.BinOp.unapply().*unapplyÄ*D
+8interpreter/RecursiveLanguage.Expr.BinOp.unapply().(x$1)*x$1Ä*E
+4interpreter/RecursiveLanguage.Expr.BinOp.toString().*toStringÄ*C
+-interpreter/RecursiveLanguage.Expr.IfNonzero# àÅ*	IfNonzeroÄ*J
+8interpreter/RecursiveLanguage.Expr.IfNonzero#`<init>`(). Ä@*<init>Ä*N
+>interpreter/RecursiveLanguage.Expr.IfNonzero#`<init>`().(cond) Ä*condÄ*V
+Binterpreter/RecursiveLanguage.Expr.IfNonzero#`<init>`().(caseTrue) Ä*caseTrueÄ*X
+Cinterpreter/RecursiveLanguage.Expr.IfNonzero#`<init>`().(caseFalse) Ä*	caseFalseÄ*B
+2interpreter/RecursiveLanguage.Expr.IfNonzero#cond. Ä*condÄ*J
+6interpreter/RecursiveLanguage.Expr.IfNonzero#caseTrue. Ä*caseTrueÄ*L
+7interpreter/RecursiveLanguage.Expr.IfNonzero#caseFalse. Ä*	caseFalseÄ*A
+4interpreter/RecursiveLanguage.Expr.IfNonzero#copy().*copyÄ*G
+:interpreter/RecursiveLanguage.Expr.IfNonzero#copy().(cond)*condÄ*O
+>interpreter/RecursiveLanguage.Expr.IfNonzero#copy().(caseTrue)*caseTrueÄ*Q
+?interpreter/RecursiveLanguage.Expr.IfNonzero#copy().(caseFalse)*	caseFalseÄ*U
+>interpreter/RecursiveLanguage.Expr.IfNonzero#copy$default$1().*copy$default$1Ä*U
+>interpreter/RecursiveLanguage.Expr.IfNonzero#copy$default$2().*copy$default$2Ä*U
+>interpreter/RecursiveLanguage.Expr.IfNonzero#copy$default$3().*copy$default$3Ä*G
+7interpreter/RecursiveLanguage.Expr.IfNonzero#ordinal().*ordinalÄ*=
+2interpreter/RecursiveLanguage.Expr.IfNonzero#_1().*_1Ä*=
+2interpreter/RecursiveLanguage.Expr.IfNonzero#_2().*_2Ä*=
+2interpreter/RecursiveLanguage.Expr.IfNonzero#_3().*_3Ä*A
+-interpreter/RecursiveLanguage.Expr.IfNonzero.
+ *	IfNonzeroÄ*C
+5interpreter/RecursiveLanguage.Expr.IfNonzero.apply().*applyÄ*H
+;interpreter/RecursiveLanguage.Expr.IfNonzero.apply().(cond)*condÄ*P
+?interpreter/RecursiveLanguage.Expr.IfNonzero.apply().(caseTrue)*caseTrueÄ*R
+@interpreter/RecursiveLanguage.Expr.IfNonzero.apply().(caseFalse)*	caseFalseÄ*G
+7interpreter/RecursiveLanguage.Expr.IfNonzero.unapply().*unapplyÄ*H
+<interpreter/RecursiveLanguage.Expr.IfNonzero.unapply().(x$1)*x$1Ä*I
+8interpreter/RecursiveLanguage.Expr.IfNonzero.toString().*toStringÄ*9
+(interpreter/RecursiveLanguage.Expr.Call# àÅ*CallÄ*E
+3interpreter/RecursiveLanguage.Expr.Call#`<init>`(). Ä@*<init>Ä*Q
+=interpreter/RecursiveLanguage.Expr.Call#`<init>`().(function) Ä*functionÄ*G
+8interpreter/RecursiveLanguage.Expr.Call#`<init>`().(arg) Ä*argÄ*E
+1interpreter/RecursiveLanguage.Expr.Call#function. Ä*functionÄ*;
+,interpreter/RecursiveLanguage.Expr.Call#arg. Ä*argÄ*<
+/interpreter/RecursiveLanguage.Expr.Call#copy().*copyÄ*J
+9interpreter/RecursiveLanguage.Expr.Call#copy().(function)*functionÄ*@
+4interpreter/RecursiveLanguage.Expr.Call#copy().(arg)*argÄ*P
+9interpreter/RecursiveLanguage.Expr.Call#copy$default$1().*copy$default$1Ä*P
+9interpreter/RecursiveLanguage.Expr.Call#copy$default$2().*copy$default$2Ä*B
+2interpreter/RecursiveLanguage.Expr.Call#ordinal().*ordinalÄ*8
+-interpreter/RecursiveLanguage.Expr.Call#_1().*_1Ä*8
+-interpreter/RecursiveLanguage.Expr.Call#_2().*_2Ä*7
+(interpreter/RecursiveLanguage.Expr.Call.
+ *CallÄ*>
+0interpreter/RecursiveLanguage.Expr.Call.apply().*applyÄ*K
+:interpreter/RecursiveLanguage.Expr.Call.apply().(function)*functionÄ*A
+5interpreter/RecursiveLanguage.Expr.Call.apply().(arg)*argÄ*B
+2interpreter/RecursiveLanguage.Expr.Call.unapply().*unapplyÄ*C
+7interpreter/RecursiveLanguage.Expr.Call.unapply().(x$1)*x$1Ä*D
+3interpreter/RecursiveLanguage.Expr.Call.toString().*toStringÄ*7
+'interpreter/RecursiveLanguage.Expr.Fun# àÅ*FunÄ*D
+2interpreter/RecursiveLanguage.Expr.Fun#`<init>`(). Ä@*<init>Ä*J
+9interpreter/RecursiveLanguage.Expr.Fun#`<init>`().(param) Ä*paramÄ*H
+8interpreter/RecursiveLanguage.Expr.Fun#`<init>`().(body) Ä*bodyÄ*>
+-interpreter/RecursiveLanguage.Expr.Fun#param. Ä*paramÄ*<
+,interpreter/RecursiveLanguage.Expr.Fun#body. Ä*bodyÄ*;
+.interpreter/RecursiveLanguage.Expr.Fun#copy().*copyÄ*C
+5interpreter/RecursiveLanguage.Expr.Fun#copy().(param)*paramÄ*A
+4interpreter/RecursiveLanguage.Expr.Fun#copy().(body)*bodyÄ*O
+8interpreter/RecursiveLanguage.Expr.Fun#copy$default$1().*copy$default$1Ä*O
+8interpreter/RecursiveLanguage.Expr.Fun#copy$default$2().*copy$default$2Ä*A
+1interpreter/RecursiveLanguage.Expr.Fun#ordinal().*ordinalÄ*7
+,interpreter/RecursiveLanguage.Expr.Fun#_1().*_1Ä*7
+,interpreter/RecursiveLanguage.Expr.Fun#_2().*_2Ä*5
+'interpreter/RecursiveLanguage.Expr.Fun.
+ *FunÄ*=
+/interpreter/RecursiveLanguage.Expr.Fun.apply().*applyÄ*D
+6interpreter/RecursiveLanguage.Expr.Fun.apply().(param)*paramÄ*B
+5interpreter/RecursiveLanguage.Expr.Fun.apply().(body)*bodyÄ*A
+1interpreter/RecursiveLanguage.Expr.Fun.unapply().*unapplyÄ*B
+6interpreter/RecursiveLanguage.Expr.Fun.unapply().(x$1)*x$1Ä*C
+2interpreter/RecursiveLanguage.Expr.Fun.toString().*toStringÄ*;
+)interpreter/RecursiveLanguage.Expr.Empty. Ä©*EmptyÄ*9
+(interpreter/RecursiveLanguage.Expr.Cons# àÅ*ConsÄ*E
+3interpreter/RecursiveLanguage.Expr.Cons#`<init>`(). Ä@*<init>Ä*I
+9interpreter/RecursiveLanguage.Expr.Cons#`<init>`().(head) Ä*headÄ*I
+9interpreter/RecursiveLanguage.Expr.Cons#`<init>`().(tail) Ä*tailÄ*=
+-interpreter/RecursiveLanguage.Expr.Cons#head. Ä*headÄ*=
+-interpreter/RecursiveLanguage.Expr.Cons#tail. Ä*tailÄ*<
+/interpreter/RecursiveLanguage.Expr.Cons#copy().*copyÄ*B
+5interpreter/RecursiveLanguage.Expr.Cons#copy().(head)*headÄ*B
+5interpreter/RecursiveLanguage.Expr.Cons#copy().(tail)*tailÄ*P
+9interpreter/RecursiveLanguage.Expr.Cons#copy$default$1().*copy$default$1Ä*P
+9interpreter/RecursiveLanguage.Expr.Cons#copy$default$2().*copy$default$2Ä*B
+2interpreter/RecursiveLanguage.Expr.Cons#ordinal().*ordinalÄ*8
+-interpreter/RecursiveLanguage.Expr.Cons#_1().*_1Ä*8
+-interpreter/RecursiveLanguage.Expr.Cons#_2().*_2Ä*7
+(interpreter/RecursiveLanguage.Expr.Cons.
+ *ConsÄ*>
+0interpreter/RecursiveLanguage.Expr.Cons.apply().*applyÄ*C
+6interpreter/RecursiveLanguage.Expr.Cons.apply().(head)*headÄ*C
+6interpreter/RecursiveLanguage.Expr.Cons.apply().(tail)*tailÄ*B
+2interpreter/RecursiveLanguage.Expr.Cons.unapply().*unapplyÄ*C
+7interpreter/RecursiveLanguage.Expr.Cons.unapply().(x$1)*x$1Ä*D
+3interpreter/RecursiveLanguage.Expr.Cons.toString().*toStringÄ*;
+)interpreter/RecursiveLanguage.Expr.Match# àÅ*MatchÄ*F
+4interpreter/RecursiveLanguage.Expr.Match#`<init>`(). Ä@*<init>Ä*T
+?interpreter/RecursiveLanguage.Expr.Match#`<init>`().(scrutinee) Ä*	scrutineeÄ*T
+?interpreter/RecursiveLanguage.Expr.Match#`<init>`().(caseEmpty) Ä*	caseEmptyÄ*R
+>interpreter/RecursiveLanguage.Expr.Match#`<init>`().(headName) Ä*headNameÄ*R
+>interpreter/RecursiveLanguage.Expr.Match#`<init>`().(tailName) Ä*tailNameÄ*R
+>interpreter/RecursiveLanguage.Expr.Match#`<init>`().(caseCons) Ä*caseConsÄ*H
+3interpreter/RecursiveLanguage.Expr.Match#scrutinee. Ä*	scrutineeÄ*H
+3interpreter/RecursiveLanguage.Expr.Match#caseEmpty. Ä*	caseEmptyÄ*F
+2interpreter/RecursiveLanguage.Expr.Match#headName. Ä*headNameÄ*F
+2interpreter/RecursiveLanguage.Expr.Match#tailName. Ä*tailNameÄ*F
+2interpreter/RecursiveLanguage.Expr.Match#caseCons. Ä*caseConsÄ*=
+0interpreter/RecursiveLanguage.Expr.Match#copy().*copyÄ*M
+;interpreter/RecursiveLanguage.Expr.Match#copy().(scrutinee)*	scrutineeÄ*M
+;interpreter/RecursiveLanguage.Expr.Match#copy().(caseEmpty)*	caseEmptyÄ*K
+:interpreter/RecursiveLanguage.Expr.Match#copy().(headName)*headNameÄ*K
+:interpreter/RecursiveLanguage.Expr.Match#copy().(tailName)*tailNameÄ*K
+:interpreter/RecursiveLanguage.Expr.Match#copy().(caseCons)*caseConsÄ*Q
+:interpreter/RecursiveLanguage.Expr.Match#copy$default$1().*copy$default$1Ä*Q
+:interpreter/RecursiveLanguage.Expr.Match#copy$default$2().*copy$default$2Ä*Q
+:interpreter/RecursiveLanguage.Expr.Match#copy$default$3().*copy$default$3Ä*Q
+:interpreter/RecursiveLanguage.Expr.Match#copy$default$4().*copy$default$4Ä*Q
+:interpreter/RecursiveLanguage.Expr.Match#copy$default$5().*copy$default$5Ä*C
+3interpreter/RecursiveLanguage.Expr.Match#ordinal().*ordinalÄ*9
+.interpreter/RecursiveLanguage.Expr.Match#_1().*_1Ä*9
+.interpreter/RecursiveLanguage.Expr.Match#_2().*_2Ä*9
+.interpreter/RecursiveLanguage.Expr.Match#_3().*_3Ä*9
+.interpreter/RecursiveLanguage.Expr.Match#_4().*_4Ä*9
+.interpreter/RecursiveLanguage.Expr.Match#_5().*_5Ä*9
+)interpreter/RecursiveLanguage.Expr.Match.
+ *MatchÄ*?
+1interpreter/RecursiveLanguage.Expr.Match.apply().*applyÄ*N
+<interpreter/RecursiveLanguage.Expr.Match.apply().(scrutinee)*	scrutineeÄ*N
+<interpreter/RecursiveLanguage.Expr.Match.apply().(caseEmpty)*	caseEmptyÄ*L
+;interpreter/RecursiveLanguage.Expr.Match.apply().(headName)*headNameÄ*L
+;interpreter/RecursiveLanguage.Expr.Match.apply().(tailName)*tailNameÄ*L
+;interpreter/RecursiveLanguage.Expr.Match.apply().(caseCons)*caseConsÄ*C
+3interpreter/RecursiveLanguage.Expr.Match.unapply().*unapplyÄ*D
+8interpreter/RecursiveLanguage.Expr.Match.unapply().(x$1)*x$1Ä*E
+4interpreter/RecursiveLanguage.Expr.Match.toString().*toStringÄ*7
+*interpreter/RecursiveLanguage.Expr.$new().*$newÄ*G
+5interpreter/RecursiveLanguage.Expr.$new().(_$ordinal)*	_$ordinalÄ*?
+1interpreter/RecursiveLanguage.Expr.$new().($name)*$nameÄ*E
+1interpreter/RecursiveLanguage.Expr.fromOrdinal().*fromOrdinalÄ*J
+:interpreter/RecursiveLanguage.Expr.fromOrdinal().(ordinal)*ordinalÄ*8
+%interpreter/RecursiveLanguage.BinOps# îÄ*BinOpsÄ*B
+0interpreter/RecursiveLanguage.BinOps#`<init>`(). Ä@*<init>Ä*6
+%interpreter/RecursiveLanguage.BinOps.
+ *BinOpsÄ*;
+*interpreter/RecursiveLanguage.BinOps.Plus. Ä©*PlusÄ*=
++interpreter/RecursiveLanguage.BinOps.Minus. Ä©*MinusÄ*=
++interpreter/RecursiveLanguage.BinOps.Times. Ä©*TimesÄ*E
+/interpreter/RecursiveLanguage.BinOps.DividedBy. Ä©*	DividedByÄ*?
+,interpreter/RecursiveLanguage.BinOps.Modulo. Ä©*ModuloÄ*?
+,interpreter/RecursiveLanguage.BinOps.LessEq. Ä©*LessEqÄ*@
+-interpreter/RecursiveLanguage.BinOps.$values. Ä*$valuesÄ*=
+.interpreter/RecursiveLanguage.BinOps.values().*valuesÄ*?
+/interpreter/RecursiveLanguage.BinOps.valueOf().*valueOfÄ*D
+6interpreter/RecursiveLanguage.BinOps.valueOf().($name)*$nameÄ*9
+,interpreter/RecursiveLanguage.BinOps.$new().*$newÄ*I
+7interpreter/RecursiveLanguage.BinOps.$new().(_$ordinal)*	_$ordinalÄ*A
+3interpreter/RecursiveLanguage.BinOps.$new().($name)*$nameÄ*G
+3interpreter/RecursiveLanguage.BinOps.fromOrdinal().*fromOrdinalÄ*L
+<interpreter/RecursiveLanguage.BinOps.fromOrdinal().(ordinal)*ordinalÄ*<
+*interpreter/RecursiveLanguage.evalBinOp().*	evalBinOpÄ*9
+.interpreter/RecursiveLanguage.evalBinOp().(op)*opÄ*9
+.interpreter/RecursiveLanguage.evalBinOp().(ex)*exÄ*9
+.interpreter/RecursiveLanguage.evalBinOp().(ey)*eyÄ*
+local0 Ä*xÄ*
+local1 Ä*yÄ*
+local2 Ä*xÄ*
+local3 Ä*yÄ*
+local4 Ä*xÄ*
+local5 Ä*yÄ*
+local6 Ä*xÄ*
+local7 Ä*yÄ*
+local8 Ä*xÄ*
+local9 Ä*yÄ*
+local10 Ä*xÄ*
+local11 Ä*yÄ*4
+%interpreter/RecursiveLanguage.DefEnv#*DefEnvÄ*2
+%interpreter/RecursiveLanguage.eval().*evalÄ*2
+(interpreter/RecursiveLanguage.eval().(e)*eÄ*8
++interpreter/RecursiveLanguage.eval().(defs)*defsÄ*
+local12 Ä*cÄ*
+local13 Ä*nÄ*
+local14 Ä*bodyÄ*
+local15 Ä*opÄ*
+local16 Ä*e1Ä*
+local17 Ä*e2Ä*
+local18 Ä*condÄ*
+local19 Ä*caseTrueÄ*
+local20 Ä*	caseFalseÄ*
+local21 Ä*nÄ*
+local22 Ä*bodyÄ*
+local23 Ä*funÄ*
+local24 Ä*argÄ*
+local25 Ä*eFunÄ*
+local26 Ä*eArgÄ*
+local27 Ä*nÄ*
+local28 Ä*bodyÄ*
+local29 Ä*bodySubÄ*
+local30 Ä*resÄ*
+local31 Ä*xÄ*
+local32 Ä*xsÄ*
+local33 Ä*scrutÄ*
+local34 Ä*emptÄ*
+local35 Ä*hÄ*
+local36 Ä*tÄ*
+local37 Ä*cÄ*
+local38 Ä*scÄ*
+local39 Ä*xÄ*
+local40 Ä*xsÄ*4
+&interpreter/RecursiveLanguage.subst().*substÄ*3
+)interpreter/RecursiveLanguage.subst().(e)*eÄ*3
+)interpreter/RecursiveLanguage.subst().(n)*nÄ*3
+)interpreter/RecursiveLanguage.subst().(r)*rÄ*
+local41 Ä*cÄ*
+local42 Ä*sÄ*
+local43 Ä*opÄ*
+local44 Ä*e1Ä*
+local45 Ä*e2Ä*
+local46 Ä*condÄ*
+local47 Ä*trueEÄ*
+local48 Ä*falseEÄ*
+local49 Ä*fÄ*
+local50 Ä*argÄ*
+local51 Ä*paramÄ*
+local52 Ä*bodyÄ*
+local53 Ä*fvsÄ*
+local54 Ä*param1Ä*
+local55 Ä*body1Ä*
+local56 Ä*headÄ*
+local57 Ä*tailÄ*
+local58 Ä*	scrutineeÄ*
+local59 Ä*	caseEmptyÄ*
+local60 Ä*headNameÄ*
+local61 Ä*tailNameÄ*
+local62 Ä*caseConsÄ*
+local63 Ä*fvsÄ*
+local64 Ä*	caseCons1Ä*
+local65 Ä*	caseCons2Ä*D
+.interpreter/RecursiveLanguage.differentName().*differentNameÄ*;
+1interpreter/RecursiveLanguage.differentName().(n)*nÄ*;
+1interpreter/RecursiveLanguage.differentName().(s)*sÄ*:
+)interpreter/RecursiveLanguage.freeVars().*freeVarsÄ*6
+,interpreter/RecursiveLanguage.freeVars().(e)*eÄ*
+local66 Ä*cÄ*
+local67 Ä*sÄ*
+local68 Ä*opÄ*
+local69 Ä*e1Ä*
+local70 Ä*e2Ä*
+local71 Ä*condÄ*
+local72 Ä*trueEÄ*
+local73 Ä*falseEÄ*
+local74 Ä*fÄ*
+local75 Ä*argÄ*
+local76 Ä*paramÄ*
+local77 Ä*bodyÄ*
+local78 Ä*xÄ*
+local79 Ä*xsÄ*
+local80 Ä*scrutÄ*
+local81 Ä*emptÄ*
+local82 Ä*hÄ*
+local83 Ä*tÄ*
+local84 Ä*cÄ*
+local85 Ä*xÄ*
+local86 Ä*xsÄ*B
+-interpreter/RecursiveLanguage.alphaConvert().*alphaConvertÄ*:
+0interpreter/RecursiveLanguage.alphaConvert().(e)*eÄ*:
+0interpreter/RecursiveLanguage.alphaConvert().(n)*nÄ*:
+0interpreter/RecursiveLanguage.alphaConvert().(m)*mÄ*
+local87 Ä*cÄ*
+local88 Ä*sÄ*
+local89 Ä*opÄ*
+local90 Ä*e1Ä*
+local91 Ä*e2Ä*
+local92 Ä*condÄ*
+local93 Ä*trueEÄ*
+local94 Ä*falseEÄ*
+local95 Ä*fÄ*
+local96 Ä*argÄ*
+local97 Ä*paramÄ*
+local98 Ä*bodyÄ*
+local99 Ä*xÄ*
+local100 Ä*xsÄ*
+local101 Ä*scrutÄ*
+local102 Ä*emptÄ*
+local103 Ä*hÄ*
+local104 Ä*tÄ*
+local105 Ä*cÄ*
+local106 Ä*sÄ*E
+,interpreter/RecursiveLanguage.EvalException# Ä*EvalExceptionÄ*I
+7interpreter/RecursiveLanguage.EvalException#`<init>`(). Ä@*<init>Ä*K
+<interpreter/RecursiveLanguage.EvalException#`<init>`().(msg) Ä*msgÄ*?
+0interpreter/RecursiveLanguage.EvalException#msg. Ä*msgÄ*@
+3interpreter/RecursiveLanguage.EvalException#copy().*copyÄ*D
+8interpreter/RecursiveLanguage.EvalException#copy().(msg)*msgÄ*T
+=interpreter/RecursiveLanguage.EvalException#copy$default$1().*copy$default$1Ä*<
+1interpreter/RecursiveLanguage.EvalException#_1().*_1Ä*D
+,interpreter/RecursiveLanguage.EvalException.
+ *EvalExceptionÄ*B
+4interpreter/RecursiveLanguage.EvalException.apply().*applyÄ*E
+9interpreter/RecursiveLanguage.EvalException.apply().(msg)*msgÄ*F
+6interpreter/RecursiveLanguage.EvalException.unapply().*unapplyÄ*G
+;interpreter/RecursiveLanguage.EvalException.unapply().(x$1)*x$1Ä*H
+7interpreter/RecursiveLanguage.EvalException.toString().*toStringÄ*4
+&interpreter/RecursiveLanguage.error().*errorÄ*7
++interpreter/RecursiveLanguage.error().(msg)*msgÄ*2
+%interpreter/RecursiveLanguage.show().*showÄ*2
+(interpreter/RecursiveLanguage.show().(e)*eÄ*
+local107 Ä*cÄ*
+local108 Ä*nÄ*
+local109 Ä*opÄ*
+local110 Ä*e1Ä*
+local111 Ä*e2Ä*
+local112 Ä*opStringÄ*
+local113 Ä*condÄ*
+local114 Ä*caseTrueÄ*
+local115 Ä*	caseFalseÄ*
+local116 Ä*fÄ*
+local117 Ä*argÄ*
+local118 Ä*nÄ*
+local119 Ä*bodyÄ*
+local120 Ä*xÄ*
+local121 Ä*xsÄ*
+local122 Ä*scrutÄ*
+local123 Ä*emptÄ*
+local124 Ä*hÄ*
+local125 Ä*tÄ*
+local126 Ä*cÄ*8
+(interpreter/RecursiveLanguage.showEnv().*showEnvÄ*9
+-interpreter/RecursiveLanguage.showEnv().(env)*envÄ*
+local127*x$1Ä*
+local128 Ä*nameÄ*
+local129 Ä*bodyÄ*@
+,interpreter/RecursiveLanguage.tracingEval().*tracingEvalÄ*9
+/interpreter/RecursiveLanguage.tracingEval().(e)*eÄ*?
+2interpreter/RecursiveLanguage.tracingEval().(defs)*defsÄ*
+local130 Ä*	evaluatedÄ*4
+&interpreter/RecursiveLanguage.minus().*minusÄ*5
+*interpreter/RecursiveLanguage.minus().(e1)*e1Ä*5
+*interpreter/RecursiveLanguage.minus().(e2)*e2Ä*2
+%interpreter/RecursiveLanguage.plus().*plusÄ*4
+)interpreter/RecursiveLanguage.plus().(e1)*e1Ä*4
+)interpreter/RecursiveLanguage.plus().(e2)*e2Ä*0
+$interpreter/RecursiveLanguage.leq().*leqÄ*3
+(interpreter/RecursiveLanguage.leq().(e1)*e1Ä*3
+(interpreter/RecursiveLanguage.leq().(e2)*e2Ä*4
+&interpreter/RecursiveLanguage.times().*timesÄ*5
+*interpreter/RecursiveLanguage.times().(e1)*e1Ä*5
+*interpreter/RecursiveLanguage.times().(e2)*e2Ä*6
+'interpreter/RecursiveLanguage.modulo().*moduloÄ*6
++interpreter/RecursiveLanguage.modulo().(e1)*e1Ä*6
++interpreter/RecursiveLanguage.modulo().(e2)*e2Ä*<
+*interpreter/RecursiveLanguage.dividedBy().*	dividedByÄ*9
+.interpreter/RecursiveLanguage.dividedBy().(e1)*e1Ä*9
+.interpreter/RecursiveLanguage.dividedBy().(e2)*e2Ä*A
+*interpreter/RecursiveLanguage.definitions. Ä*definitionsÄ*2
+%interpreter/RecursiveLanguage.main().*mainÄ*8
++interpreter/RecursiveLanguage.main().(args)*argsÄ2
+ interpreter/2,
+ interpreter/RecursiveLanguage.21
+ #interpreter/RecursiveLanguage.Expr#2<
+ .interpreter/RecursiveLanguage.Expr#`<init>`().2:
+	 ,interpreter/RecursiveLanguage.Expr.Constant#2E
+ 7interpreter/RecursiveLanguage.Expr.Constant#`<init>`().2
+ 
+scala/Int#2@
+ 2interpreter/RecursiveLanguage.Expr.Constant#value.26
+	 (interpreter/RecursiveLanguage.Expr.Name#2A
+ 3interpreter/RecursiveLanguage.Expr.Name#`<init>`().2"
+ scala/Predef.String#2;
+ -interpreter/RecursiveLanguage.Expr.Name#name.27
+	 )interpreter/RecursiveLanguage.Expr.BinOp#2B
+ 4interpreter/RecursiveLanguage.Expr.BinOp#`<init>`().23
+ %interpreter/RecursiveLanguage.BinOps#21
+! %#interpreter/RecursiveLanguage.Expr#21
+- 1#interpreter/RecursiveLanguage.Expr#2:
+ ,interpreter/RecursiveLanguage.Expr.BinOp#op.2<
+ .interpreter/RecursiveLanguage.Expr.BinOp#arg1.2<
+' +.interpreter/RecursiveLanguage.Expr.BinOp#arg2.2;
+	 -interpreter/RecursiveLanguage.Expr.IfNonzero#2F
+ 8interpreter/RecursiveLanguage.Expr.IfNonzero#`<init>`().21
+ #interpreter/RecursiveLanguage.Expr#21
+) -#interpreter/RecursiveLanguage.Expr#21
+: >#interpreter/RecursiveLanguage.Expr#2@
+ 2interpreter/RecursiveLanguage.Expr.IfNonzero#cond.2D
+ '6interpreter/RecursiveLanguage.Expr.IfNonzero#caseTrue.2E
+/ 87interpreter/RecursiveLanguage.Expr.IfNonzero#caseFalse.26
+			 (interpreter/RecursiveLanguage.Expr.Call#2A
+		 3interpreter/RecursiveLanguage.Expr.Call#`<init>`().21
+		 #interpreter/RecursiveLanguage.Expr#21
+	#	 '#interpreter/RecursiveLanguage.Expr#2?
+		 1interpreter/RecursiveLanguage.Expr.Call#function.2:
+		 !,interpreter/RecursiveLanguage.Expr.Call#arg.25
+
+	
+ 'interpreter/RecursiveLanguage.Expr.Fun#2@
+
+
+ 2interpreter/RecursiveLanguage.Expr.Fun#`<init>`().2"
+
+
+ scala/Predef.String#21
+
+"
+ &#interpreter/RecursiveLanguage.Expr#2;
+
+
+ -interpreter/RecursiveLanguage.Expr.Fun#param.2:
+
+
+  ,interpreter/RecursiveLanguage.Expr.Fun#body.27
+	 )interpreter/RecursiveLanguage.Expr.Empty.26
+	 (interpreter/RecursiveLanguage.Expr.Cons#2A
+ 3interpreter/RecursiveLanguage.Expr.Cons#`<init>`().21
+ #interpreter/RecursiveLanguage.Expr#21
+  $#interpreter/RecursiveLanguage.Expr#2;
+ -interpreter/RecursiveLanguage.Expr.Cons#head.2;
+ -interpreter/RecursiveLanguage.Expr.Cons#tail.27
+	 )interpreter/RecursiveLanguage.Expr.Match#2B
+ 4interpreter/RecursiveLanguage.Expr.Match#`<init>`().21
+ #interpreter/RecursiveLanguage.Expr#21
++ /#interpreter/RecursiveLanguage.Expr#2"
+; Ascala/Predef.String#2"
+M Sscala/Predef.String#21
+_ c#interpreter/RecursiveLanguage.Expr#2A
+ 3interpreter/RecursiveLanguage.Expr.Match#scrutinee.2A
+  )3interpreter/RecursiveLanguage.Expr.Match#caseEmpty.2@
+1 92interpreter/RecursiveLanguage.Expr.Match#headName.2@
+C K2interpreter/RecursiveLanguage.Expr.Match#tailName.2@
+U ]2interpreter/RecursiveLanguage.Expr.Match#caseCons.21
+	 #interpreter/RecursiveLanguage.Expr.23
+ %interpreter/RecursiveLanguage.BinOps#2>
+ 0interpreter/RecursiveLanguage.BinOps#`<init>`().28
+	 *interpreter/RecursiveLanguage.BinOps.Plus.29
+ +interpreter/RecursiveLanguage.BinOps.Minus.29
+ +interpreter/RecursiveLanguage.BinOps.Times.2=
+ &/interpreter/RecursiveLanguage.BinOps.DividedBy.2:
+( .,interpreter/RecursiveLanguage.BinOps.Modulo.2:
+0 6,interpreter/RecursiveLanguage.BinOps.LessEq.23
+	 %interpreter/RecursiveLanguage.BinOps.28
+ *interpreter/RecursiveLanguage.evalBinOp().2<
+ .interpreter/RecursiveLanguage.evalBinOp().(op)23
+ %interpreter/RecursiveLanguage.BinOps#2<
+ .interpreter/RecursiveLanguage.evalBinOp().(ex)21
+  $#interpreter/RecursiveLanguage.Expr#2<
+& (.interpreter/RecursiveLanguage.evalBinOp().(ey)21
+* .#interpreter/RecursiveLanguage.Expr#21
+1 5#interpreter/RecursiveLanguage.Expr#2#
+ scala/Tuple3.apply().2<
+ .interpreter/RecursiveLanguage.evalBinOp().(op)2<
+	 .interpreter/RecursiveLanguage.evalBinOp().(ex)2<
+ .interpreter/RecursiveLanguage.evalBinOp().(ey)2%
+ scala/Tuple3.unapply().28
+ *interpreter/RecursiveLanguage.BinOps.Plus.2D
+ 6interpreter/RecursiveLanguage.Expr.Constant.unapply().2:
+ ,interpreter/RecursiveLanguage.Expr.Constant.2
+ local02D
+) )6interpreter/RecursiveLanguage.Expr.Constant.unapply().2:
+! ),interpreter/RecursiveLanguage.Expr.Constant.2
+* +local12B
+9 94interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+1 9,interpreter/RecursiveLanguage.Expr.Constant.2 
+< =scala/Int#`+`(+4).2
+: ;local02
+> ?local12%
+ scala/Tuple3.unapply().29
+ +interpreter/RecursiveLanguage.BinOps.Minus.2D
+ 6interpreter/RecursiveLanguage.Expr.Constant.unapply().2:
+ ,interpreter/RecursiveLanguage.Expr.Constant.2
+ local22D
+) )6interpreter/RecursiveLanguage.Expr.Constant.unapply().2:
+! ),interpreter/RecursiveLanguage.Expr.Constant.2
+* +local32B
+9 94interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+1 9,interpreter/RecursiveLanguage.Expr.Constant.2 
+< =scala/Int#`-`(+3).2
+: ;local22
+> ?local32%
+ scala/Tuple3.unapply().29
+ +interpreter/RecursiveLanguage.BinOps.Times.2D
+ 6interpreter/RecursiveLanguage.Expr.Constant.unapply().2:
+ ,interpreter/RecursiveLanguage.Expr.Constant.2
+ local42D
+) )6interpreter/RecursiveLanguage.Expr.Constant.unapply().2:
+! ),interpreter/RecursiveLanguage.Expr.Constant.2
+* +local52B
+9 94interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+1 9,interpreter/RecursiveLanguage.Expr.Constant.2 
+< =scala/Int#`*`(+3).2
+: ;local42
+> ?local52%
+   scala/Tuple3.unapply().2:
+   ,interpreter/RecursiveLanguage.BinOps.LessEq.2D
+   6interpreter/RecursiveLanguage.Expr.Constant.unapply().2:
+   ,interpreter/RecursiveLanguage.Expr.Constant.2
+   local62D
+ )  )6interpreter/RecursiveLanguage.Expr.Constant.unapply().2:
+ !  ),interpreter/RecursiveLanguage.Expr.Constant.2
+ *  +local72B
+ 9  94interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+ 1  9,interpreter/RecursiveLanguage.Expr.Constant.2!
+ ?  Ascala/Int#`<=`(+3).2
+ =  >local62
+ B  Clocal72%
+!! scala/Tuple3.unapply().2:
+!! ,interpreter/RecursiveLanguage.BinOps.Modulo.2D
+!! 6interpreter/RecursiveLanguage.Expr.Constant.unapply().2:
+!! ,interpreter/RecursiveLanguage.Expr.Constant.2
+! ! !local82D
+!,! ,6interpreter/RecursiveLanguage.Expr.Constant.unapply().2:
+!$! ,,interpreter/RecursiveLanguage.Expr.Constant.2
+!-! .local92!
+!9! ;scala/Int#`==`(+3).2
+!7! 8local924
+!C! H&interpreter/RecursiveLanguage.error().2B
+!j! j4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+!b! j,interpreter/RecursiveLanguage.Expr.Constant.2 
+!m! nscala/Int#`%`(+3).2
+!k! llocal82
+!o! plocal92%
+"" scala/Tuple3.unapply().2=
+"" /interpreter/RecursiveLanguage.BinOps.DividedBy.2D
+"" 6interpreter/RecursiveLanguage.Expr.Constant.unapply().2:
+"" ,interpreter/RecursiveLanguage.Expr.Constant.2
+" " !local102D
+"," ,6interpreter/RecursiveLanguage.Expr.Constant.unapply().2:
+"$" ,,interpreter/RecursiveLanguage.Expr.Constant.2
+"-" .local112!
+"9" ;scala/Int#`==`(+3).2
+"7" 8local1124
+"C" H&interpreter/RecursiveLanguage.error().2B
+"j" j4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+"b" j,interpreter/RecursiveLanguage.Expr.Constant.2 
+"m" nscala/Int#`/`(+3).2
+"k" llocal102
+"o" plocal1124
+## &interpreter/RecursiveLanguage.error().2&
+#@# Ascala/StringContext#s().2*
+## scala/StringContext.apply().23
+#(# ,%interpreter/RecursiveLanguage.show().2?
+#2# 21interpreter/RecursiveLanguage.Expr.BinOp.apply().27
+#-# 2)interpreter/RecursiveLanguage.Expr.BinOp.2<
+#3# 5.interpreter/RecursiveLanguage.evalBinOp().(op)2<
+#7# 9.interpreter/RecursiveLanguage.evalBinOp().(ex)2<
+#;# =.interpreter/RecursiveLanguage.evalBinOp().(ey)23
+%% %interpreter/RecursiveLanguage.DefEnv#2
+%% scala/Predef.Map#2"
+%% scala/Predef.String#21
+%%  #interpreter/RecursiveLanguage.Expr#23
+(( 
+%interpreter/RecursiveLanguage.eval().26
+(( (interpreter/RecursiveLanguage.eval().(e)21
+(( #interpreter/RecursiveLanguage.Expr#29
+(( +interpreter/RecursiveLanguage.eval().(defs)23
+((  %interpreter/RecursiveLanguage.DefEnv#21
+(#( '#interpreter/RecursiveLanguage.Expr#26
+)) (interpreter/RecursiveLanguage.eval().(e)2D
+** 6interpreter/RecursiveLanguage.Expr.Constant.unapply().2:
+** ,interpreter/RecursiveLanguage.Expr.Constant.2
+** local1226
+** (interpreter/RecursiveLanguage.eval().(e)2@
+++ 2interpreter/RecursiveLanguage.Expr.Name.unapply().26
+++ (interpreter/RecursiveLanguage.Expr.Name.2
+++ local132,
+,, scala/collection/MapOps#get().29
+,, +interpreter/RecursiveLanguage.eval().(defs)2
+,, local132
+-- scala/None.24
+-- &interpreter/RecursiveLanguage.error().2&
+-.- /scala/StringContext#s().2*
+-- scala/StringContext.apply().2
+--- .local132#
+.. scala/Some.unapply().2
+.. scala/Some.2
+.. local1423
+.. !%interpreter/RecursiveLanguage.eval().2
+.". &local1429
+.(. ,+interpreter/RecursiveLanguage.eval().(defs)2A
+// 3interpreter/RecursiveLanguage.Expr.BinOp.unapply().27
+// )interpreter/RecursiveLanguage.Expr.BinOp.2
+// local152
+// local162
+// local1728
+00 *interpreter/RecursiveLanguage.evalBinOp().2
+00 local1523
+00 %interpreter/RecursiveLanguage.eval().2
+00 local1629
+00 #+interpreter/RecursiveLanguage.eval().(defs)23
+0&0 *%interpreter/RecursiveLanguage.eval().2
+0+0 -local1729
+0/0 3+interpreter/RecursiveLanguage.eval().(defs)2E
+11 7interpreter/RecursiveLanguage.Expr.IfNonzero.unapply().2;
+11 -interpreter/RecursiveLanguage.Expr.IfNonzero.2
+11 local182
+11 #local192
+1%1 .local202
+22 scala/Any#`!=`().23
+22 %interpreter/RecursiveLanguage.eval().2
+22 local1829
+22 +interpreter/RecursiveLanguage.eval().(defs)2B
+2'2 '4interpreter/RecursiveLanguage.Expr.Constant.apply().2:
+22 ',interpreter/RecursiveLanguage.Expr.Constant.23
+202 4%interpreter/RecursiveLanguage.eval().2
+252 =local1929
+2?2 C+interpreter/RecursiveLanguage.eval().(defs)23
+33 %interpreter/RecursiveLanguage.eval().2
+33 local2029
+33 !+interpreter/RecursiveLanguage.eval().(defs)2?
+44 1interpreter/RecursiveLanguage.Expr.Fun.unapply().25
+44 'interpreter/RecursiveLanguage.Expr.Fun.2
+44 local212
+44 local2226
+44 (interpreter/RecursiveLanguage.eval().(e)2@
+55 2interpreter/RecursiveLanguage.Expr.Call.unapply().26
+55 (interpreter/RecursiveLanguage.Expr.Call.2
+55 local232
+55 local242'
+66 interpreter/Logger.log().2!
+66 interpreter/Logger.23
+66 %interpreter/RecursiveLanguage.show().26
+66 (interpreter/RecursiveLanguage.eval().(e)2*
+77 interpreter/Logger.indent().2!
+77 interpreter/Logger.2
+88 local2523
+88 %interpreter/RecursiveLanguage.eval().2
+88 local2329
+88 !+interpreter/RecursiveLanguage.eval().(defs)2
+99 local2623
+99 %interpreter/RecursiveLanguage.eval().2
+99 local2429
+99 !+interpreter/RecursiveLanguage.eval().(defs)2
+:: local252?
+;; 1interpreter/RecursiveLanguage.Expr.Fun.unapply().25
+;; 'interpreter/RecursiveLanguage.Expr.Fun.2
+;; local272
+;; local282,
+<< interpreter/Logger.unindent().2!
+<< interpreter/Logger.2'
+== interpreter/Logger.log().2!
+== interpreter/Logger.2&
+=?= @scala/StringContext#s().2*
+== scala/StringContext.apply().23
+= = $%interpreter/RecursiveLanguage.show().2
+=%= )local2523
+=4= 8%interpreter/RecursiveLanguage.show().2
+=9= =local262
+>> local2924
+>> &interpreter/RecursiveLanguage.subst().2
+> > $local282
+>&> 'local272
+>)> -local262'
+?? interpreter/Logger.log().2!
+?? interpreter/Logger.2&
+?)? *scala/StringContext#s().2*
+?? scala/StringContext.apply().23
+?? %interpreter/RecursiveLanguage.show().2
+? ? 'local292*
+@@ interpreter/Logger.indent().2!
+@@ interpreter/Logger.2
+AA local3023
+AA %interpreter/RecursiveLanguage.eval().2
+AA "local2929
+A$A (+interpreter/RecursiveLanguage.eval().(defs)2,
+BB interpreter/Logger.unindent().2!
+BB interpreter/Logger.2'
+CC interpreter/Logger.log().2!
+CC interpreter/Logger.2&
+C*C +scala/StringContext#s().2*
+CC scala/StringContext.apply().23
+C C $%interpreter/RecursiveLanguage.show().2
+C%C (local302
+DD local3024
+EE &interpreter/RecursiveLanguage.error().2&
+EME Nscala/StringContext#s().2*
+EE scala/StringContext.apply().23
+E8E <%interpreter/RecursiveLanguage.show().2
+E=E Alocal2527
+FF )interpreter/RecursiveLanguage.Expr.Empty.26
+FF (interpreter/RecursiveLanguage.eval().(e)2@
+GG 2interpreter/RecursiveLanguage.Expr.Cons.unapply().26
+GG (interpreter/RecursiveLanguage.Expr.Cons.2
+GG local312
+GG local322>
+GG 0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+GG (interpreter/RecursiveLanguage.Expr.Cons.23
+GG #%interpreter/RecursiveLanguage.eval().2
+G$G %local3129
+G'G ++interpreter/RecursiveLanguage.eval().(defs)23
+G.G 2%interpreter/RecursiveLanguage.eval().2
+G3G 5local3229
+G7G ;+interpreter/RecursiveLanguage.eval().(defs)2A
+HH 3interpreter/RecursiveLanguage.Expr.Match.unapply().27
+HH )interpreter/RecursiveLanguage.Expr.Match.2
+HH local332
+HH local342
+HH local352
+H!H "local362
+H$H %local372
+II local3823
+II %interpreter/RecursiveLanguage.eval().2
+II local3329
+II !+interpreter/RecursiveLanguage.eval().(defs)2
+JJ 
+local3827
+KK )interpreter/RecursiveLanguage.Expr.Empty.23
+KK %interpreter/RecursiveLanguage.eval().2
+KK !local3429
+K#K '+interpreter/RecursiveLanguage.eval().(defs)2@
+LL 2interpreter/RecursiveLanguage.Expr.Cons.unapply().26
+LL (interpreter/RecursiveLanguage.Expr.Cons.2
+LL local392
+LL local4023
+LL "%interpreter/RecursiveLanguage.eval().24
+L#L (&interpreter/RecursiveLanguage.subst().24
+L)L .&interpreter/RecursiveLanguage.subst().2
+L/L 0local372
+L2L 3local352
+L5L 6local392
+L9L :local362
+L<L >local4029
+LAL E+interpreter/RecursiveLanguage.eval().(defs)24
+MM &interpreter/RecursiveLanguage.error().2&
+M8M 9scala/StringContext#s().2*
+MM scala/StringContext.apply().23
+MM "%interpreter/RecursiveLanguage.show().2
+M#M (local3324
+QQ &interpreter/RecursiveLanguage.subst().27
+QQ )interpreter/RecursiveLanguage.subst().(e)21
+QQ #interpreter/RecursiveLanguage.Expr#27
+QQ )interpreter/RecursiveLanguage.subst().(n)2"
+QQ scala/Predef.String#27
+Q Q !)interpreter/RecursiveLanguage.subst().(r)21
+Q#Q '#interpreter/RecursiveLanguage.Expr#21
+Q*Q .#interpreter/RecursiveLanguage.Expr#27
+RR )interpreter/RecursiveLanguage.subst().(e)2D
+SS 6interpreter/RecursiveLanguage.Expr.Constant.unapply().2:
+SS ,interpreter/RecursiveLanguage.Expr.Constant.2
+SS local4127
+SS )interpreter/RecursiveLanguage.subst().(e)2@
+TT 2interpreter/RecursiveLanguage.Expr.Name.unapply().26
+TT (interpreter/RecursiveLanguage.Expr.Name.2
+TT local422
+TT scala/Any#`==`().2
+TT local4227
+TT )interpreter/RecursiveLanguage.subst().(n)27
+T%T &)interpreter/RecursiveLanguage.subst().(r)27
+T,T -)interpreter/RecursiveLanguage.subst().(e)2A
+UU 3interpreter/RecursiveLanguage.Expr.BinOp.unapply().27
+UU )interpreter/RecursiveLanguage.Expr.BinOp.2
+UU local432
+UU local442
+UU local452?
+VV 1interpreter/RecursiveLanguage.Expr.BinOp.apply().27
+VV )interpreter/RecursiveLanguage.Expr.BinOp.2
+VV local4324
+VV &interpreter/RecursiveLanguage.subst().2
+VV local4427
+VV )interpreter/RecursiveLanguage.subst().(n)27
+VV  )interpreter/RecursiveLanguage.subst().(r)24
+V#V (&interpreter/RecursiveLanguage.subst().2
+V)V +local4527
+V-V .)interpreter/RecursiveLanguage.subst().(n)27
+V0V 1)interpreter/RecursiveLanguage.subst().(r)2E
+WW 7interpreter/RecursiveLanguage.Expr.IfNonzero.unapply().2;
+WW -interpreter/RecursiveLanguage.Expr.IfNonzero.2
+WW local462
+WW  local472
+W"W (local482C
+XX 5interpreter/RecursiveLanguage.Expr.IfNonzero.apply().2;
+XX -interpreter/RecursiveLanguage.Expr.IfNonzero.24
+XX &interpreter/RecursiveLanguage.subst().2
+XX local4627
+XX )interpreter/RecursiveLanguage.subst().(n)27
+X!X ")interpreter/RecursiveLanguage.subst().(r)24
+X%X *&interpreter/RecursiveLanguage.subst().2
+X+X 0local4727
+X2X 3)interpreter/RecursiveLanguage.subst().(n)27
+X5X 6)interpreter/RecursiveLanguage.subst().(r)24
+X9X >&interpreter/RecursiveLanguage.subst().2
+X?X Elocal4827
+XGX H)interpreter/RecursiveLanguage.subst().(n)27
+XJX K)interpreter/RecursiveLanguage.subst().(r)2@
+YY 2interpreter/RecursiveLanguage.Expr.Call.unapply().26
+YY (interpreter/RecursiveLanguage.Expr.Call.2
+YY local492
+YY local502>
+ZZ 0interpreter/RecursiveLanguage.Expr.Call.apply().26
+ZZ (interpreter/RecursiveLanguage.Expr.Call.24
+ZZ &interpreter/RecursiveLanguage.subst().2
+ZZ local4927
+ZZ )interpreter/RecursiveLanguage.subst().(n)27
+ZZ )interpreter/RecursiveLanguage.subst().(r)24
+ZZ "&interpreter/RecursiveLanguage.subst().2
+Z#Z &local5027
+Z(Z ))interpreter/RecursiveLanguage.subst().(n)27
+Z+Z ,)interpreter/RecursiveLanguage.subst().(r)2?
+[[ 1interpreter/RecursiveLanguage.Expr.Fun.unapply().25
+[[ 'interpreter/RecursiveLanguage.Expr.Fun.2
+[[ local512
+[[ local522
+^^ scala/Any#`==`().2
+^^ local5127
+^^ )interpreter/RecursiveLanguage.subst().(n)27
+^^ )interpreter/RecursiveLanguage.subst().(e)2
+`` local5327
+`` )interpreter/RecursiveLanguage.freeVars().27
+`` )interpreter/RecursiveLanguage.subst().(r)21
+cc #scala/collection/SetOps#contains().2
+cc local532
+cc local512
+ee local542<
+ee &.interpreter/RecursiveLanguage.differentName().2
+e'e ,local512
+e.e 1local532
+ff local552;
+ff $-interpreter/RecursiveLanguage.alphaConvert().2
+f%f )local522
+f+f 0local512
+f2f 8local542=
+gg /interpreter/RecursiveLanguage.Expr.Fun.apply().25
+gg 'interpreter/RecursiveLanguage.Expr.Fun.2
+gg local5424
+gg &interpreter/RecursiveLanguage.subst().2
+gg #local5527
+g%g &)interpreter/RecursiveLanguage.subst().(n)27
+g(g ))interpreter/RecursiveLanguage.subst().(r)2=
+jj /interpreter/RecursiveLanguage.Expr.Fun.apply().25
+jj 'interpreter/RecursiveLanguage.Expr.Fun.2
+jj local5124
+jj &interpreter/RecursiveLanguage.subst().2
+jj !local5227
+j#j $)interpreter/RecursiveLanguage.subst().(n)27
+j&j ')interpreter/RecursiveLanguage.subst().(r)27
+kk )interpreter/RecursiveLanguage.Expr.Empty.27
+kk )interpreter/RecursiveLanguage.subst().(e)2@
+ll 2interpreter/RecursiveLanguage.Expr.Cons.unapply().26
+ll (interpreter/RecursiveLanguage.Expr.Cons.2
+ll local562
+ll local572>
+l#l #0interpreter/RecursiveLanguage.Expr.Cons.apply().26
+ll #(interpreter/RecursiveLanguage.Expr.Cons.24
+l$l )&interpreter/RecursiveLanguage.subst().2
+l*l .local5627
+l0l 1)interpreter/RecursiveLanguage.subst().(n)27
+l3l 4)interpreter/RecursiveLanguage.subst().(r)24
+l7l <&interpreter/RecursiveLanguage.subst().2
+l=l Alocal5727
+lCl D)interpreter/RecursiveLanguage.subst().(n)27
+lFl G)interpreter/RecursiveLanguage.subst().(r)2A
+mm 3interpreter/RecursiveLanguage.Expr.Match.unapply().27
+mm )interpreter/RecursiveLanguage.Expr.Match.2
+mm local582
+mm %local592
+m'm /local602
+m1m 9local612
+m;m Clocal622#
+nn scala/Boolean#`||`().2
+nn scala/Any#`==`().2
+nn local6027
+nn )interpreter/RecursiveLanguage.subst().(n)2
+n%n 'scala/Any#`==`().2
+nn $local6127
+n(n ))interpreter/RecursiveLanguage.subst().(n)2?
+qq 1interpreter/RecursiveLanguage.Expr.Match.apply().27
+q
+q )interpreter/RecursiveLanguage.Expr.Match.24
+qq &interpreter/RecursiveLanguage.subst().2
+qq local5827
+q!q ")interpreter/RecursiveLanguage.subst().(n)27
+q$q %)interpreter/RecursiveLanguage.subst().(r)24
+q(q -&interpreter/RecursiveLanguage.subst().2
+q.q 7local5927
+q9q :)interpreter/RecursiveLanguage.subst().(n)27
+q<q =)interpreter/RecursiveLanguage.subst().(r)2
+q@q Hlocal602
+qJq Rlocal612
+qTq \local622
+yy local6327
+yy )interpreter/RecursiveLanguage.freeVars().27
+yy )interpreter/RecursiveLanguage.subst().(r)2#
+z$z &scala/Boolean#`||`().21
+zz #scala/collection/SetOps#contains().2
+zz local632
+zz "local6021
+z+z 3#scala/collection/SetOps#contains().2
+z'z *local632
+z4z <local612#
+{{ scala/Predef.print().23
+{{ %interpreter/RecursiveLanguage.show().2
+{{ local622#
+|| scala/Predef.print().2
+}} local642;
+}} (-interpreter/RecursiveLanguage.alphaConvert().2
+})} 1local622
+}3} ;local602<
+}=} J.interpreter/RecursiveLanguage.differentName().2
+}K} Slocal602
+}U} Xlocal632#
+~~ scala/Predef.print().23
+~~ %interpreter/RecursiveLanguage.show().2
+~~  local642#
+ scala/Predef.print().2
+
+ÄÄ local652=
+
+ÄÄ (-interpreter/RecursiveLanguage.alphaConvert().2
+
+Ä)Ä 2local642
+
+Ä4Ä <local612>
+
+Ä>Ä K.interpreter/RecursiveLanguage.differentName().2
+
+ÄLÄ Tlocal612
+
+ÄVÄ Ylocal632%
+
+ÅÅ scala/Predef.print().25
+
+ÅÅ %interpreter/RecursiveLanguage.show().2
+
+ÅÅ  local652%
+
+ÇÇ scala/Predef.print().2A
+
+ÉÉ 1interpreter/RecursiveLanguage.Expr.Match.apply().29
+
+ÉÉ )interpreter/RecursiveLanguage.Expr.Match.2
+
+ÉÉ local582
+
+ÉÉ &local592
+
+É(É 0local602
+
+É2É :local6126
+
+É<É A&interpreter/RecursiveLanguage.subst().2
+
+ÉBÉ Klocal6529
+
+ÉMÉ N)interpreter/RecursiveLanguage.subst().(n)29
+
+ÉPÉ Q)interpreter/RecursiveLanguage.subst().(r)2A
+
+ÑÑ 1interpreter/RecursiveLanguage.Expr.Match.apply().29
+
+ÑÑ )interpreter/RecursiveLanguage.Expr.Match.26
+
+ÑÑ &interpreter/RecursiveLanguage.subst().2
+
+ÑÑ $local5829
+
+Ñ&Ñ ')interpreter/RecursiveLanguage.subst().(n)29
+
+Ñ)Ñ *)interpreter/RecursiveLanguage.subst().(r)26
+
+Ñ-Ñ 2&interpreter/RecursiveLanguage.subst().2
+
+Ñ3Ñ <local5929
+
+Ñ>Ñ ?)interpreter/RecursiveLanguage.subst().(n)29
+
+ÑAÑ B)interpreter/RecursiveLanguage.subst().(r)2
+
+ÑEÑ Mlocal602
+
+ÑOÑ Wlocal6126
+
+ÑYÑ ^&interpreter/RecursiveLanguage.subst().2
+
+Ñ_Ñ glocal6229
+
+ÑiÑ j)interpreter/RecursiveLanguage.subst().(n)29
+
+ÑlÑ m)interpreter/RecursiveLanguage.subst().(r)2>
+
+ÜÜ .interpreter/RecursiveLanguage.differentName().2A
+
+ÜÜ 1interpreter/RecursiveLanguage.differentName().(n)2$
+
+ÜÜ scala/Predef.String#2A
+
+ÜÜ  1interpreter/RecursiveLanguage.differentName().(s)2!
+
+Ü"Ü %scala/Predef.Set#2$
+
+Ü&Ü ,scala/Predef.String#2$
+
+Ü0Ü 6scala/Predef.String#23
+
+á	á #scala/collection/SetOps#contains().2A
+
+áá 1interpreter/RecursiveLanguage.differentName().(s)2A
+
+áá 1interpreter/RecursiveLanguage.differentName().(n)2>
+
+áá '.interpreter/RecursiveLanguage.differentName().2'
+
+á*á +java/lang/String#`+`().2A
+
+á(á )1interpreter/RecursiveLanguage.differentName().(n)2A
+
+á1á 21interpreter/RecursiveLanguage.differentName().(s)2A
+
+à	à 
+1interpreter/RecursiveLanguage.differentName().(n)29
+
+ãã )interpreter/RecursiveLanguage.freeVars().2<
+
+ãã ,interpreter/RecursiveLanguage.freeVars().(e)23
+
+ãã #interpreter/RecursiveLanguage.Expr#2!
+
+ãã scala/Predef.Set#2$
+
+ãã #scala/Predef.String#2<
+
+åå ,interpreter/RecursiveLanguage.freeVars().(e)2F
+
+çç 6interpreter/RecursiveLanguage.Expr.Constant.unapply().2<
+
+çç ,interpreter/RecursiveLanguage.Expr.Constant.2
+
+çç local6629
+
+çç )scala/collection/IterableFactory#apply().2!
+
+çç scala/Predef.Set.2B
+
+éé 2interpreter/RecursiveLanguage.Expr.Name.unapply().28
+
+éé (interpreter/RecursiveLanguage.Expr.Name.2
+
+éé local6729
+
+éé )scala/collection/IterableFactory#apply().2!
+
+éé scala/Predef.Set.2
+
+éé local672C
+
+èè 3interpreter/RecursiveLanguage.Expr.BinOp.unapply().29
+
+èè )interpreter/RecursiveLanguage.Expr.BinOp.2
+
+èè local682
+
+èè local692
+
+èè local702/
+
+è-è /scala/collection/SetOps#`++`().29
+
+è è ()interpreter/RecursiveLanguage.freeVars().2
+
+è)è +local6929
+
+è0è 8)interpreter/RecursiveLanguage.freeVars().2
+
+è9è ;local702G
+
+êê 7interpreter/RecursiveLanguage.Expr.IfNonzero.unapply().2=
+
+êê -interpreter/RecursiveLanguage.Expr.IfNonzero.2
+
+êê local712
+
+êê  local722
+
+ê"ê (local732/
+
+êOê Qscala/collection/SetOps#`++`().2/
+
+ê<ê >scala/collection/SetOps#`++`().29
+
+ê-ê 5)interpreter/RecursiveLanguage.freeVars().2
+
+ê6ê :local7129
+
+ê?ê G)interpreter/RecursiveLanguage.freeVars().2
+
+êHê Mlocal7229
+
+êRê Z)interpreter/RecursiveLanguage.freeVars().2
+
+ê[ê alocal732B
+
+ëë 2interpreter/RecursiveLanguage.Expr.Call.unapply().28
+
+ëë (interpreter/RecursiveLanguage.Expr.Call.2
+
+ëë local742
+
+ëë local752/
+
+ë'ë )scala/collection/SetOps#`++`().29
+
+ëë #)interpreter/RecursiveLanguage.freeVars().2
+
+ë$ë %local7429
+
+ë*ë 2)interpreter/RecursiveLanguage.freeVars().2
+
+ë3ë 6local752A
+
+íí 1interpreter/RecursiveLanguage.Expr.Fun.unapply().27
+
+íí 'interpreter/RecursiveLanguage.Expr.Fun.2
+
+íí local762
+
+íí local7728
+
+í.í /(scala/collection/immutable/SetOps#`-`().29
+
+íí ')interpreter/RecursiveLanguage.freeVars().2
+
+í(í ,local772
+
+í0í 5local7629
+
+îî )interpreter/RecursiveLanguage.Expr.Empty.29
+
+îî )scala/collection/IterableFactory#apply().2!
+
+îî scala/Predef.Set.2B
+
+ïï 2interpreter/RecursiveLanguage.Expr.Cons.unapply().28
+
+ïï (interpreter/RecursiveLanguage.Expr.Cons.2
+
+ïï local782
+
+ïï local792/
+
+ï&ï (scala/collection/SetOps#`++`().29
+
+ïï ")interpreter/RecursiveLanguage.freeVars().2
+
+ï#ï $local7829
+
+ï)ï 1)interpreter/RecursiveLanguage.freeVars().2
+
+ï2ï 4local792C
+
+ññ 3interpreter/RecursiveLanguage.Expr.Match.unapply().29
+
+ññ )interpreter/RecursiveLanguage.Expr.Match.2
+
+ññ local802
+
+ññ local812
+
+ññ local822
+
+ñ!ñ "local832
+
+ñ$ñ %local842
+
+ñ*ñ /local8029
+
+óó )interpreter/RecursiveLanguage.Expr.Empty.29
+
+óó )interpreter/RecursiveLanguage.freeVars().2
+
+óó #local812B
+
+òò 2interpreter/RecursiveLanguage.Expr.Cons.unapply().28
+
+òò (interpreter/RecursiveLanguage.Expr.Cons.2
+
+òò local852
+
+òò local8629
+
+òò $)interpreter/RecursiveLanguage.freeVars().2
+
+ò%ò &local8426
+
+ôô &interpreter/RecursiveLanguage.error().2(
+
+ô6ô 7scala/StringContext#s().2,
+
+ôô scala/StringContext.apply().25
+
+ôô  %interpreter/RecursiveLanguage.show().2
+
+ô!ô &local802=
+
+úú -interpreter/RecursiveLanguage.alphaConvert().2@
+
+úú 0interpreter/RecursiveLanguage.alphaConvert().(e)23
+
+úú #interpreter/RecursiveLanguage.Expr#2@
+
+úú 0interpreter/RecursiveLanguage.alphaConvert().(n)2$
+
+úú %scala/Predef.String#2@
+
+ú'ú (0interpreter/RecursiveLanguage.alphaConvert().(m)2$
+
+ú*ú 0scala/Predef.String#23
+
+ú3ú 7#interpreter/RecursiveLanguage.Expr#2@
+
+ùù 0interpreter/RecursiveLanguage.alphaConvert().(e)2F
+
+ûû 6interpreter/RecursiveLanguage.Expr.Constant.unapply().2<
+
+ûû ,interpreter/RecursiveLanguage.Expr.Constant.2
+
+ûû local872@
+
+ûû 0interpreter/RecursiveLanguage.alphaConvert().(e)2B
+
+üü 2interpreter/RecursiveLanguage.Expr.Name.unapply().28
+
+üü (interpreter/RecursiveLanguage.Expr.Name.2
+
+üü local882!
+
+üü scala/Any#`==`().2
+
+üü local882@
+
+üü 0interpreter/RecursiveLanguage.alphaConvert().(n)2@
+
+ü)ü )0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+ü%ü )(interpreter/RecursiveLanguage.Expr.Name.2@
+
+ü*ü +0interpreter/RecursiveLanguage.alphaConvert().(m)2@
+
+ü2ü 30interpreter/RecursiveLanguage.alphaConvert().(e)2C
+
+†† 3interpreter/RecursiveLanguage.Expr.BinOp.unapply().29
+
+†† )interpreter/RecursiveLanguage.Expr.BinOp.2
+
+†† local892
+
+†† local902
+
+†† local912A
+
+°° 1interpreter/RecursiveLanguage.Expr.BinOp.apply().29
+
+°° )interpreter/RecursiveLanguage.Expr.BinOp.2
+
+°° local892=
+
+°° -interpreter/RecursiveLanguage.alphaConvert().2
+
+°° !local902@
+
+°#° $0interpreter/RecursiveLanguage.alphaConvert().(n)2@
+
+°&° '0interpreter/RecursiveLanguage.alphaConvert().(m)2=
+
+°*° 6-interpreter/RecursiveLanguage.alphaConvert().2
+
+°7° 9local912@
+
+°;° <0interpreter/RecursiveLanguage.alphaConvert().(n)2@
+
+°>° ?0interpreter/RecursiveLanguage.alphaConvert().(m)2G
+
+¢¢ 7interpreter/RecursiveLanguage.Expr.IfNonzero.unapply().2=
+
+¢¢ -interpreter/RecursiveLanguage.Expr.IfNonzero.2
+
+¢¢ local922
+
+¢¢  local932
+
+¢"¢ (local942E
+
+££ 5interpreter/RecursiveLanguage.Expr.IfNonzero.apply().2=
+
+££ -interpreter/RecursiveLanguage.Expr.IfNonzero.2=
+
+££ -interpreter/RecursiveLanguage.alphaConvert().2
+
+££ #local922@
+
+£%£ &0interpreter/RecursiveLanguage.alphaConvert().(n)2@
+
+£(£ )0interpreter/RecursiveLanguage.alphaConvert().(m)2=
+
+£,£ 8-interpreter/RecursiveLanguage.alphaConvert().2
+
+£9£ >local932@
+
+£@£ A0interpreter/RecursiveLanguage.alphaConvert().(n)2@
+
+£C£ D0interpreter/RecursiveLanguage.alphaConvert().(m)2=
+
+£G£ S-interpreter/RecursiveLanguage.alphaConvert().2
+
+£T£ Zlocal942@
+
+£\£ ]0interpreter/RecursiveLanguage.alphaConvert().(n)2@
+
+£_£ `0interpreter/RecursiveLanguage.alphaConvert().(m)2B
+
+§§ 2interpreter/RecursiveLanguage.Expr.Call.unapply().28
+
+§§ (interpreter/RecursiveLanguage.Expr.Call.2
+
+§§ local952
+
+§§ local962@
+
+•• 0interpreter/RecursiveLanguage.Expr.Call.apply().28
+
+•• (interpreter/RecursiveLanguage.Expr.Call.2=
+
+•• -interpreter/RecursiveLanguage.alphaConvert().2
+
+•• local952@
+
+•• 0interpreter/RecursiveLanguage.alphaConvert().(n)2@
+
+• • !0interpreter/RecursiveLanguage.alphaConvert().(m)2=
+
+•$• 0-interpreter/RecursiveLanguage.alphaConvert().2
+
+•1• 4local962@
+
+•6• 70interpreter/RecursiveLanguage.alphaConvert().(n)2@
+
+•9• :0interpreter/RecursiveLanguage.alphaConvert().(m)2A
+
+¶¶ 1interpreter/RecursiveLanguage.Expr.Fun.unapply().27
+
+¶¶ 'interpreter/RecursiveLanguage.Expr.Fun.2
+
+¶¶ local972
+
+¶¶ local982!
+
+©© scala/Any#`==`().2
+
+©© local972@
+
+©© 0interpreter/RecursiveLanguage.alphaConvert().(n)2@
+
+©© 0interpreter/RecursiveLanguage.alphaConvert().(e)2?
+
+™™ /interpreter/RecursiveLanguage.Expr.Fun.apply().27
+
+™™ 'interpreter/RecursiveLanguage.Expr.Fun.2
+
+™™ local972=
+
+™™ $-interpreter/RecursiveLanguage.alphaConvert().2
+
+™%™ )local982@
+
+™+™ ,0interpreter/RecursiveLanguage.alphaConvert().(n)2@
+
+™.™ /0interpreter/RecursiveLanguage.alphaConvert().(m)29
+
+¨¨ )interpreter/RecursiveLanguage.Expr.Empty.2@
+
+¨¨ 0interpreter/RecursiveLanguage.alphaConvert().(e)2B
+
+≠≠ 2interpreter/RecursiveLanguage.Expr.Cons.unapply().28
+
+≠≠ (interpreter/RecursiveLanguage.Expr.Cons.2
+
+≠≠ local992
+
+≠≠ local1002@
+
+≠≠ 0interpreter/RecursiveLanguage.Expr.Cons.apply().28
+
+≠≠ (interpreter/RecursiveLanguage.Expr.Cons.2=
+
+≠≠ +-interpreter/RecursiveLanguage.alphaConvert().2
+
+≠,≠ -local992@
+
+≠/≠ 00interpreter/RecursiveLanguage.alphaConvert().(n)2@
+
+≠2≠ 30interpreter/RecursiveLanguage.alphaConvert().(m)2=
+
+≠6≠ B-interpreter/RecursiveLanguage.alphaConvert().2
+
+≠C≠ Elocal1002@
+
+≠G≠ H0interpreter/RecursiveLanguage.alphaConvert().(n)2@
+
+≠J≠ K0interpreter/RecursiveLanguage.alphaConvert().(m)2C
+
+ÆÆ 3interpreter/RecursiveLanguage.Expr.Match.unapply().29
+
+ÆÆ )interpreter/RecursiveLanguage.Expr.Match.2
+
+ÆÆ local1012
+
+ÆÆ local1022
+
+ÆÆ local1032
+
+Æ!Æ "local1042
+
+Æ$Æ %local1052
+
+Æ*Æ +local1052B
+
+ØØ 2interpreter/RecursiveLanguage.Expr.Name.unapply().28
+
+ØØ (interpreter/RecursiveLanguage.Expr.Name.2
+
+ØØ local1062!
+
+ØØ scala/Any#`==`().2
+
+ØØ local1062
+
+Ø Ø !local1032A
+
+Ø,Ø ,1interpreter/RecursiveLanguage.Expr.Match.apply().29
+
+Ø'Ø ,)interpreter/RecursiveLanguage.Expr.Match.2
+
+Ø-Ø 2local1012
+
+Ø4Ø 8local1022
+
+Ø:Ø ;local1032
+
+Ø=Ø >local1042
+
+Ø@Ø Alocal1052A
+
+∞∞ 1interpreter/RecursiveLanguage.Expr.Match.apply().29
+
+∞∞ )interpreter/RecursiveLanguage.Expr.Match.2
+
+∞∞ local1012
+
+∞∞  local1022
+
+∞"∞ #local1032
+
+∞%∞ &local1042=
+
+∞(∞ 4-interpreter/RecursiveLanguage.alphaConvert().2
+
+∞5∞ 6local1052@
+
+∞8∞ 90interpreter/RecursiveLanguage.alphaConvert().(n)2@
+
+∞;∞ <0interpreter/RecursiveLanguage.alphaConvert().(m)2A
+
+±± 1interpreter/RecursiveLanguage.Expr.Match.apply().29
+
+±± )interpreter/RecursiveLanguage.Expr.Match.2
+
+±± local1012=
+
+±± +-interpreter/RecursiveLanguage.alphaConvert().2
+
+±,± 0local1022@
+
+±2± 30interpreter/RecursiveLanguage.alphaConvert().(n)2@
+
+±5± 60interpreter/RecursiveLanguage.alphaConvert().(m)2
+
+±9± :local1032
+
+±<± =local1042
+
+±?± @local1052<
+
+≤≤ ,interpreter/RecursiveLanguage.EvalException#2G
+
+≤≤ 7interpreter/RecursiveLanguage.EvalException#`<init>`().2$
+
+≤ ≤ &scala/Predef.String#21
+
+≤9≤ 9!java/lang/Exception#`<init>`(+1).2(
+
+≤0≤ 9scala/package.Exception#2@
+
+≤:≤ =0interpreter/RecursiveLanguage.EvalException#msg.2@
+
+≤≤ 0interpreter/RecursiveLanguage.EvalException#msg.26
+
+¥¥ &interpreter/RecursiveLanguage.error().2;
+
+¥¥ +interpreter/RecursiveLanguage.error().(msg)2$
+
+¥¥ scala/Predef.String#2D
+
+¥.¥ .4interpreter/RecursiveLanguage.EvalException.apply().2<
+
+¥!¥ .,interpreter/RecursiveLanguage.EvalException.2;
+
+¥/¥ 2+interpreter/RecursiveLanguage.error().(msg)25
+
+ππ 
+%interpreter/RecursiveLanguage.show().28
+
+ππ (interpreter/RecursiveLanguage.show().(e)23
+
+ππ #interpreter/RecursiveLanguage.Expr#2$
+
+ππ scala/Predef.String#28
+
+∫∫ (interpreter/RecursiveLanguage.show().(e)2F
+
+ªª 6interpreter/RecursiveLanguage.Expr.Constant.unapply().2<
+
+ªª ,interpreter/RecursiveLanguage.Expr.Constant.2
+
+ªª local1072%
+
+ªª $scala/Any#toString().2
+
+ªª local1072B
+
+ºº 2interpreter/RecursiveLanguage.Expr.Name.unapply().28
+
+ºº (interpreter/RecursiveLanguage.Expr.Name.2
+
+ºº local1082
+
+ºº local1082C
+
+ΩΩ 3interpreter/RecursiveLanguage.Expr.BinOp.unapply().29
+
+ΩΩ )interpreter/RecursiveLanguage.Expr.BinOp.2
+
+ΩΩ local1092
+
+ΩΩ local1102
+
+ΩΩ local1112
+
+ææ local1122
+
+ææ local1092:
+
+øø *interpreter/RecursiveLanguage.BinOps.Plus.2;
+
+¿¿ +interpreter/RecursiveLanguage.BinOps.Minus.2;
+
+¡¡ +interpreter/RecursiveLanguage.BinOps.Times.2?
+
+¬¬ /interpreter/RecursiveLanguage.BinOps.DividedBy.2<
+
+√√ ,interpreter/RecursiveLanguage.BinOps.Modulo.2<
+
+ƒƒ ,interpreter/RecursiveLanguage.BinOps.LessEq.2(
+
+≈-≈ .scala/StringContext#s().2,
+
+≈
+≈ 
+scala/StringContext.apply().2
+
+≈≈ local11225
+
+≈≈ %interpreter/RecursiveLanguage.show().2
+
+≈≈ local11025
+
+≈#≈ '%interpreter/RecursiveLanguage.show().2
+
+≈(≈ *local1112G
+
+∆∆ 7interpreter/RecursiveLanguage.Expr.IfNonzero.unapply().2=
+
+∆∆ -interpreter/RecursiveLanguage.Expr.IfNonzero.2
+
+∆∆ local1132
+
+∆∆ #local1142
+
+∆%∆ .local1152(
+
+«K« Lscala/StringContext#s().2,
+
+«
+« 
+scala/StringContext.apply().25
+
+«« %interpreter/RecursiveLanguage.show().2
+
+«« local11325
+
+«#« '%interpreter/RecursiveLanguage.show().2
+
+«(« 0local11425
+
+«:« >%interpreter/RecursiveLanguage.show().2
+
+«?« Hlocal1152B
+
+»» 2interpreter/RecursiveLanguage.Expr.Call.unapply().28
+
+»» (interpreter/RecursiveLanguage.Expr.Call.2
+
+»» local1162
+
+»» local1172'
+
+»5» 6java/lang/String#`+`().2'
+
+»)» *java/lang/String#`+`().2'
+
+»#» $java/lang/String#`+`().25
+
+»» %interpreter/RecursiveLanguage.show().2
+
+» » !local11625
+
+»+» /%interpreter/RecursiveLanguage.show().2
+
+»0» 3local1172A
+
+…… 1interpreter/RecursiveLanguage.Expr.Fun.unapply().27
+
+…… 'interpreter/RecursiveLanguage.Expr.Fun.2
+
+…… local1182
+
+…… local1192(
+
+…2… 3scala/StringContext#s().2,
+
+…… scala/StringContext.apply().2
+
+……  local11825
+
+…&… *%interpreter/RecursiveLanguage.show().2
+
+…+… /local1192B
+
+   2interpreter/RecursiveLanguage.Expr.Cons.unapply().28
+
+   (interpreter/RecursiveLanguage.Expr.Cons.2
+
+   local1202
+
+   local1212(
+
+ 7  8scala/StringContext#s().2,
+
+   scala/StringContext.apply().25
+
+   #%interpreter/RecursiveLanguage.show().2
+
+ $  %local12025
+
+ -  1%interpreter/RecursiveLanguage.show().2
+
+ 2  4local12129
+
+ÀÀ )interpreter/RecursiveLanguage.Expr.Empty.2C
+
+ÃÃ 3interpreter/RecursiveLanguage.Expr.Match.unapply().29
+
+ÃÃ )interpreter/RecursiveLanguage.Expr.Match.2
+
+ÃÃ local1222
+
+ÃÃ local1232
+
+ÃÃ local1242
+
+Ã!Ã "local1252
+
+Ã$Ã %local1262(
+
+ŒEŒ Fscala/StringContext#s().2,
+
+Ã.Ã .scala/StringContext.apply().25
+
+Ã1Ã 5%interpreter/RecursiveLanguage.show().2
+
+Ã6Ã ;local12225
+
+ÕÕ %interpreter/RecursiveLanguage.show().2
+
+ÕÕ !local12325
+
+ŒŒ %interpreter/RecursiveLanguage.show().2@
+
+ŒŒ 0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+ŒŒ (interpreter/RecursiveLanguage.Expr.Name.2
+
+ŒŒ local12425
+
+Œ&Œ *%interpreter/RecursiveLanguage.show().2@
+
+Œ/Œ /0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+Œ+Œ /(interpreter/RecursiveLanguage.Expr.Name.2
+
+Œ0Œ 1local12525
+
+Œ:Œ >%interpreter/RecursiveLanguage.show().2
+
+Œ?Œ @local12628
+
+—— (interpreter/RecursiveLanguage.showEnv().2=
+
+—— -interpreter/RecursiveLanguage.showEnv().(env)2!
+
+—— scala/Predef.Map#2$
+
+—— scala/Predef.String#23
+
+—— ##interpreter/RecursiveLanguage.Expr#2$
+
+—'— -scala/Predef.String#2'
+
+“V“ Wjava/lang/String#`+`().2>
+
+“E“ M.scala/collection/IterableOnceOps#mkString(+1).23
+
+““ #scala/collection/IterableOps#map().2=
+
+““ -interpreter/RecursiveLanguage.showEnv().(env)2
+
+““ local1272'
+
+““ scala/Tuple2.unapply().2
+
+““ local1282
+
+““ local1292(
+
+“A“ Bscala/StringContext#s().2,
+
+“%“ %scala/StringContext.apply().2
+
+“*“ .local12825
+
+“6“ :%interpreter/RecursiveLanguage.show().2
+
+“;“ ?local1292<
+
+’’ ,interpreter/RecursiveLanguage.tracingEval().2?
+
+’’ /interpreter/RecursiveLanguage.tracingEval().(e)23
+
+’’ #interpreter/RecursiveLanguage.Expr#2B
+
+’’ 2interpreter/RecursiveLanguage.tracingEval().(defs)25
+
+’!’ '%interpreter/RecursiveLanguage.DefEnv#23
+
+’*’ .#interpreter/RecursiveLanguage.Expr#2(
+
+÷÷ interpreter/Logger.on().2#
+
+÷÷ 
+interpreter/Logger.2
+
+◊◊ local13025
+
+◊◊ %interpreter/RecursiveLanguage.eval().2?
+
+◊◊ /interpreter/RecursiveLanguage.tracingEval().(e)2B
+
+◊◊  2interpreter/RecursiveLanguage.tracingEval().(defs)2)
+
+ÿÿ scala/Predef.println(+1).2(
+
+ÿÿ  scala/StringContext#s().2,
+
+ÿÿ scala/StringContext.apply().2
+
+ÿÿ local1302)
+
+ŸŸ interpreter/Logger.off().2#
+
+ŸŸ 
+interpreter/Logger.2
+
+⁄⁄ local13026
+
+‹‹ &interpreter/RecursiveLanguage.minus().2:
+
+‹‹ *interpreter/RecursiveLanguage.minus().(e1)23
+
+‹‹ #interpreter/RecursiveLanguage.Expr#2:
+
+‹‹ *interpreter/RecursiveLanguage.minus().(e2)23
+
+‹‹ #interpreter/RecursiveLanguage.Expr#2A
+
+‹+‹ +1interpreter/RecursiveLanguage.Expr.BinOp.apply().29
+
+‹&‹ +)interpreter/RecursiveLanguage.Expr.BinOp.2;
+
+‹3‹ 8+interpreter/RecursiveLanguage.BinOps.Minus.25
+
+‹,‹ 2%interpreter/RecursiveLanguage.BinOps.2:
+
+‹;‹ =*interpreter/RecursiveLanguage.minus().(e1)2:
+
+‹?‹ A*interpreter/RecursiveLanguage.minus().(e2)25
+
+›› 
+%interpreter/RecursiveLanguage.plus().29
+
+›› )interpreter/RecursiveLanguage.plus().(e1)23
+
+›› #interpreter/RecursiveLanguage.Expr#29
+
+›› )interpreter/RecursiveLanguage.plus().(e2)23
+
+›› #interpreter/RecursiveLanguage.Expr#2A
+
+›+› +1interpreter/RecursiveLanguage.Expr.BinOp.apply().29
+
+›&› +)interpreter/RecursiveLanguage.Expr.BinOp.2:
+
+›3› 7*interpreter/RecursiveLanguage.BinOps.Plus.25
+
+›,› 2%interpreter/RecursiveLanguage.BinOps.29
+
+›;› =)interpreter/RecursiveLanguage.plus().(e1)29
+
+›?› A)interpreter/RecursiveLanguage.plus().(e2)24
+
+ﬁﬁ 	$interpreter/RecursiveLanguage.leq().28
+
+ﬁ
+ﬁ (interpreter/RecursiveLanguage.leq().(e1)23
+
+ﬁﬁ #interpreter/RecursiveLanguage.Expr#28
+
+ﬁﬁ (interpreter/RecursiveLanguage.leq().(e2)23
+
+ﬁﬁ #interpreter/RecursiveLanguage.Expr#2A
+
+ﬁ+ﬁ +1interpreter/RecursiveLanguage.Expr.BinOp.apply().29
+
+ﬁ&ﬁ +)interpreter/RecursiveLanguage.Expr.BinOp.2<
+
+ﬁ3ﬁ 9,interpreter/RecursiveLanguage.BinOps.LessEq.25
+
+ﬁ,ﬁ 2%interpreter/RecursiveLanguage.BinOps.28
+
+ﬁ;ﬁ =(interpreter/RecursiveLanguage.leq().(e1)28
+
+ﬁ?ﬁ A(interpreter/RecursiveLanguage.leq().(e2)26
+
+ﬂﬂ &interpreter/RecursiveLanguage.times().2:
+
+ﬂﬂ *interpreter/RecursiveLanguage.times().(e1)23
+
+ﬂﬂ #interpreter/RecursiveLanguage.Expr#2:
+
+ﬂﬂ *interpreter/RecursiveLanguage.times().(e2)23
+
+ﬂﬂ #interpreter/RecursiveLanguage.Expr#2A
+
+ﬂ+ﬂ +1interpreter/RecursiveLanguage.Expr.BinOp.apply().29
+
+ﬂ&ﬂ +)interpreter/RecursiveLanguage.Expr.BinOp.2;
+
+ﬂ3ﬂ 8+interpreter/RecursiveLanguage.BinOps.Times.25
+
+ﬂ,ﬂ 2%interpreter/RecursiveLanguage.BinOps.2:
+
+ﬂ;ﬂ =*interpreter/RecursiveLanguage.times().(e1)2:
+
+ﬂ?ﬂ A*interpreter/RecursiveLanguage.times().(e2)27
+
+‡‡ 'interpreter/RecursiveLanguage.modulo().2;
+
+‡‡ +interpreter/RecursiveLanguage.modulo().(e1)23
+
+‡‡ #interpreter/RecursiveLanguage.Expr#2;
+
+‡‡ +interpreter/RecursiveLanguage.modulo().(e2)23
+
+‡‡ #interpreter/RecursiveLanguage.Expr#2A
+
+‡+‡ +1interpreter/RecursiveLanguage.Expr.BinOp.apply().29
+
+‡&‡ +)interpreter/RecursiveLanguage.Expr.BinOp.2<
+
+‡3‡ 9,interpreter/RecursiveLanguage.BinOps.Modulo.25
+
+‡,‡ 2%interpreter/RecursiveLanguage.BinOps.2;
+
+‡;‡ =+interpreter/RecursiveLanguage.modulo().(e1)2;
+
+‡?‡ A+interpreter/RecursiveLanguage.modulo().(e2)2:
+
+·· *interpreter/RecursiveLanguage.dividedBy().2>
+
+·· .interpreter/RecursiveLanguage.dividedBy().(e1)23
+
+·· #interpreter/RecursiveLanguage.Expr#2>
+
+·· .interpreter/RecursiveLanguage.dividedBy().(e2)23
+
+·· "#interpreter/RecursiveLanguage.Expr#2A
+
+·+· +1interpreter/RecursiveLanguage.Expr.BinOp.apply().29
+
+·&· +)interpreter/RecursiveLanguage.Expr.BinOp.2?
+
+·3· </interpreter/RecursiveLanguage.BinOps.DividedBy.25
+
+·,· 2%interpreter/RecursiveLanguage.BinOps.2>
+
+·>· @.interpreter/RecursiveLanguage.dividedBy().(e1)2>
+
+·B· D.interpreter/RecursiveLanguage.dividedBy().(e2)28
+
+„„ (interpreter/RecursiveLanguage.Expr.Name.28
+
+„„ (interpreter/RecursiveLanguage.Expr.Name#2<
+
+„„ ",interpreter/RecursiveLanguage.Expr.Constant.2<
+
+„„ ",interpreter/RecursiveLanguage.Expr.Constant#23
+
+„	„ #interpreter/RecursiveLanguage.Expr.2:
+
+ÊÊ *interpreter/RecursiveLanguage.definitions.25
+
+ÊÊ %interpreter/RecursiveLanguage.DefEnv#24
+
+ÊÊ $scala/collection/MapFactory#apply().2!
+
+ÊÊ scala/Predef.Map.2$
+
+Ê Ê &scala/Predef.String#23
+
+Ê(Ê ,#interpreter/RecursiveLanguage.Expr#2/
+
+ÁÁ scala/Predef.ArrowAssoc#`->`().2*
+
+ÁÁ scala/Predef.ArrowAssoc().2?
+
+ÁÁ /interpreter/RecursiveLanguage.Expr.Fun.apply().27
+
+ÁÁ 'interpreter/RecursiveLanguage.Expr.Fun.2E
+
+ËË 5interpreter/RecursiveLanguage.Expr.IfNonzero.apply().2=
+
+ËË -interpreter/RecursiveLanguage.Expr.IfNonzero.2@
+
+ËË 0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+ËË (interpreter/RecursiveLanguage.Expr.Name.26
+
+È	È &interpreter/RecursiveLanguage.times().2@
+
+ÈÈ 0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+ÈÈ (interpreter/RecursiveLanguage.Expr.Name.2@
+
+ÍÍ 0interpreter/RecursiveLanguage.Expr.Call.apply().28
+
+ÍÍ (interpreter/RecursiveLanguage.Expr.Call.2@
+
+ÍÍ 0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+ÍÍ (interpreter/RecursiveLanguage.Expr.Name.26
+
+ÍÍ $&interpreter/RecursiveLanguage.minus().2@
+
+Í&Í &0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+Í%Í &(interpreter/RecursiveLanguage.Expr.Name.2D
+
+Í.Í .4interpreter/RecursiveLanguage.Expr.Constant.apply().2<
+
+Í-Í .,interpreter/RecursiveLanguage.Expr.Constant.2D
+
+Î
+Î 
+4interpreter/RecursiveLanguage.Expr.Constant.apply().2<
+
+Î	Î 
+,interpreter/RecursiveLanguage.Expr.Constant.2/
+
+ÌÌ scala/Predef.ArrowAssoc#`->`().2*
+
+ÌÌ scala/Predef.ArrowAssoc().2?
+
+ÌÌ /interpreter/RecursiveLanguage.Expr.Fun.apply().27
+
+ÌÌ 'interpreter/RecursiveLanguage.Expr.Fun.26
+
+ÓÓ &interpreter/RecursiveLanguage.times().2@
+
+ÓÓ 0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+ÓÓ (interpreter/RecursiveLanguage.Expr.Name.2@
+
+ÓÓ 0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+ÓÓ (interpreter/RecursiveLanguage.Expr.Name.2/
+
+ scala/Predef.ArrowAssoc#`->`().2*
+
+ scala/Predef.ArrowAssoc().2?
+
+ /interpreter/RecursiveLanguage.Expr.Fun.apply().27
+
+ 'interpreter/RecursiveLanguage.Expr.Fun.2?
+
+ /interpreter/RecursiveLanguage.Expr.Fun.apply().27
+
+ 'interpreter/RecursiveLanguage.Expr.Fun.2@
+
+Ò
+Ò 
+0interpreter/RecursiveLanguage.Expr.Call.apply().28
+
+ÒÒ 
+(interpreter/RecursiveLanguage.Expr.Call.2@
+
+ÒÒ 0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+ÒÒ (interpreter/RecursiveLanguage.Expr.Name.2@
+
+ÒÒ 0interpreter/RecursiveLanguage.Expr.Call.apply().28
+
+ÒÒ (interpreter/RecursiveLanguage.Expr.Call.2@
+
+ÒÒ 0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+ÒÒ (interpreter/RecursiveLanguage.Expr.Name.2@
+
+Ò!Ò !0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+Ò Ò !(interpreter/RecursiveLanguage.Expr.Name.2/
+
+Ù
+Ù scala/Predef.ArrowAssoc#`->`().2*
+
+ÙÙ scala/Predef.ArrowAssoc().2?
+
+ÙÙ /interpreter/RecursiveLanguage.Expr.Fun.apply().27
+
+ÙÙ 'interpreter/RecursiveLanguage.Expr.Fun.2?
+
+ÙÙ /interpreter/RecursiveLanguage.Expr.Fun.apply().27
+
+ÙÙ 'interpreter/RecursiveLanguage.Expr.Fun.2A
+
+Ù%Ù %1interpreter/RecursiveLanguage.Expr.Match.apply().29
+
+Ù Ù %)interpreter/RecursiveLanguage.Expr.Match.2@
+
+Ù'Ù '0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+Ù&Ù '(interpreter/RecursiveLanguage.Expr.Name.29
+
+Ù/Ù 4)interpreter/RecursiveLanguage.Expr.Empty.2@
+
+ÙEÙ E0interpreter/RecursiveLanguage.Expr.Cons.apply().28
+
+ÙAÙ E(interpreter/RecursiveLanguage.Expr.Cons.2@
+
+ÙJÙ J0interpreter/RecursiveLanguage.Expr.Call.apply().28
+
+ÙFÙ J(interpreter/RecursiveLanguage.Expr.Call.2@
+
+ÙLÙ L0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+ÙKÙ L(interpreter/RecursiveLanguage.Expr.Name.2@
+
+ÙTÙ T0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+ÙSÙ T(interpreter/RecursiveLanguage.Expr.Name.2@
+
+Ù`Ù `0interpreter/RecursiveLanguage.Expr.Call.apply().28
+
+Ù\Ù `(interpreter/RecursiveLanguage.Expr.Call.2@
+
+ÙeÙ e0interpreter/RecursiveLanguage.Expr.Call.apply().28
+
+ÙaÙ e(interpreter/RecursiveLanguage.Expr.Call.2@
+
+ÙgÙ g0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+ÙfÙ g(interpreter/RecursiveLanguage.Expr.Name.2@
+
+ÙqÙ q0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+ÙpÙ q(interpreter/RecursiveLanguage.Expr.Name.2@
+
+Ù{Ù {0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+ÙzÙ {(interpreter/RecursiveLanguage.Expr.Name.2/
+
+˜
+˜ scala/Predef.ArrowAssoc#`->`().2*
+
+˜˜ scala/Predef.ArrowAssoc().2?
+
+˜˜ /interpreter/RecursiveLanguage.Expr.Fun.apply().27
+
+˜˜ 'interpreter/RecursiveLanguage.Expr.Fun.2?
+
+˜˜ /interpreter/RecursiveLanguage.Expr.Fun.apply().27
+
+˜˜ 'interpreter/RecursiveLanguage.Expr.Fun.2E
+
+˜(˜ (5interpreter/RecursiveLanguage.Expr.IfNonzero.apply().2=
+
+˜˜ (-interpreter/RecursiveLanguage.Expr.IfNonzero.2@
+
+˜*˜ *0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+˜)˜ *(interpreter/RecursiveLanguage.Expr.Name.2@
+
+˜5˜ 50interpreter/RecursiveLanguage.Expr.Call.apply().28
+
+˜1˜ 5(interpreter/RecursiveLanguage.Expr.Call.2@
+
+˜:˜ :0interpreter/RecursiveLanguage.Expr.Call.apply().28
+
+˜6˜ :(interpreter/RecursiveLanguage.Expr.Call.2@
+
+˜<˜ <0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+˜;˜ <(interpreter/RecursiveLanguage.Expr.Name.2@
+
+˜F˜ F0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+˜E˜ F(interpreter/RecursiveLanguage.Expr.Name.27
+
+˜N˜ T'interpreter/RecursiveLanguage.modulo().2@
+
+˜V˜ V0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+˜U˜ V(interpreter/RecursiveLanguage.Expr.Name.2@
+
+˜^˜ ^0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+˜]˜ ^(interpreter/RecursiveLanguage.Expr.Name.2@
+
+˜h˜ h0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+˜g˜ h(interpreter/RecursiveLanguage.Expr.Name.2/
+
+˙˙ scala/Predef.ArrowAssoc#`->`().2*
+
+˙˙ scala/Predef.ArrowAssoc().2?
+
+˙˙ /interpreter/RecursiveLanguage.Expr.Fun.apply().27
+
+˙˙ 'interpreter/RecursiveLanguage.Expr.Fun.2?
+
+˙˙ /interpreter/RecursiveLanguage.Expr.Fun.apply().27
+
+˙˙ 'interpreter/RecursiveLanguage.Expr.Fun.2?
+
+˙*˙ */interpreter/RecursiveLanguage.Expr.Fun.apply().27
+
+˙'˙ *'interpreter/RecursiveLanguage.Expr.Fun.2A
+
+˙5˙ 51interpreter/RecursiveLanguage.Expr.Match.apply().29
+
+˙0˙ 5)interpreter/RecursiveLanguage.Expr.Match.2@
+
+˙7˙ 70interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+˙6˙ 7(interpreter/RecursiveLanguage.Expr.Name.2@
+
+˙@˙ @0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+˙?˙ @(interpreter/RecursiveLanguage.Expr.Name.2@
+
+˚˚ 0interpreter/RecursiveLanguage.Expr.Call.apply().28
+
+˚˚ (interpreter/RecursiveLanguage.Expr.Call.2@
+
+˚˚ 0interpreter/RecursiveLanguage.Expr.Call.apply().28
+
+˚˚ (interpreter/RecursiveLanguage.Expr.Call.2@
+
+˚ ˚  0interpreter/RecursiveLanguage.Expr.Call.apply().28
+
+˚˚  (interpreter/RecursiveLanguage.Expr.Call.2@
+
+˚"˚ "0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+˚!˚ "(interpreter/RecursiveLanguage.Expr.Name.2@
+
+˚1˚ 10interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+˚0˚ 1(interpreter/RecursiveLanguage.Expr.Name.2@
+
+˚>˚ >0interpreter/RecursiveLanguage.Expr.Call.apply().28
+
+˚:˚ >(interpreter/RecursiveLanguage.Expr.Call.2@
+
+˚C˚ C0interpreter/RecursiveLanguage.Expr.Call.apply().28
+
+˚?˚ C(interpreter/RecursiveLanguage.Expr.Call.2@
+
+˚E˚ E0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+˚D˚ E(interpreter/RecursiveLanguage.Expr.Name.2@
+
+˚M˚ M0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+˚L˚ M(interpreter/RecursiveLanguage.Expr.Name.2@
+
+˚[˚ [0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+˚W˚ [(interpreter/RecursiveLanguage.Expr.Name.2@
+
+˚e˚ e0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+˚d˚ e(interpreter/RecursiveLanguage.Expr.Name.2/
+
+˛˛ scala/Predef.ArrowAssoc#`->`().2*
+
+˛˛ scala/Predef.ArrowAssoc().2?
+
+˛˛ /interpreter/RecursiveLanguage.Expr.Fun.apply().27
+
+˛˛ 'interpreter/RecursiveLanguage.Expr.Fun.2?
+
+˛ ˛  /interpreter/RecursiveLanguage.Expr.Fun.apply().27
+
+˛˛  'interpreter/RecursiveLanguage.Expr.Fun.2?
+
+˛)˛ )/interpreter/RecursiveLanguage.Expr.Fun.apply().27
+
+˛&˛ )'interpreter/RecursiveLanguage.Expr.Fun.2A
+
+˛7˛ 71interpreter/RecursiveLanguage.Expr.Match.apply().29
+
+˛2˛ 7)interpreter/RecursiveLanguage.Expr.Match.2@
+
+˛9˛ 90interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+˛8˛ 9(interpreter/RecursiveLanguage.Expr.Name.2@
+
+˛B˛ B0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+˛A˛ B(interpreter/RecursiveLanguage.Expr.Name.2@
+
+ˇˇ 0interpreter/RecursiveLanguage.Expr.Call.apply().28
+
+ˇˇ (interpreter/RecursiveLanguage.Expr.Call.2@
+
+ˇ!ˇ !0interpreter/RecursiveLanguage.Expr.Call.apply().28
+
+ˇˇ !(interpreter/RecursiveLanguage.Expr.Call.2@
+
+ˇ#ˇ #0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+ˇ"ˇ #(interpreter/RecursiveLanguage.Expr.Name.2@
+
+ˇ.ˇ .0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+ˇ-ˇ .(interpreter/RecursiveLanguage.Expr.Name.2@
+
+ÄÄ 0interpreter/RecursiveLanguage.Expr.Call.apply().28
+
+ÄÄ (interpreter/RecursiveLanguage.Expr.Call.2@
+
+Ä#Ä #0interpreter/RecursiveLanguage.Expr.Call.apply().28
+
+ÄÄ #(interpreter/RecursiveLanguage.Expr.Call.2@
+
+Ä(Ä (0interpreter/RecursiveLanguage.Expr.Call.apply().28
+
+Ä$Ä ((interpreter/RecursiveLanguage.Expr.Call.2@
+
+Ä*Ä *0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+Ä)Ä *(interpreter/RecursiveLanguage.Expr.Name.2@
+
+Ä:Ä :0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+Ä9Ä :(interpreter/RecursiveLanguage.Expr.Name.2@
+
+ÄDÄ D0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+ÄCÄ D(interpreter/RecursiveLanguage.Expr.Name.2@
+
+ÄMÄ M0interpreter/RecursiveLanguage.Expr.Name.apply().28
+
+ÄLÄ M(interpreter/RecursiveLanguage.Expr.Name.25
+
+ÉÉ 
+%interpreter/RecursiveLanguage.main().2;
+
+ÉÉ +interpreter/RecursiveLanguage.main().(args)2
+
+ÉÉ scala/Array#2$
+
+ÉÉ scala/Predef.String#2
+
+É!É %scala/Unit#2)
+
+ÑÑ scala/Predef.println(+1).28
+
+ÑÑ (interpreter/RecursiveLanguage.showEnv().2:
+
+ÑÑ *interpreter/RecursiveLanguage.definitions.PZ 912A57419E381D95F92ABF1BFBDA4629

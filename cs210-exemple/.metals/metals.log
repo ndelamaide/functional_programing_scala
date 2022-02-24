@@ -1,0 +1,333 @@
+2020.09.23 15:18:58 INFO  started: Metals version 0.9.3+82-189ba64a-SNAPSHOT in workspace '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-exemple' for client vscode.
+java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@2d67e38b rejected from java.util.concurrent.ThreadPoolExecutor@38074716[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 1]
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2063)
+	at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:830)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1379)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020.09.23 15:19:03 INFO  started: Metals version 0.9.4 in workspace '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-exemple' for client vscode.
+2020.09.23 15:19:04 INFO  time: initialize in 0.44s
+2020.09.23 15:19:15 INFO  no build target: using presentation compiler with only scala-library
+2020.09.23 15:19:21 INFO  no build target: using presentation compiler with only scala-library
+2020.09.23 15:19:21 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 6.3s
+2020.09.23 15:19:22 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 0.75s
+2020.09.23 15:19:22 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 0.43s
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:1:1: object a is not a member of package scala
+import scala.a
+^^^^^^^^^^^^^^
+2020.09.23 15:19:23 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 0.11s
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:1:1: object an is not a member of package scala
+import scala.an
+^^^^^^^^^^^^^^^
+2020.09.23 15:19:23 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 58ms
+2020.09.23 15:19:25 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 0.36s
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:1:1: object tai is not a member of package annotation
+import scala.annotation.tai
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.09.23 15:19:26 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 68ms
+2020.09.23 15:19:28 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 0.27s
+2020.09.23 15:19:28 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 0.41s
+[33mwarning[39m: src/main/scala/example/ex1test.worksheet.sc:5:17: then is a reserved word (since 2.10.0); usage as an identifier is deprecated
+    if (n <= 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:5:17: not found: value then
+    if (n <= 0) then acc else fact(n-1,acc*n)
+                ^^^^
+2020.09.23 15:19:29 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 0.25s
+[33mwarning[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: then is a reserved word (since 2.10.0); usage as an identifier is deprecated
+    if (n <= 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: not found: value then
+    if (n <= 0) then acc else fact(n-1,acc*n)
+                ^^^^
+2020.09.23 15:19:31 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 0.1s
+[33mwarning[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: then is a reserved word (since 2.10.0); usage as an identifier is deprecated
+    if (n <= 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: not found: value then
+    if (n <= 0) then acc else fact(n-1,acc*n)
+                ^^^^
+2020.09.23 15:19:34 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 84ms
+[33mwarning[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: then is a reserved word (since 2.10.0); usage as an identifier is deprecated
+    if (n <= 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: not found: value then
+    if (n <= 0) then acc else fact(n-1,acc*n)
+                ^^^^
+2020.09.23 15:19:38 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 81ms
+[33mwarning[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: then is a reserved word (since 2.10.0); usage as an identifier is deprecated
+    if (n <= 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: not found: value then
+    if (n <= 0) then acc else fact(n-1,acc*n)
+                ^^^^
+2020.09.23 15:19:39 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 83ms
+[33mwarning[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: then is a reserved word (since 2.10.0); usage as an identifier is deprecated
+    if (n <= 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: not found: value then
+    if (n <= 0) then acc else fact(n-1,acc*n)
+                ^^^^
+2020.09.23 15:19:40 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 74ms
+[33mwarning[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: then is a reserved word (since 2.10.0); usage as an identifier is deprecated
+    if (n <= 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: not found: value then
+    if (n <= 0) then acc else fact(n-1,acc*n)
+                ^^^^
+2020.09.23 15:19:44 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 71ms
+2020.09.23 15:19:51 WARN  no build target for: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-exemple/src/main/scala/example/Lists.scala
+[33mwarning[39m: src/main/scala/example/ex1test.worksheet.sc:6:16: then is a reserved word (since 2.10.0); usage as an identifier is deprecated
+    if (n = 0) then acc else fact(n-1,acc*n)
+               ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:6:9: reassignment to val
+    if (n = 0) then acc else fact(n-1,acc*n)
+        ^^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:6:16: not found: value then
+    if (n = 0) then acc else fact(n-1,acc*n)
+               ^^^^
+2020.09.23 15:20:03 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 77ms
+[33mwarning[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: then is a reserved word (since 2.10.0); usage as an identifier is deprecated
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: not found: value then
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+2020.09.23 15:20:03 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 79ms
+2020.09.23 15:20:30 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 0.22s
+[33mwarning[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: then is a reserved word (since 2.10.0); usage as an identifier is deprecated
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: not found: value then
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+2020.09.23 15:20:32 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 70ms
+[33mwarning[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: then is a reserved word (since 2.10.0); usage as an identifier is deprecated
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: not found: value then
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+2020.09.23 15:20:34 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 78ms
+[33mwarning[39m: src/main/scala/example/ex1test.worksheet.sc:6:13: then is a reserved word (since 2.10.0); usage as an identifier is deprecated
+if (n == 0) then acc else fact(n-1,acc*n)
+            ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:6:13: not found: value then
+if (n == 0) then acc else fact(n-1,acc*n)
+            ^^^^
+2020.09.23 15:20:36 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 68ms
+[33mwarning[39m: src/main/scala/example/ex1test.worksheet.sc:6:14: then is a reserved word (since 2.10.0); usage as an identifier is deprecated
+ if (n == 0) then acc else fact(n-1,acc*n)
+             ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:6:14: not found: value then
+ if (n == 0) then acc else fact(n-1,acc*n)
+             ^^^^
+2020.09.23 15:20:41 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 70ms
+[33mwarning[39m: src/main/scala/example/ex1test.worksheet.sc:6:13: then is a reserved word (since 2.10.0); usage as an identifier is deprecated
+if (n == 0) then acc else fact(n-1,acc*n)
+            ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:6:13: not found: value then
+if (n == 0) then acc else fact(n-1,acc*n)
+            ^^^^
+2020.09.23 15:20:42 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 64ms
+[33mwarning[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: then is a reserved word (since 2.10.0); usage as an identifier is deprecated
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: not found: value then
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+2020.09.23 15:20:43 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 67ms
+[33mwarning[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: then is a reserved word (since 2.10.0); usage as an identifier is deprecated
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: not found: value then
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+2020.09.23 15:21:06 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 75ms
+[33mwarning[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: then is a reserved word (since 2.10.0); usage as an identifier is deprecated
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: not found: value then
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:7:5: not found: value f
+    f
+    ^
+2020.09.23 15:21:08 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 0.1s
+[33mwarning[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: then is a reserved word (since 2.10.0); usage as an identifier is deprecated
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: not found: value then
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:7:5: missing argument list for method fact in class App
+Unapplied methods are only converted to functions when a function type is expected.
+You can make this conversion explicit by writing `fact _` or `fact(_,_)` instead of `fact`.
+    fact
+    ^^^^
+2020.09.23 15:21:08 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 83ms
+[33mwarning[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: then is a reserved word (since 2.10.0); usage as an identifier is deprecated
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: not found: value then
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:7:5: not enough arguments for method fact: (n: Int, acc: Int)Int.
+Unspecified value parameters n, acc.
+    fact()
+    ^^^^^^
+2020.09.23 15:21:10 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 0.2s
+2020.09.23 15:21:37 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 0.27s
+2020.09.23 15:21:37 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 0.16s
+[33mwarning[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: then is a reserved word (since 2.10.0); usage as an identifier is deprecated
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: not found: value then
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:7:10: not found: value n
+    fact(n,1)
+         ^
+2020.09.23 15:21:38 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 82ms
+[33mwarning[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: then is a reserved word (since 2.10.0); usage as an identifier is deprecated
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: not found: value then
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:7:10: not found: value n
+    fact(n,1)
+         ^
+2020.09.23 15:21:39 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 65ms
+[33mwarning[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: then is a reserved word (since 2.10.0); usage as an identifier is deprecated
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: not found: value then
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:7:6: not found: value n
+fact(n,1)
+     ^
+2020.09.23 15:21:47 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 62ms
+[33mwarning[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: then is a reserved word (since 2.10.0); usage as an identifier is deprecated
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: not found: value then
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:7:6: not found: value n
+fact(n, 1)
+     ^
+2020.09.23 15:21:50 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 84ms
+[33mwarning[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: then is a reserved word (since 2.10.0); usage as an identifier is deprecated
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: not found: value then
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:7:6: not found: value n
+fact(n, 1)
+     ^
+2020.09.23 15:21:57 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 76ms
+[33mwarning[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: then is a reserved word (since 2.10.0); usage as an identifier is deprecated
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: not found: value then
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:7:6: not found: value n
+fact(n, 1)
+     ^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:9:1: not found: value f
+f
+^
+2020.09.23 15:22:00 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 0.12s
+[33mwarning[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: then is a reserved word (since 2.10.0); usage as an identifier is deprecated
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: not found: value then
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:7:6: not found: value n
+fact(n, 1)
+     ^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:9:1: not found: value fac
+fac
+^^^
+2020.09.23 15:22:00 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 68ms
+[33mwarning[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: then is a reserved word (since 2.10.0); usage as an identifier is deprecated
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: not found: value then
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:7:6: not found: value n
+fact(n, 1)
+     ^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:9:1: missing argument list for method fact in class App
+Unapplied methods are only converted to functions when a function type is expected.
+You can make this conversion explicit by writing `fact _` or `fact(_,_)` instead of `fact`.
+fact
+^^^^
+2020.09.23 15:22:01 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 59ms
+[33mwarning[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: then is a reserved word (since 2.10.0); usage as an identifier is deprecated
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: not found: value then
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:7:6: not found: value n
+fact(n, 1)
+     ^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:9:1: missing argument list for method factorial in class App
+Unapplied methods are only converted to functions when a function type is expected.
+You can make this conversion explicit by writing `factorial _` or `factorial(_)` instead of `factorial`.
+factorial
+^^^^^^^^^
+2020.09.23 15:22:03 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 64ms
+[33mwarning[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: then is a reserved word (since 2.10.0); usage as an identifier is deprecated
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: not found: value then
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:7:6: not found: value n
+fact(n, 1)
+     ^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:9:1: not enough arguments for method factorial: (n: Int)Int.
+Unspecified value parameter n.
+factorial()
+^^^^^^^^^^^
+2020.09.23 15:22:04 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 75ms
+[33mwarning[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: then is a reserved word (since 2.10.0); usage as an identifier is deprecated
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: not found: value then
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:7:6: not found: value n
+fact(n, 1)
+     ^
+2020.09.23 15:22:06 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 0.3s
+[33mwarning[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: then is a reserved word (since 2.10.0); usage as an identifier is deprecated
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:6:17: not found: value then
+    if (n == 0) then acc else fact(n-1,acc*n)
+                ^^^^
+[31merror[39m: src/main/scala/example/ex1test.worksheet.sc:7:6: not found: value n
+fact(n, 1)
+     ^
+2020.09.23 15:22:09 INFO  time: evaluated worksheet 'ex1test.worksheet.sc' in 0.11s
+2020.09.23 15:22:38 INFO  shutting down Metals

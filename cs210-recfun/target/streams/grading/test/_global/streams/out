@@ -1,0 +1,10 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for munit.Framework produced 1 initial tasks for 1 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(recfun.RecFunSuite, sbt.ForkMain$SubclassFingerscan@570bb32, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 19 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0mSummary for munit not available.[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 19, Failed 0, Errors 0, Passed 19[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	recfun.RecFunSuite[0m

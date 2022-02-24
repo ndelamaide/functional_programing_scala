@@ -1,0 +1,20 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets/src/main/scala/funsets/FunSets.scala:31:4 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m31 |[0m    ([36mx[0m: [35mInt[0m) => (contains(s, x) || contains(t, x))[0m
+[0m[[0m[31merror[0m] [0m[0m   |    [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |    end of statement expected but '(' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E040] Syntax Error: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets/src/main/scala/funsets/FunSets.scala:31:5 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m31 |[0m    ([36mx[0m: [35mInt[0m) => (contains(s, x) || contains(t, x))[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     ';' expected, but identifier found[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading Main 2$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets/target/scala-0.27/classes/funsets/Main 2.class' has location not matching its contents: contains class funsets.Main[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading FunSetsInterface 2$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets/target/scala-0.27/classes/funsets/FunSetsInterface 2.class' has location not matching its contents: contains class funsets.FunSetsInterface[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading FunSets 2$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets/target/scala-0.27/classes/funsets/FunSets 2.class' has location not matching its contents: contains class funsets.FunSets[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets/src/main/scala/funsets/FunSets.scala:30:10 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m30 |[0m     print([31m"test"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m   |     [31m^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |     Found:    Unit[0m
+[0m[[0m[31merror[0m] [0m[0m   |     Required: FunSets.this.FunSet[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m

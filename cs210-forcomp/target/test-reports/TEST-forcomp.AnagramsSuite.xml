@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="Nicolas.local" name="forcomp.AnagramsSuite" tests="36" errors="0" failures="0" skipped="0" time="0.983" timestamp="2020-10-22T14:07:34">
+                     <properties>
+      <property name="jline.esc.timeout" value="0"/><property name="jna.platform.library.path" value="/usr/lib:/usr/lib"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="sun.boot.library.path" value="/Users/Nicolas/Library/Caches/Coursier/jvm/adopt@1.8.0-252/Contents/Home/jre/lib"/><property name="java.vm.version" value="25.252-b09"/><property name="gopherProxySet" value="false"/><property name="java.vm.vendor" value="AdoptOpenJDK"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=":"/><property name="jna.loaded" value="true"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="CH"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="jna.nosys" value="true"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/Users/Nicolas/Desktop/MA1/FP/labs/cs210-forcomp"/><property name="java.runtime.version" value="1.8.0_252-b09"/><property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/><property name="java.endorsed.dirs" value="/Users/Nicolas/Library/Caches/Coursier/jvm/adopt@1.8.0-252/Contents/Home/jre/lib/endorsed"/><property name="os.arch" value="x86_64"/><property name="java.io.tmpdir" value="/var/folders/gv/9f1qr5t910dbg02_n42k2q1m0000gn/T/"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="log4j.ignoreTCL" value="true"/><property name="os.name" value="Mac OS X"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/Users/Nicolas/Library/Caches/JNA/temp/jna2046276286219602980.tmp"/><property name="java.library.path" value="/Users/Nicolas/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.15.7"/><property name="coursier.mainJar" value="/Users/Nicolas/Library/Application Support/Coursier/bin/sbt"/><property name="swoval.tmpdir" value="/Users/Nicolas/.sbt/1.0"/><property name="user.home" value="/Users/Nicolas"/><property name="user.timezone" value="Europe/Zurich"/><property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="/Users/Nicolas/Library/Application Support/Coursier/bin/sbt:/Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/sbt/sbt-runner/0.2.0/sbt-runner-0.2.0.jar:/Users/Nicolas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbt-launch/1.3.13/sbt-launch-1.3.13.jar"/><property name="user.name" value="Nicolas"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="/Users/Nicolas/Library/Application Support/Coursier/bin/sbt"/><property name="java.home" value="/Users/Nicolas/Library/Caches/Coursier/jvm/adopt@1.8.0-252/Contents/Home/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="fr"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="bootstrap.mainClass" value="xsbt.boot.Boot"/><property name="java.version" value="1.8.0_252"/><property name="sbt-launch.version" value="1.3.13"/><property name="java.ext.dirs" value="/Users/Nicolas/Library/Java/Extensions:/Users/Nicolas/Library/Caches/Coursier/jvm/adopt@1.8.0-252/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/><property name="sun.boot.class.path" value="/Users/Nicolas/Library/Caches/Coursier/jvm/adopt@1.8.0-252/Contents/Home/jre/lib/resources.jar:/Users/Nicolas/Library/Caches/Coursier/jvm/adopt@1.8.0-252/Contents/Home/jre/lib/rt.jar:/Users/Nicolas/Library/Caches/Coursier/jvm/adopt@1.8.0-252/Contents/Home/jre/lib/sunrsasign.jar:/Users/Nicolas/Library/Caches/Coursier/jvm/adopt@1.8.0-252/Contents/Home/jre/lib/jsse.jar:/Users/Nicolas/Library/Caches/Coursier/jvm/adopt@1.8.0-252/Contents/Home/jre/lib/jce.jar:/Users/Nicolas/Library/Caches/Coursier/jvm/adopt@1.8.0-252/Contents/Home/jre/lib/charsets.jar:/Users/Nicolas/Library/Caches/Coursier/jvm/adopt@1.8.0-252/Contents/Home/jre/lib/jfr.jar:/Users/Nicolas/Library/Caches/Coursier/jvm/adopt@1.8.0-252/Contents/Home/jre/classes"/><property name="java.vendor" value="AdoptOpenJDK"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="sun.cpu.endian" value="little"/><property name="sun.cpu.isalist" value=""/>
+    </properties>
+                     <testcase classname="forcomp.AnagramsSuite" name="wordOccurrences: abcd (3pts)" time="0.043">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="wordOccurrences: Robert (3pts)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="wordOccurrences: love (3pts)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="wordOccurrences: lovely (3pts)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="wordOccurrences: Ant (3pts)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="wordOccurrences: Adam (3pts)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="wordOccurrences: Heather (3pts)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="sentenceOccurrences: abcd e (5pts)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="sentenceOccurrences: [] (10pts)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="sentenceOccurrences: Roberto Carlos" time="0.002">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="dictionaryByOccurrences.get: eat (10pts)" time="0.549">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="dictionaryByOccurrences.get: grab (10pts)" time="0.006">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="dictionaryByOccurrences.get: tan (10pts)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="wordAnagrams married (2pts)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="wordAnagrams player (2pts)" time="0.003">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="word anagrams: reactive (4pts)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="word anagrams: silent (4pts)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="word anagrams: Easter (4pts)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="word anagrams: Elvis (4pts)" time="0.008">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="word anagrams: leaf (4pts)" time="0.003">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="subtract: lard - r (10pts)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="subtract: jimmy - my (10pts)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="subtract: ok - ok (10pts)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="subtract: abba - abba (10pts)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="subtract: assessment - assess (10pts)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="combinations: [] (8pts)" time="0.001">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="combinations: abba (8pts)" time="0.036">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="combinations: ok (8pts)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="combinations: eye (8pts)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="combinations: kokok (8pts)" time="0.003">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="sentence anagrams: [] (10pts)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="sentence anagrams: Linux rulez (10pts)" time="0.133">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="sentence anagrams: I love you (10pts)" time="0.004">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="sentence anagrams: Lukas Rytz (10pts)" time="0.021">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="sentence anagrams: Yell Xerxes (10pts)" time="0.081">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="sentence anagrams: Heather (10pts)" time="0.06">
+                                                 
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>

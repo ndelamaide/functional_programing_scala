@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-streams/src/main/scala/streams/Solver.scala:32:21 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m32 |[0m    [33myield[0m (neigh._1, n._2 :: history)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                     [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                     Not found: n[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

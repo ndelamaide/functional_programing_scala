@@ -1,0 +1,1 @@
+["sbt.Task[scala.collection.immutable.Map[java.lang.String, scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]]",{"3.0.0-M1":{"hashes":[["/Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/src/test/scala/codecs/CodecsSuite.scala","99bdfac85587eba4b5b5085ebb6560217356bfe6"]],"lastModifiedTimes":[]}}]

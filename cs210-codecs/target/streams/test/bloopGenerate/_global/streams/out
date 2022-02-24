@@ -1,0 +1,4 @@
+[debug] [cs210-codecs-test] Classpath dependencies List()
+[debug] [cs210-codecs-test] Dependencies from configurations List(cs210-codecs)
+[debug] Bloop wrote the configuration of project 'cs210-codecs-test' to '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-codecs/.bloop/cs210-codecs-test.json'
+[success] Generated .bloop/cs210-codecs-test.json

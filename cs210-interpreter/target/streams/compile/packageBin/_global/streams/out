@@ -1,0 +1,379 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/progfun2-interpreter_3.0.0-M1-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Match 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Match 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Cons 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Cons 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$BinOps 8.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$BinOps 8.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Call$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Call$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$BinOp$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$BinOp$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$BinOps.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$BinOps.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Fun 9.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Fun 9.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Name$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Name$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$IfNonzero 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$IfNonzero 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$BinOps$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$BinOps$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Call 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Call 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Constant$ 8.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Constant$ 8.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Name 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Name 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Fun$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Fun$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Call 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Call 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$BinOp 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$BinOp 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Fun$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Fun$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Name 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Name 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$EvalException$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$EvalException$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$BinOps$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$BinOps$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Constant 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Constant 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$BinOps$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$BinOps$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Cons$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Cons$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Call$ 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Call$ 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$BinOp$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$BinOp$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$BinOp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$BinOp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$IfNonzero$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$IfNonzero$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Name$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Name$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Call$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Call$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$BinOp$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$BinOp$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Constant 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Constant 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$IfNonzero$ 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$IfNonzero$ 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Match 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Match 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Cons 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Cons 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Name 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Name 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Call 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Call 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$BinOp 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$BinOp 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/Logger.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/Logger.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$BinOps$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$BinOps$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Name$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Name$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$IfNonzero 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$IfNonzero 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Name$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Name$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$IfNonzero 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$IfNonzero 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Fun$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Fun$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$BinOp 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$BinOp 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Cons 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Cons 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$IfNonzero$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$IfNonzero$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Cons$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Cons$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Constant 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Constant 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Constant.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Constant.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$BinOps$ 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$BinOps$ 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Fun$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Fun$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$BinOp 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$BinOp 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$IfNonzero$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$IfNonzero$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Constant 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Constant 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Cons$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Cons$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Call$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Call$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$BinOp$ 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$BinOp$ 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Call$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Call$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$BinOp$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$BinOp$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Match 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Match 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Cons 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Cons 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Name 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Name 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Fun$ 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Fun$ 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Call 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Call 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Fun.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Fun.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$BinOps$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$BinOps$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/Logger.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/Logger.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Fun 8.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Fun 8.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$ 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$ 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Name$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Name$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$IfNonzero 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$IfNonzero 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$BinOp 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$BinOp 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Fun$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Fun$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Name$ 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Name$ 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Cons$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Cons$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Constant 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Constant 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$BinOp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$BinOp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Cons 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Cons 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Match 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Match 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$IfNonzero$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$IfNonzero$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$IfNonzero$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$IfNonzero$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Match 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Match 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Cons.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Cons.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Cons 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Cons 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Call$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Call$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$BinOp$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$BinOp$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Constant 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Constant 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Name$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Name$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$IfNonzero 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$IfNonzero 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$BinOps$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$BinOps$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Call 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Call 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$BinOp 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$BinOp 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Name 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Name 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Constant$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Constant$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Fun 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Fun 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$EvalException 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$EvalException 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Match$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Match$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Name.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Name.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$$anon$1 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$$anon$1 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$$anon$2 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$$anon$2 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$EvalException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$EvalException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$BinOps 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$BinOps 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$$anon$1 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$$anon$1 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$EvalException$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$EvalException$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Cons$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Cons$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Match$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Match$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Fun 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Fun 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$EvalException 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$EvalException 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Match.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Match.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Constant$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Constant$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$BinOps 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$BinOps 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage 3.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage 3.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$$anon$1 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$$anon$1 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$$anon$2 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$$anon$2 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$IfNonzero.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$IfNonzero.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$IfNonzero$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$IfNonzero$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$BinOps 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$BinOps 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Fun$ 9.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Fun$ 9.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Match$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Match$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Constant$ 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Constant$ 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Match$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Match$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$EvalException$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$EvalException$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$EvalException 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$EvalException 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Fun 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Fun 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$$anon$2 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$$anon$2 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$$anon$1 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$$anon$1 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$BinOp 8.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$BinOp 8.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Call$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Call$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/Logger$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/Logger$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$EvalException$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$EvalException$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$EvalException$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$EvalException$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Match$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Match$ 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Fun 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Fun 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Name$ 8.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Name$ 8.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$EvalException 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$EvalException 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Constant$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Constant$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Constant$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Constant$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$BinOps 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$BinOps 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$$anon$1 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$$anon$1 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage 4.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage 4.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$$anon$2 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$$anon$2 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Fun$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Fun$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$BinOps 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$BinOps 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$EvalException 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$EvalException 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Fun 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Fun 7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$EvalException$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$EvalException$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Constant$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Constant$ 6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$ 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Fun$ 8.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Fun$ 8.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Constant$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Constant$ 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Fun 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Fun 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$EvalException 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$EvalException 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Call.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Call.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr$Match$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr$Match$ 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage 2.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage 2.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$Expr 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$Expr 5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$$anon$1 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$$anon$1 3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$$anon$2 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$$anon$2 2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	interpreter/RecursiveLanguage$BinOps 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/Nicolas/Desktop/MA1/FP/labs/cs210-interpreter/target/scala-3.0.0-M1/classes/interpreter/RecursiveLanguage$BinOps 4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

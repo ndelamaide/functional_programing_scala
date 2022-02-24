@@ -1,0 +1,102 @@
+
+þ$'src/test/scala/recfun/RecFunSuite.scala*'
+recfun/RecFunSuite#*RecFunSuite€*0
+recfun/RecFunSuite#`<init>`(). €@*<init>€*8
+ recfun/RecFunSuite#munitTimeout. €*munitTimeout€2
+ recfun/2!
+ recfun/RecFunSuite#2,
+ recfun/RecFunSuite#`<init>`().2(
+( (munit/FunSuite#`<init>`().2
+  (munit/FunSuite#2
+ munit/2
+	 recfun/RecFun.2$
+ munit/FunSuite#test().2(
+ 
+munit/Assertions#assert().2&
+ recfun/RecFun.balance().28
+0 6*scala/collection/IterableOnceOps#toList().26
+ (scala/LowPriorityImplicits#wrapString().2B
+8 84munit/internal/MacroCompat.LocationMacro#generate().2B
+		 4munit/internal/MacroCompat.LocationMacro#generate().2$
+ munit/FunSuite#test().2(
+ 
+munit/Assertions#assert().2&
+ recfun/RecFun.balance().28
+W ]*scala/collection/IterableOnceOps#toList().26
+ (scala/LowPriorityImplicits#wrapString().2B
+_ _4munit/internal/MacroCompat.LocationMacro#generate().2B
+ 4munit/internal/MacroCompat.LocationMacro#generate().2$
+ munit/FunSuite#test().2(
+ 
+munit/Assertions#assert().2(
+! !scala/Boolean#`unary_!`().2&
+ recfun/RecFun.balance().28
+  *scala/collection/IterableOnceOps#toList().26
+ (scala/LowPriorityImplicits#wrapString().2B
+" "4munit/internal/MacroCompat.LocationMacro#generate().2B
+ 4munit/internal/MacroCompat.LocationMacro#generate().2$
+ munit/FunSuite#test().2(
+ 
+munit/Assertions#assert().2(
+" "scala/Boolean#`unary_!`().2&
+ recfun/RecFun.balance().28
+ !*scala/collection/IterableOnceOps#toList().26
+ (scala/LowPriorityImplicits#wrapString().2B
+# #4munit/internal/MacroCompat.LocationMacro#generate().2B
+ 4munit/internal/MacroCompat.LocationMacro#generate().2$
+ munit/FunSuite#test().2.
+  munit/Assertions#assertEquals().2*
+ recfun/RecFun.countChange().27
+# #)scala/collection/IterableFactory#apply().2!
+ #scala/package.List.2B
+- -4munit/internal/MacroCompat.LocationMacro#generate().2!
+- -scala/`<:<`.refl().2B
+ 4munit/internal/MacroCompat.LocationMacro#generate().2$
+ munit/FunSuite#test().2.
+  munit/Assertions#assertEquals().2*
+ recfun/RecFun.countChange().27
+% %)scala/collection/IterableFactory#apply().2!
+! %scala/package.List.2B
+E E4munit/internal/MacroCompat.LocationMacro#generate().2!
+E Escala/`<:<`.refl().2B
+ 4munit/internal/MacroCompat.LocationMacro#generate().2$
+!! munit/FunSuite#test().2.
+""  munit/Assertions#assertEquals().2*
+"" recfun/RecFun.countChange().27
+"%" %)scala/collection/IterableFactory#apply().2!
+"!" %scala/package.List.2B
+"B" B4munit/internal/MacroCompat.LocationMacro#generate().2!
+"B" Bscala/`<:<`.refl().2B
+## 4munit/internal/MacroCompat.LocationMacro#generate().2$
+%% munit/FunSuite#test().2.
+&&  munit/Assertions#assertEquals().2*
+&& recfun/RecFun.countChange().27
+&%& %)scala/collection/IterableFactory#apply().2!
+&!& %scala/package.List.2B
+&E& E4munit/internal/MacroCompat.LocationMacro#generate().2!
+&E& Escala/`<:<`.refl().2B
+'' 4munit/internal/MacroCompat.LocationMacro#generate().2$
+++ munit/FunSuite#test().2.
+,,  munit/Assertions#assertEquals().2%
+,, recfun/RecFun.pascal().2B
+,!, !4munit/internal/MacroCompat.LocationMacro#generate().2!
+,!, !scala/`<:<`.refl().2B
+-- 4munit/internal/MacroCompat.LocationMacro#generate().2$
+// munit/FunSuite#test().2.
+00  munit/Assertions#assertEquals().2%
+00 recfun/RecFun.pascal().2B
+0!0 !4munit/internal/MacroCompat.LocationMacro#generate().2!
+0!0 !scala/`<:<`.refl().2B
+11 4munit/internal/MacroCompat.LocationMacro#generate().2$
+33 munit/FunSuite#test().2.
+44  munit/Assertions#assertEquals().2%
+44 recfun/RecFun.pascal().2B
+4!4 !4munit/internal/MacroCompat.LocationMacro#generate().2!
+4!4 !scala/`<:<`.refl().2B
+55 4munit/internal/MacroCompat.LocationMacro#generate().2.
+77  recfun/RecFunSuite#munitTimeout.2;
+7@7 @-scala/concurrent/duration/Duration.apply(+2).21
+787 @#scala/concurrent/duration/Duration.2(
+7/7 7scala/concurrent/duration/2
+7$7 .scala/concurrent/2
+77 #scala/PZ 24EBCE02C76D753B70B9D094903653BD

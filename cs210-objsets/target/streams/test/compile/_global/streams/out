@@ -1,0 +1,23 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-objsets/src/test/scala/objsets/TweetSetSuite.scala:64:12 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m64 |[0m      print([31m'Descending[0m')[0m
+[0m[[0m[31merror[0m] [0m[0m   |            [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |symbol literal 'Descending is no longer supported,[0m
+[0m[[0m[31merror[0m] [0m[0m   |use a string literal "Descending" or an application Symbol("Descending") instead,[0m
+[0m[[0m[31merror[0m] [0m[0m   |or enclose in braces '{Descending} if you want a quoted expression.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-objsets/src/test/scala/objsets/TweetSetSuite.scala:64:23 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m64 |[0m      print([31m'Descending[0m')[0m
+[0m[[0m[31merror[0m] [0m[0m   |                       [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                       unclosed character literal[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-objsets/src/test/scala/objsets/TweetSetSuite.scala:69:11 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m69 |[0m  [33moverride[0m [33mval[0m munitTimeout = scala.concurrent.duration.Duration([31m10[0m, [31m"s"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m   |           [31m^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |           end of statement expected but 'val' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E040] Syntax Error: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-objsets/src/test/scala/objsets/TweetSetSuite.scala:69:15 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m69 |[0m  [33moverride[0m [33mval[0m munitTimeout = scala.concurrent.duration.Duration([31m10[0m, [31m"s"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m   |               [31m^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |               ';' expected, but identifier found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/Nicolas/Desktop/MA1/FP/labs/cs210-objsets/src/test/scala/objsets/TweetSetSuite.scala:69:2 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m69 |[0m  [33moverride[0m [33mval[0m munitTimeout = scala.concurrent.duration.Duration([31m10[0m, [31m"s"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m   |  [31m^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |  Not found: )override[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m

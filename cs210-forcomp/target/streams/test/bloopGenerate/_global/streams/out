@@ -1,0 +1,4 @@
+[debug] [cs210-forcomp-test] Classpath dependencies List()
+[debug] [cs210-forcomp-test] Dependencies from configurations List(cs210-forcomp)
+[debug] Bloop wrote the configuration of project 'cs210-forcomp-test' to '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-forcomp/.bloop/cs210-forcomp-test.json'
+[success] Generated .bloop/cs210-forcomp-test.json

@@ -1,0 +1,4 @@
+[debug] [cs210-patmat-test] Classpath dependencies List()
+[debug] [cs210-patmat-test] Dependencies from configurations List(cs210-patmat)
+[debug] Bloop wrote the configuration of project 'cs210-patmat-test' to '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-patmat/.bloop/cs210-patmat-test.json'
+[success] Generated .bloop/cs210-patmat-test.json

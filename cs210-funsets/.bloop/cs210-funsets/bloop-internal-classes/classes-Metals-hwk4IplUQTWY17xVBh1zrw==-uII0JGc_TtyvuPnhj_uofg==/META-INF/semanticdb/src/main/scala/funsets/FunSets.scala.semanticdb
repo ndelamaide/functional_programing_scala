@@ -1,0 +1,286 @@
+
+–F$src/main/scala/funsets/FunSets.scala* 
+funsets/FunSets#*FunSets€*-
+funsets/FunSets#`<init>`(). €@*<init>€*&
+funsets/FunSets#FunSet#*FunSet€*,
+funsets/FunSets#contains().*contains€*(
+funsets/FunSets#contains().(s)*s€*.
+!funsets/FunSets#contains().(elem)*elem€*4
+funsets/FunSets#singletonSet().*singletonSet€*2
+%funsets/FunSets#singletonSet().(elem)*elem€*
+local0*x€*&
+funsets/FunSets#union().*union€*%
+funsets/FunSets#union().(s)*s€*%
+funsets/FunSets#union().(t)*t€*
+local1*x€*.
+funsets/FunSets#intersect().*	intersect€*)
+funsets/FunSets#intersect().(s)*s€*)
+funsets/FunSets#intersect().(t)*t€*
+local2*x€*$
+funsets/FunSets#diff().*diff€*$
+funsets/FunSets#diff().(s)*s€*$
+funsets/FunSets#diff().(t)*t€*
+local3*x€*(
+funsets/FunSets#filter().*filter€*&
+funsets/FunSets#filter().(s)*s€*&
+funsets/FunSets#filter().(p)*p€*
+local4*x€*'
+funsets/FunSets#bound. €*bound€*(
+funsets/FunSets#forall().*forall€*&
+funsets/FunSets#forall().(s)*s€*&
+funsets/FunSets#forall().(p)*p€*
+local5*iter€*
+local6*a€*(
+funsets/FunSets#exists().*exists€*&
+funsets/FunSets#exists().(s)*s€*&
+funsets/FunSets#exists().(p)*p€*
+local7*x€*"
+funsets/FunSets#map().*map€*#
+funsets/FunSets#map().(s)*s€*#
+funsets/FunSets#map().(f)*f€*
+local8*iter€*
+local9*s€*
+local10*new_s€*
+local11*a€*
+local12*x€*
+local13*x€*,
+funsets/FunSets#toString().*toString€*(
+funsets/FunSets#toString().(s)*s€*
+local14 €*xs€*
+local15*i€*,
+funsets/FunSets#printSet().*printSet€*(
+funsets/FunSets#printSet().(s)*s€*"
+funsets/FunSets.
+ *FunSets€2
+ funsets/2
+ funsets/FunSets#2)
+ funsets/FunSets#`<init>`().2'
+ &funsets/FunSetsInterface#2%
+
+
+ funsets/FunSets#FunSet#2
+
+
+ 
+scala/Int#2
+
+ 
+ 'scala/Boolean#2)
+ funsets/FunSets#contains().2,
+ funsets/FunSets#contains().(s)2%
+ funsets/FunSets#FunSet#2/
+ !funsets/FunSets#contains().(elem)2
+  #
+scala/Int#2
+& -scala/Boolean#2&
+1 1scala/Function1#apply().2,
+0 1funsets/FunSets#contains().(s)2/
+2 6!funsets/FunSets#contains().(elem)2-
+ funsets/FunSets#singletonSet().23
+ %funsets/FunSets#singletonSet().(elem)2
+ 
+scala/Int#2%
+ %funsets/FunSets#FunSet#2
+ local02
+ 
+scala/Int#2!
+ scala/Int#`==`(+3).2
+ local023
+ %funsets/FunSets#singletonSet().(elem)2&
+ funsets/FunSets#union().2)
+ funsets/FunSets#union().(s)2%
+ funsets/FunSets#FunSet#2)
+ funsets/FunSets#union().(t)2%
+  funsets/FunSets#FunSet#2%
+# )funsets/FunSets#FunSet#2#
+ 	scala/Predef.print().2
+ local12
+ 
+scala/Int#2#
+  "scala/Boolean#`||`().2)
+ funsets/FunSets#contains().2)
+ funsets/FunSets#union().(s)2
+ local12)
+# +funsets/FunSets#contains().2)
+, -funsets/FunSets#union().(t)2
+/ 0local12*
+$$ funsets/FunSets#intersect().2-
+$$ funsets/FunSets#intersect().(s)2%
+$$ funsets/FunSets#FunSet#2-
+$$ funsets/FunSets#intersect().(t)2%
+$$ $funsets/FunSets#FunSet#2%
+$'$ -funsets/FunSets#FunSet#2
+%% local22
+%% 
+scala/Int#2#
+% % "scala/Boolean#`&&`().2)
+%% funsets/FunSets#contains().2-
+%% funsets/FunSets#intersect().(s)2
+%% local22)
+%#% +funsets/FunSets#contains().2-
+%,% -funsets/FunSets#intersect().(t)2
+%/% 0local22%
+++ 
+funsets/FunSets#diff().2(
+++ funsets/FunSets#diff().(s)2%
+++ funsets/FunSets#FunSet#2(
+++ funsets/FunSets#diff().(t)2%
+++ funsets/FunSets#FunSet#2%
++"+ (funsets/FunSets#FunSet#2
+,, local32
+,, 
+scala/Int#2#
+, , "scala/Boolean#`&&`().2)
+,, funsets/FunSets#contains().2(
+,, funsets/FunSets#diff().(s)2
+,, local32(
+,2, 2scala/Boolean#`unary_!`().2)
+,$, ,funsets/FunSets#contains().2(
+,-, .funsets/FunSets#diff().(t)2
+,0, 1local32'
+00 funsets/FunSets#filter().2*
+00 funsets/FunSets#filter().(s)2%
+00 funsets/FunSets#FunSet#2*
+00 funsets/FunSets#filter().(p)2
+00 
+scala/Int#2
+0"0 )scala/Boolean#2%
+0,0 2funsets/FunSets#FunSet#2
+11 local42
+11 
+scala/Int#2#
+11 !scala/Boolean#`&&`().2)
+11 funsets/FunSets#contains().2*
+11 funsets/FunSets#filter().(s)2
+11 local42&
+1#1 #scala/Function1#apply().2*
+1"1 #funsets/FunSets#filter().(p)2
+1$1 %local42$
+77 funsets/FunSets#bound.2'
+<< funsets/FunSets#forall().2*
+<< funsets/FunSets#forall().(s)2%
+<< funsets/FunSets#FunSet#2*
+<< funsets/FunSets#forall().(p)2
+<< 
+scala/Int#2
+<"< )scala/Boolean#2
+<,< 3scala/Boolean#2
+== local52
+== local62
+== 
+scala/Int#2
+== scala/Boolean#2 
+>> scala/Int#`>`(+3).2
+>
+> local62$
+>> funsets/FunSets#bound.2#
+@@  scala/Boolean#`&&`().2)
+@@ funsets/FunSets#contains().2*
+@@ funsets/FunSets#forall().(s)2
+@@ local62(
+@&@ &scala/Boolean#`unary_!`().2&
+@#@ #scala/Function1#apply().2*
+@"@ #funsets/FunSets#forall().(p)2
+@$@ %local62
+BB local52 
+BB scala/Int#`+`(+4).2
+BB local62
+DD local52$
+DD scala/Int#`unary_-`().2$
+D
+D funsets/FunSets#bound.2'
+JJ funsets/FunSets#exists().2*
+JJ funsets/FunSets#exists().(s)2%
+JJ funsets/FunSets#FunSet#2*
+JJ funsets/FunSets#exists().(p)2
+JJ 
+scala/Int#2
+J"J )scala/Boolean#2
+J,J 3scala/Boolean#2(
+KK scala/Boolean#`unary_!`().2'
+KK funsets/FunSets#forall().2*
+KK funsets/FunSets#exists().(s)2
+KK local72(
+KK scala/Boolean#`unary_!`().2&
+KK scala/Function1#apply().2*
+KK funsets/FunSets#exists().(p)2
+KK local72$
+PP 	funsets/FunSets#map().2'
+P
+P funsets/FunSets#map().(s)2%
+PP funsets/FunSets#FunSet#2'
+PP funsets/FunSets#map().(f)2
+PP 
+scala/Int#2
+PP "
+scala/Int#2%
+P%P +funsets/FunSets#FunSet#2
+QQ local82
+QQ local92%
+QQ funsets/FunSets#FunSet#2
+QQ local102%
+QQ %funsets/FunSets#FunSet#2
+Q'Q (local112
+Q*Q -
+scala/Int#2%
+Q0Q 6funsets/FunSets#FunSet#2 
+RR scala/Int#`>`(+3).2
+R
+R local112$
+RR funsets/FunSets#bound.2
+RR local102)
+SS funsets/FunSets#contains().2
+SS local92
+SS local112
+S$S (local82
+S)S *local92&
+S,S 1funsets/FunSets#union().2
+S2S 7local102
+S:S ;local122!
+SCS Escala/Int#`==`(+3).2&
+S@S @scala/Function1#apply().2'
+S?S @funsets/FunSets#map().(f)2
+SAS Blocal112
+SES Flocal122 
+SKS Lscala/Int#`+`(+4).2
+SJS Klocal112
+TT local82
+TT local92
+TT local102 
+TT scala/Int#`+`(+4).2
+TT local112
+VV local82'
+V	V 
+funsets/FunSets#map().(s)2
+VV local132$
+VV scala/Int#`unary_-`().2$
+VV funsets/FunSets#bound.2)
+[[ funsets/FunSets#toString().2,
+[[ funsets/FunSets#toString().(s)2%
+[[ funsets/FunSets#FunSet#2"
+[[ !scala/Predef.String#2
+\\ 
+local1420
+\9\ 9"scala/collection/WithFilter#map().28
+\&\ '*scala/collection/IterableOps#withFilter().2)
+\\  scala/runtime/RichInt#to().26
+\\ (scala/LowPriorityImplicits#intWrapper().2$
+\\ scala/Int#`unary_-`().2$
+\\ funsets/FunSets#bound.2$
+\!\ &funsets/FunSets#bound.2
+\\ local152)
+\+\ 3funsets/FunSets#contains().2,
+\4\ 5funsets/FunSets#toString().(s)2
+\7\ 8local152
+\@\ Alocal152:
+]] ,scala/collection/IterableOnceOps#mkString().2
+]] local142)
+bb funsets/FunSets#printSet().2,
+bb funsets/FunSets#printSet().(s)2%
+bb funsets/FunSets#FunSet#2
+bb scala/Unit#2'
+cc scala/Predef.println(+1).2)
+cc funsets/FunSets#toString().2,
+cc funsets/FunSets#printSet().(s)2
+ff funsets/FunSets.2
+ff funsets/FunSets#PZ E17AF4AAD9036A0641E9565DF22BBE9A

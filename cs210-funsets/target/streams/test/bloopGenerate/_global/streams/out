@@ -1,0 +1,4 @@
+[debug] [cs210-funsets-test] Classpath dependencies List()
+[debug] [cs210-funsets-test] Dependencies from configurations List(cs210-funsets)
+[debug] Bloop wrote the configuration of project 'cs210-funsets-test' to '/Users/Nicolas/Desktop/MA1/FP/labs/cs210-funsets/.bloop/cs210-funsets-test.json'
+[success] Generated .bloop/cs210-funsets-test.json
