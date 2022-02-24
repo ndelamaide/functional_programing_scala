@@ -1,540 +1,0 @@
-
-ó‰#src/main/scala/patmat/Huffman.scala*#
-patmat/CodeTree# *CodeTree€*-
-patmat/CodeTree#`<init>`(). €@*<init>€*
-patmat/Fork# €*Fork€*)
-patmat/Fork#`<init>`(). €@*<init>€*-
-patmat/Fork#`<init>`().(left) €*left€*/
-patmat/Fork#`<init>`().(right) €*right€*/
-patmat/Fork#`<init>`().(chars) €*chars€*1
-patmat/Fork#`<init>`().(weight) €*weight€*!
-patmat/Fork#left. €*left€*#
-patmat/Fork#right. €*right€*#
-patmat/Fork#chars. €*chars€*%
-patmat/Fork#weight. €*weight€* 
-patmat/Fork#copy().*copy€*&
-patmat/Fork#copy().(left)*left€*(
-patmat/Fork#copy().(right)*right€*(
-patmat/Fork#copy().(chars)*chars€**
-patmat/Fork#copy().(weight)*weight€*4
-patmat/Fork#copy$default$1().*copy$default$1€*4
-patmat/Fork#copy$default$2().*copy$default$2€*4
-patmat/Fork#copy$default$3().*copy$default$3€*4
-patmat/Fork#copy$default$4().*copy$default$4€*
-patmat/Fork#_1().*_1€*
-patmat/Fork#_2().*_2€*
-patmat/Fork#_3().*_3€*
-patmat/Fork#_4().*_4€*
-patmat/Fork.
- *Fork€*"
-patmat/Fork.apply().*apply€*'
-patmat/Fork.apply().(left)*left€*)
-patmat/Fork.apply().(right)*right€*)
-patmat/Fork.apply().(chars)*chars€*+
-patmat/Fork.apply().(weight)*weight€*&
-patmat/Fork.unapply().*unapply€*'
-patmat/Fork.unapply().(x$1)*x$1€*(
-patmat/Fork.toString().*toString€*
-patmat/Leaf# €*Leaf€*)
-patmat/Leaf#`<init>`(). €@*<init>€*-
-patmat/Leaf#`<init>`().(char) €*char€*1
-patmat/Leaf#`<init>`().(weight) €*weight€*!
-patmat/Leaf#char. €*char€*%
-patmat/Leaf#weight. €*weight€* 
-patmat/Leaf#copy().*copy€*&
-patmat/Leaf#copy().(char)*char€**
-patmat/Leaf#copy().(weight)*weight€*4
-patmat/Leaf#copy$default$1().*copy$default$1€*4
-patmat/Leaf#copy$default$2().*copy$default$2€*
-patmat/Leaf#_1().*_1€*
-patmat/Leaf#_2().*_2€*
-patmat/Leaf.
- *Leaf€*"
-patmat/Leaf.apply().*apply€*'
-patmat/Leaf.apply().(char)*char€*+
-patmat/Leaf.apply().(weight)*weight€*&
-patmat/Leaf.unapply().*unapply€*'
-patmat/Leaf.unapply().(x$1)*x$1€*(
-patmat/Leaf.toString().*toString€*
-patmat/Huffman#*Huffman€*,
-patmat/Huffman#`<init>`(). €@*<init>€*'
-patmat/Huffman#weight().*weight€*+
-patmat/Huffman#weight().(tree)*tree€*%
-patmat/Huffman#chars().*chars€**
-patmat/Huffman#chars().(tree)*tree€*3
-patmat/Huffman#makeCodeTree().*makeCodeTree€*1
-$patmat/Huffman#makeCodeTree().(left)*left€*3
-%patmat/Huffman#makeCodeTree().(right)*right€*
-local0 €*prefix$1€*3
-patmat/Huffman#string2Chars().*string2Chars€*/
-#patmat/Huffman#string2Chars().(str)*str€*%
-patmat/Huffman#times().*times€*,
-patmat/Huffman#times().(chars)*chars€*A
-%patmat/Huffman#makeOrderedLeafList().*makeOrderedLeafList€*:
-,patmat/Huffman#makeOrderedLeafList().(freqs)*freqs€*-
-patmat/Huffman#singleton().*	singleton€*0
-"patmat/Huffman#singleton().(trees)*trees€*)
-patmat/Huffman#combine().*combine€*.
- patmat/Huffman#combine().(trees)*trees€*%
-patmat/Huffman#until().*until€**
-patmat/Huffman#until().(done)*done€*,
-patmat/Huffman#until().(merge)*merge€*,
-patmat/Huffman#until().(trees)*trees€*7
- patmat/Huffman#createCodeTree().*createCodeTree€*5
-'patmat/Huffman#createCodeTree().(chars)*chars€*
-patmat/Huffman#Bit#*Bit€*'
-patmat/Huffman#decode().*decode€*+
-patmat/Huffman#decode().(tree)*tree€*+
-patmat/Huffman#decode().(bits)*bits€*0
-patmat/Huffman#frenchCode. €*
-frenchCode€*(
-patmat/Huffman#secret. €*secret€*5
-patmat/Huffman#decodedSecret().*decodedSecret€*'
-patmat/Huffman#encode().*encode€*+
-patmat/Huffman#encode().(tree)*tree€*+
-patmat/Huffman#encode().(text)*text€*+
-patmat/Huffman#CodeTable#*	CodeTable€*+
-patmat/Huffman#codeBits().*codeBits€*/
-!patmat/Huffman#codeBits().(table)*table€*-
- patmat/Huffman#codeBits().(char)*char€*)
-patmat/Huffman#convert().*convert€*,
-patmat/Huffman#convert().(tree)*tree€*9
-!patmat/Huffman#mergeCodeTables().*mergeCodeTables€*.
-$patmat/Huffman#mergeCodeTables().(a)*a€*.
-$patmat/Huffman#mergeCodeTables().(b)*b€*1
-patmat/Huffman#quickEncode().*quickEncode€*0
-#patmat/Huffman#quickEncode().(tree)*tree€*0
-#patmat/Huffman#quickEncode().(text)*text€*!
-patmat/Huffman.
- *Huffman€2
- patmat/2
- patmat/CodeTree#2%
-patmat/CodeTree#`<init>`().2
- patmat/Fork#2%
- Ppatmat/Fork#`<init>`().2
- patmat/CodeTree#2
-' /patmat/CodeTree#2!
-8 <scala/package.List#2
-= Ascala/Char#2
-L O
-scala/Int#2)
-a apatmat/CodeTree#`<init>`().2
-Y apatmat/CodeTree#2
- patmat/Fork#left.2 
-  %patmat/Fork#right.2 
-1 6patmat/Fork#chars.2!
-D Jpatmat/Fork#weight.2
- patmat/Leaf#2%
- (patmat/Leaf#`<init>`().2
- scala/Char#2
-$ '
-scala/Int#2)
-9 9patmat/CodeTree#`<init>`().2
-1 9patmat/CodeTree#2
- patmat/Leaf#char.2!
- "patmat/Leaf#weight.2
- patmat/Huffman#2(
- patmat/Huffman#`<init>`().2&
- &patmat/HuffmanInterface#2&
- patmat/Huffman#weight().2,
- patmat/Huffman#weight().(tree)2
- patmat/CodeTree#2
- !
-scala/Int#2#
-$ 'scala/Predef.`???`().2%
- patmat/Huffman#chars().2+
- patmat/Huffman#chars().(tree)2
- patmat/CodeTree#2!
- !scala/package.List#2
-" &scala/Char#2#
-* -scala/Predef.`???`().2,
- patmat/Huffman#makeCodeTree().22
- $patmat/Huffman#makeCodeTree().(left)2
- !patmat/CodeTree#23
-# (%patmat/Huffman#makeCodeTree().(right)2
-* 2patmat/CodeTree#2"
- patmat/Fork.apply().2
- patmat/Fork.22
-	 $patmat/Huffman#makeCodeTree().(left)23
- %patmat/Huffman#makeCodeTree().(right)26
-2 2(scala/collection/immutable/List#`:::`().2%
-& +patmat/Huffman#chars().23
-, 1%patmat/Huffman#makeCodeTree().(right)2
- local02 
-A Bscala/Int#`+`(+4).2&
-4 :patmat/Huffman#weight().22
-; ?$patmat/Huffman#makeCodeTree().(left)2&
-C Ipatmat/Huffman#weight().23
-J O%patmat/Huffman#makeCodeTree().(right)2,
-$$ patmat/Huffman#string2Chars().21
-$$ #patmat/Huffman#string2Chars().(str)2"
-$$ scala/Predef.String#2!
-$!$ %scala/package.List#2
-$&$ *scala/Char#28
-$2$ 8*scala/collection/IterableOnceOps#toList().26
-$.$ .(scala/LowPriorityImplicits#wrapString().21
-$.$ 1#patmat/Huffman#string2Chars().(str)2%
-BB patmat/Huffman#times().2,
-BB patmat/Huffman#times().(chars)2!
-BB scala/package.List#2
-BB scala/Char#2!
-B B $scala/package.List#2
-B&B *scala/Char#2
-B,B /
-scala/Int#2#
-B4B 7scala/Predef.`???`().23
-KK %patmat/Huffman#makeOrderedLeafList().2:
-KK ,patmat/Huffman#makeOrderedLeafList().(freqs)2!
-K!K %scala/package.List#2
-K'K +scala/Char#2
-K-K 0
-scala/Int#2!
-K5K 9scala/package.List#2
-K:K >patmat/Leaf#2#
-KBK Escala/Predef.`???`().2)
-PP patmat/Huffman#singleton().20
-PP "patmat/Huffman#singleton().(trees)2!
-PP scala/package.List#2
-PP $patmat/CodeTree#2
-P(P /scala/Boolean#2#
-P2P 5scala/Predef.`???`().2'
-^^ patmat/Huffman#combine().2.
-^^  patmat/Huffman#combine().(trees)2!
-^^ scala/package.List#2
-^^ "patmat/CodeTree#2!
-^&^ *scala/package.List#2
-^+^ 3patmat/CodeTree#2#
-^7^ :scala/Predef.`???`().2%
-kk patmat/Huffman#until().2+
-kk patmat/Huffman#until().(done)2!
-kk scala/package.List#2
-kk patmat/CodeTree#2
-k$k +scala/Boolean#2,
-k-k 2patmat/Huffman#until().(merge)2!
-k4k 8scala/package.List#2
-k9k Apatmat/CodeTree#2!
-kFk Jscala/package.List#2
-kKk Spatmat/CodeTree#2,
-kVk [patmat/Huffman#until().(trees)2!
-k]k ascala/package.List#2
-kbk jpatmat/CodeTree#2!
-knk rscala/package.List#2
-ksk {patmat/CodeTree#2$
-	kk ‚scala/Predef.`???`().2.
-ss  patmat/Huffman#createCodeTree().25
-ss 'patmat/Huffman#createCodeTree().(chars)2!
-ss  scala/package.List#2
-s!s %scala/Char#2
-s)s 1patmat/CodeTree#2#
-s4s 7scala/Predef.`???`().2!
-xx 
-patmat/Huffman#Bit#2
-xx 
-scala/Int#2&
-~~ patmat/Huffman#decode().2,
-~~ patmat/Huffman#decode().(tree)2
-~~ patmat/CodeTree#2,
-~~ !patmat/Huffman#decode().(bits)2!
-~#~ 'scala/package.List#2!
-~(~ +patmat/Huffman#Bit#2!
-~/~ 3scala/package.List#2
-~4~ 8scala/Char#2#
-~<~ ?scala/Predef.`???`().2*
-
-…… patmat/Huffman#frenchCode.2 
-
-…… patmat/CodeTree#2$
-
-…!… !patmat/Fork.apply().2
-
-…… !patmat/Fork.2$
-
-…&… &patmat/Fork.apply().2
-
-…"… &patmat/Fork.2$
-
-…+… +patmat/Fork.apply().2
-
-…'… +patmat/Fork.2$
-
-…0… 0patmat/Leaf.apply().2
-
-…,… 0patmat/Leaf.2$
-
-…A… Apatmat/Fork.apply().2
-
-…=… Apatmat/Fork.2$
-
-…F… Fpatmat/Leaf.apply().2
-
-…B… Fpatmat/Leaf.2$
-
-…V… Vpatmat/Fork.apply().2
-
-…R… Vpatmat/Fork.2$
-
-…[… [patmat/Fork.apply().2
-
-…W… [patmat/Fork.2$
-
-…`… `patmat/Fork.apply().2
-
-…\… `patmat/Fork.2$
-
-…e… epatmat/Leaf.apply().2
-
-…a… epatmat/Leaf.2$
-
-…t… tpatmat/Leaf.apply().2
-
-…p… tpatmat/Leaf.2;
-…ƒ… ƒ)scala/collection/IterableFactory#apply().2$
-…… ƒscala/package.List.2&
-…˜… ˜patmat/Leaf.apply().2
-…”… ˜patmat/Leaf.2;
-…¨… ¨)scala/collection/IterableFactory#apply().2%
-…¤… ¨scala/package.List.2&
-…Á… Ápatmat/Fork.apply().2
-…½… Ápatmat/Fork.2&
-…Æ… Æpatmat/Fork.apply().2
-…Â… Æpatmat/Fork.2&
-…Ë… Ëpatmat/Fork.apply().2
-…Ç… Ëpatmat/Fork.2&
-…Ð… Ðpatmat/Fork.apply().2
-…Ì… Ðpatmat/Fork.2&
-…Õ… Õpatmat/Leaf.apply().2
-…Ñ… Õpatmat/Leaf.2&
-…ä… äpatmat/Fork.apply().2
-…à… äpatmat/Fork.2&
-…é… épatmat/Leaf.apply().2
-…å… épatmat/Leaf.2&
-…÷… ÷patmat/Leaf.apply().2
-…ó… ÷patmat/Leaf.2;
-…†… †)scala/collection/IterableFactory#apply().2%
-…‚… †scala/package.List.2;
-…š… š)scala/collection/IterableFactory#apply().2%
-…–… šscala/package.List.2&
-…²… ²patmat/Leaf.apply().2
-…®… ²patmat/Leaf.2;
-…Á… Á)scala/collection/IterableFactory#apply().2%
-…½… Áscala/package.List.2&
-…Ý… Ýpatmat/Leaf.apply().2
-…Ù… Ýpatmat/Leaf.2;
-…í… í)scala/collection/IterableFactory#apply().2%
-…é… íscala/package.List.2&
-…Ž… Žpatmat/Leaf.apply().2
-…Š… Žpatmat/Leaf.2;
-…ž… ž)scala/collection/IterableFactory#apply().2%
-…š… žscala/package.List.2;
-…Ã… Ã)scala/collection/IterableFactory#apply().2%
-…¿… Ãscala/package.List.2;
-…ô… ô)scala/collection/IterableFactory#apply().2%
-…ð… ôscala/package.List.2;
-…ª… ª)scala/collection/IterableFactory#apply().2%
-…¦… ªscala/package.List.2&
-…ä… äpatmat/Fork.apply().2
-…à… äpatmat/Fork.2&
-…é… épatmat/Fork.apply().2
-…å… épatmat/Fork.2&
-…î… îpatmat/Leaf.apply().2
-…ê… îpatmat/Leaf.2&
-…þ… þpatmat/Leaf.apply().2
-…ú… þpatmat/Leaf.2;
-…Ž… Ž)scala/collection/IterableFactory#apply().2%
-…Š… Žscala/package.List.2&
-…¤… ¤patmat/Fork.apply().2
-… … ¤patmat/Fork.2&
-…©… ©patmat/Fork.apply().2
-…¥… ©patmat/Fork.2&
-…®… ®patmat/Leaf.apply().2
-…ª… ®patmat/Leaf.2&
-…¾… ¾patmat/Leaf.apply().2
-…º… ¾patmat/Leaf.2;
-…Î… Î)scala/collection/IterableFactory#apply().2%
-…Ê… Îscala/package.List.2&
-…ã… ãpatmat/Leaf.apply().2
-…ß… ãpatmat/Leaf.2;
-…ó… ó)scala/collection/IterableFactory#apply().2%
-…ï… óscala/package.List.2;
-…… )scala/collection/IterableFactory#apply().2%
-…‰… scala/package.List.2;
-…¯… ¯)scala/collection/IterableFactory#apply().2%
-…«… ¯scala/package.List.2&
-…ý… ýpatmat/Fork.apply().2
-…ù… ýpatmat/Fork.2&
-…‚… ‚patmat/Fork.apply().2
-…þ… ‚patmat/Fork.2&
-…‡… ‡patmat/Fork.apply().2
-…ƒ… ‡patmat/Fork.2&
-…Œ… Œpatmat/Leaf.apply().2
-…ˆ… Œpatmat/Leaf.2&
-…… patmat/Fork.apply().2
-…™… patmat/Fork.2&
-…¢… ¢patmat/Leaf.apply().2
-…ž… ¢patmat/Leaf.2&
-…²… ²patmat/Fork.apply().2
-…®… ²patmat/Fork.2&
-…·… ·patmat/Leaf.apply().2
-…³… ·patmat/Leaf.2&
-…Ç… Çpatmat/Fork.apply().2
-…Ã… Çpatmat/Fork.2&
-…Ì… Ìpatmat/Leaf.apply().2
-…È… Ìpatmat/Leaf.2&
-…Ü… Üpatmat/Leaf.apply().2
-…Ø… Üpatmat/Leaf.2;
-…ì… ì)scala/collection/IterableFactory#apply().2%
-…è… ìscala/package.List.2;
-…… )scala/collection/IterableFactory#apply().2%
-…ý… scala/package.List.2;
-…š… š)scala/collection/IterableFactory#apply().2%
-…–… šscala/package.List.2;
-…¸… ¸)scala/collection/IterableFactory#apply().2%
-…´… ¸scala/package.List.2&
-…Ú… Úpatmat/Fork.apply().2
-…Ö… Úpatmat/Fork.2&
-…ß… ßpatmat/Leaf.apply().2
-…Û… ßpatmat/Leaf.2&
-…ð… ðpatmat/Leaf.apply().2
-…ì… ðpatmat/Leaf.2;
-…	… 	)scala/collection/IterableFactory#apply().2%
-…ý… 	scala/package.List.2;
-…—	… —	)scala/collection/IterableFactory#apply().2%
-…“	… —	scala/package.List.2&
-…Á	… Á	patmat/Fork.apply().2
-…½	… Á	patmat/Fork.2&
-…Æ	… Æ	patmat/Leaf.apply().2
-…Â	… Æ	patmat/Leaf.2&
-…×	… ×	patmat/Fork.apply().2
-…Ó	… ×	patmat/Fork.2&
-…Ü	… Ü	patmat/Leaf.apply().2
-…Ø	… Ü	patmat/Leaf.2&
-…í	… í	patmat/Leaf.apply().2
-…é	… í	patmat/Leaf.2;
-…þ	… þ	)scala/collection/IterableFactory#apply().2%
-…ú	… þ	scala/package.List.2;
-…”
-… ”
-)scala/collection/IterableFactory#apply().2%
-…
-… ”
-scala/package.List.2;
-…®
-… ®
-)scala/collection/IterableFactory#apply().2%
-…ª
-… ®
-scala/package.List.2;
-…ä
-… ä
-)scala/collection/IterableFactory#apply().2%
-…à
-… ä
-scala/package.List.2&
-
-‹‹ patmat/Huffman#secret.2#
-
-‹‹ scala/package.List#2#
-
-‹‹ patmat/Huffman#Bit#29
-
-‹‹ )scala/collection/IterableFactory#apply().2#
-
-‹‹ scala/package.List.2/
-
- patmat/Huffman#decodedSecret().2#
-
- scala/package.List#2
-
- scala/Char#2%
-
-" %scala/Predef.`???`().2(
-
-™™ patmat/Huffman#encode().2.
-
-™™ patmat/Huffman#encode().(tree)2 
-
-™™ patmat/CodeTree#2.
-
-™™ !patmat/Huffman#encode().(text)2#
-
-™#™ 'scala/package.List#2
-
-™(™ ,scala/Char#2#
-
-™0™ 4scala/package.List#2#
-
-™5™ 8patmat/Huffman#Bit#2%
-
-™<™ ?scala/Predef.`???`().2)
-
- patmat/Huffman#CodeTable#2#
-
- scala/package.List#2
-
- scala/Char#2#
-
- #scala/package.List#2#
-
-$ 'patmat/Huffman#Bit#2*
-
-££ patmat/Huffman#codeBits().21
-
-££ !patmat/Huffman#codeBits().(table)2)
-
-££ patmat/Huffman#CodeTable#20
-
-£!£ % patmat/Huffman#codeBits().(char)2
-
-£'£ +scala/Char#2#
-
-£.£ 2scala/package.List#2#
-
-£3£ 6patmat/Huffman#Bit#2%
-
-£:£ =scala/Predef.`???`().2)
-
-­­ patmat/Huffman#convert().2/
-
-­­ patmat/Huffman#convert().(tree)2 
-
-­­ patmat/CodeTree#2)
-
-­­ (patmat/Huffman#CodeTable#2%
-
-­+­ .scala/Predef.`???`().21
-
-´´ !patmat/Huffman#mergeCodeTables().24
-
-´´ $patmat/Huffman#mergeCodeTables().(a)2)
-
-´´ "patmat/Huffman#CodeTable#24
-
-´$´ %$patmat/Huffman#mergeCodeTables().(b)2)
-
-´'´ 0patmat/Huffman#CodeTable#2)
-
-´3´ <patmat/Huffman#CodeTable#2%
-
-´?´ Bscala/Predef.`???`().2-
-
-¼¼ patmat/Huffman#quickEncode().23
-
-¼¼ #patmat/Huffman#quickEncode().(tree)2 
-
-¼¼  patmat/CodeTree#23
-
-¼"¼ &#patmat/Huffman#quickEncode().(text)2#
-
-¼(¼ ,scala/package.List#2
-
-¼-¼ 1scala/Char#2#
-
-¼5¼ 9scala/package.List#2#
-
-¼:¼ =patmat/Huffman#Bit#2%
-
-¼A¼ Dscala/Predef.`???`().2
-
-¿¿ patmat/Huffman.2
-
-¿¿ patmat/Huffman#PZ 315144C12FF05A96BB73C859B4E96EA4

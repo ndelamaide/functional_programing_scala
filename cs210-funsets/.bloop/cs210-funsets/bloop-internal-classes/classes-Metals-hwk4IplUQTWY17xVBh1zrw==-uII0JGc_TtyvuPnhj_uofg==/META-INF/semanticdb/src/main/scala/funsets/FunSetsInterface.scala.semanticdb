@@ -1,119 +1,0 @@
-
-¦$-src/main/scala/funsets/FunSetsInterface.scala*2
-funsets/FunSetsInterface#*FunSetsInterface€*6
-$funsets/FunSetsInterface#`<init>`(). €@*<init>€*/
- funsets/FunSetsInterface#FunSet#*FunSet€*7
-$funsets/FunSetsInterface#contains(). *contains€*1
-'funsets/FunSetsInterface#contains().(s)*s€*7
-*funsets/FunSetsInterface#contains().(elem)*elem€*?
-(funsets/FunSetsInterface#singletonSet(). *singletonSet€*;
-.funsets/FunSetsInterface#singletonSet().(elem)*elem€*1
-!funsets/FunSetsInterface#union(). *union€*.
-$funsets/FunSetsInterface#union().(s)*s€*.
-$funsets/FunSetsInterface#union().(t)*t€*9
-%funsets/FunSetsInterface#intersect(). *	intersect€*2
-(funsets/FunSetsInterface#intersect().(s)*s€*2
-(funsets/FunSetsInterface#intersect().(t)*t€*/
- funsets/FunSetsInterface#diff(). *diff€*-
-#funsets/FunSetsInterface#diff().(s)*s€*-
-#funsets/FunSetsInterface#diff().(t)*t€*3
-"funsets/FunSetsInterface#filter(). *filter€*/
-%funsets/FunSetsInterface#filter().(s)*s€*/
-%funsets/FunSetsInterface#filter().(p)*p€*3
-"funsets/FunSetsInterface#forall(). *forall€*/
-%funsets/FunSetsInterface#forall().(s)*s€*/
-%funsets/FunSetsInterface#forall().(p)*p€*3
-"funsets/FunSetsInterface#exists(). *exists€*/
-%funsets/FunSetsInterface#exists().(s)*s€*/
-%funsets/FunSetsInterface#exists().(p)*p€*-
-funsets/FunSetsInterface#map(). *map€*,
-"funsets/FunSetsInterface#map().(s)*s€*,
-"funsets/FunSetsInterface#map().(f)*f€*7
-$funsets/FunSetsInterface#toString(). *toString€*1
-'funsets/FunSetsInterface#toString().(s)*s€2
- funsets/2'
- funsets/FunSetsInterface#22
- $funsets/FunSetsInterface#`<init>`().2.
-  funsets/FunSetsInterface#FunSet#2
- 
-scala/Int#2
- scala/Boolean#22
-		 $funsets/FunSetsInterface#contains().25
-		 'funsets/FunSetsInterface#contains().(s)2.
-		  funsets/FunSetsInterface#FunSet#28
-		 *funsets/FunSetsInterface#contains().(elem)2
-	 	 #
-scala/Int#2
-	&	 -scala/Boolean#26
-
-
- (funsets/FunSetsInterface#singletonSet().2<
-
-
- .funsets/FunSetsInterface#singletonSet().(elem)2
-
-
- 
-scala/Int#2.
-
-
- % funsets/FunSetsInterface#FunSet#2/
- !funsets/FunSetsInterface#union().22
- $funsets/FunSetsInterface#union().(s)2.
-  funsets/FunSetsInterface#FunSet#22
- $funsets/FunSetsInterface#union().(t)2.
-   funsets/FunSetsInterface#FunSet#2.
-# ) funsets/FunSetsInterface#FunSet#23
- %funsets/FunSetsInterface#intersect().26
- (funsets/FunSetsInterface#intersect().(s)2.
-  funsets/FunSetsInterface#FunSet#26
- (funsets/FunSetsInterface#intersect().(t)2
- !
-scala/Int#2
-% ,scala/Boolean#2.
-/ 5 funsets/FunSetsInterface#FunSet#2.
- 
- funsets/FunSetsInterface#diff().21
- #funsets/FunSetsInterface#diff().(s)2.
-  funsets/FunSetsInterface#FunSet#21
- #funsets/FunSetsInterface#diff().(t)2.
-  funsets/FunSetsInterface#FunSet#2.
-" ( funsets/FunSetsInterface#FunSet#20
- "funsets/FunSetsInterface#filter().23
- %funsets/FunSetsInterface#filter().(s)2.
-  funsets/FunSetsInterface#FunSet#23
- %funsets/FunSetsInterface#filter().(p)2
- 
-scala/Int#2
-" )scala/Boolean#2.
-, 2 funsets/FunSetsInterface#FunSet#20
- "funsets/FunSetsInterface#forall().23
- %funsets/FunSetsInterface#forall().(s)2.
-  funsets/FunSetsInterface#FunSet#23
- %funsets/FunSetsInterface#forall().(p)2
- 
-scala/Int#2
-" )scala/Boolean#2
-, 3scala/Boolean#20
- "funsets/FunSetsInterface#exists().23
- %funsets/FunSetsInterface#exists().(s)2.
-  funsets/FunSetsInterface#FunSet#23
- %funsets/FunSetsInterface#exists().(p)2
- 
-scala/Int#2
-" )scala/Boolean#2
-, 3scala/Boolean#2-
- 	funsets/FunSetsInterface#map().20
-
- "funsets/FunSetsInterface#map().(s)2.
-  funsets/FunSetsInterface#FunSet#20
- "funsets/FunSetsInterface#map().(f)2
- 
-scala/Int#2
- "
-scala/Int#2.
-% + funsets/FunSetsInterface#FunSet#22
- $funsets/FunSetsInterface#toString().25
- 'funsets/FunSetsInterface#toString().(s)2.
-  funsets/FunSetsInterface#FunSet#2"
- !scala/Predef.String#PZ B12BBD6EE4FE107B00DC7BCBFCF147AA

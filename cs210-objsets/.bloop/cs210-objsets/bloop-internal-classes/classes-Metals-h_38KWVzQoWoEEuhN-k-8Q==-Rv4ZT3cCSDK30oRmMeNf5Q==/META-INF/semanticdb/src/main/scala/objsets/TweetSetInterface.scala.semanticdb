@@ -1,55 +1,0 @@
-
-˜.src/main/scala/objsets/TweetSetInterface.scala*4
-objsets/TweetSetInterface#*TweetSetInterface€*7
-%objsets/TweetSetInterface#`<init>`(). €@*<init>€*0
-!objsets/TweetSetInterface#incl(). *incl€*6
-(objsets/TweetSetInterface#incl().(tweet)*tweet€*4
-#objsets/TweetSetInterface#remove(). *remove€*8
-*objsets/TweetSetInterface#remove().(tweet)*tweet€*8
-%objsets/TweetSetInterface#contains(). *contains€*:
-,objsets/TweetSetInterface#contains().(tweet)*tweet€*6
-$objsets/TweetSetInterface#foreach(). *foreach€*1
-'objsets/TweetSetInterface#foreach().(f)*f€*2
-"objsets/TweetSetInterface#union(). *union€*5
-(objsets/TweetSetInterface#union().(that)*that€*B
-*objsets/TweetSetInterface#mostRetweeted(). *mostRetweeted€*N
-0objsets/TweetSetInterface#descendingByRetweet(). *descendingByRetweet€2
- objsets/2(
- objsets/TweetSetInterface#23
- %objsets/TweetSetInterface#`<init>`().2/
- 
-!objsets/TweetSetInterface#incl().26
- (objsets/TweetSetInterface#incl().(tweet)2
- objsets/Tweet#2
- "objsets/TweetSet#21
- #objsets/TweetSetInterface#remove().28
- *objsets/TweetSetInterface#remove().(tweet)2
- objsets/Tweet#2
- $objsets/TweetSet#23
-		 %objsets/TweetSetInterface#contains().2:
-		 ,objsets/TweetSetInterface#contains().(tweet)2
-		 objsets/Tweet#2
-		 %scala/Boolean#22
-
-
- $objsets/TweetSetInterface#foreach().25
-
-
- 'objsets/TweetSetInterface#foreach().(f)2
-
-
- objsets/Tweet#2
-
-
- scala/Unit#2
-
-!
- %scala/Unit#20
- "objsets/TweetSetInterface#union().26
- (objsets/TweetSetInterface#union().(that)2
- objsets/TweetSet#2
- %objsets/TweetSet#28
- *objsets/TweetSetInterface#mostRetweeted().2
- objsets/Tweet#2>
- 0objsets/TweetSetInterface#descendingByRetweet().2 
- $objsets/TweetList#PZ CC74748DF137F122F53D06A22895336C

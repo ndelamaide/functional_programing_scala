@@ -1,49 +1,0 @@
-
-é'src/main/scala/interpreter/Logger.scala*$
-interpreter/Logger.
- *Logger€*0
-interpreter/Logger.logging(). €*logging€*8
-!interpreter/Logger.indentation(). €*indentation€*#
-interpreter/Logger.on().*on€*%
-interpreter/Logger.off().*off€*+
-interpreter/Logger.indent().*indent€*/
-interpreter/Logger.unindent().*unindent€*%
-interpreter/Logger.log().*log€*&
-interpreter/Logger.log().(s)*s€2
- interpreter/2!
- interpreter/Logger.2+
- interpreter/Logger.logging().2/
- !interpreter/Logger.indentation().2&
- interpreter/Logger.on().2
- scala/Unit#2+
- interpreter/Logger.logging().2/
- !interpreter/Logger.indentation().2'
- 	interpreter/Logger.off().2
- scala/Unit#2+
-		 interpreter/Logger.logging().2*
-
-
- interpreter/Logger.indent().2
-
-
- scala/Unit#2/
- !interpreter/Logger.indentation().2 
- scala/Int#`+`(+4).2/
- !interpreter/Logger.indentation().2,
- interpreter/Logger.unindent().2
- scala/Unit#2/
- !interpreter/Logger.indentation().2 
- scala/Int#`-`(+3).2/
- !interpreter/Logger.indentation().2'
- 	interpreter/Logger.log().2*
-
- interpreter/Logger.log().(s)2"
- scala/Predef.String#2
- scala/Unit#2+
- interpreter/Logger.logging().2'
- scala/Predef.println(+1).2%
-0 1java/lang/String#`+`().2/
-" #!scala/collection/StringOps#`*`().2+
- scala/Predef.augmentString().2/
-$ /!interpreter/Logger.indentation().2*
-2 3interpreter/Logger.log().(s)PZ CD802F43F9735F34D2CAE428CB002A3D

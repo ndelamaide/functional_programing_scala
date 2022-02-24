@@ -1,73 +1,0 @@
-
-Š(src/test/scala/funsets/FunSetSuite.scala*(
-funsets/FunSetSuite#*FunSetSuite€*1
-funsets/FunSetSuite#`<init>`(). €@*<init>€*
-local0*x€*.
-funsets/FunSetSuite#TestSets#*TestSets€*:
-(funsets/FunSetSuite#TestSets#`<init>`(). €@*<init>€*.
- funsets/FunSetSuite#TestSets#s1. €*s1€*.
- funsets/FunSetSuite#TestSets#s2. €*s2€*.
- funsets/FunSetSuite#TestSets#s3. €*s3€*
-local1 *$anon€*
-local2 *$anon€*
-local3 €*s€*9
-!funsets/FunSetSuite#munitTimeout. €*munitTimeout€2
- funsets/2"
- funsets/FunSetSuite#2-
- funsets/FunSetSuite#`<init>`().2(
-( (munit/FunSuite#`<init>`().2
-  (munit/FunSuite#2
- munit/2
-			 funsets/FunSets.2$
- munit/FunSuite#test().2(
- 
-munit/Assertions#assert().2)
- funsets/FunSets#contains().2
- local02B
-$ $4munit/internal/MacroCompat.LocationMacro#generate().2B
- 4munit/internal/MacroCompat.LocationMacro#generate().2+
-"" funsets/FunSetSuite#TestSets#26
-## (funsets/FunSetSuite#TestSets#`<init>`().2.
-## 
- funsets/FunSetSuite#TestSets#s1.2-
-## funsets/FunSets#singletonSet().2.
-$$ 
- funsets/FunSetSuite#TestSets#s2.2-
-$$ funsets/FunSets#singletonSet().2.
-%% 
- funsets/FunSetSuite#TestSets#s3.2-
-%% funsets/FunSets#singletonSet().2$
-// munit/FunSuite#test().2+
-55 funsets/FunSetSuite#TestSets#2(
-:: munit/Assertions#assert().2)
-:: funsets/FunSets#contains().2.
-::  funsets/FunSetSuite#TestSets#s1.2B
-:*: *4munit/internal/MacroCompat.LocationMacro#generate().2B
-<< 4munit/internal/MacroCompat.LocationMacro#generate().2$
->> munit/FunSuite#test().2+
-?? funsets/FunSetSuite#TestSets#2
-@
-@ local32&
-@@ funsets/FunSets#union().2.
-@@  funsets/FunSetSuite#TestSets#s1.2.
-@@  funsets/FunSetSuite#TestSets#s2.2(
-AA munit/Assertions#assert().2)
-AA funsets/FunSets#contains().2
-AA local32B
-A'A '4munit/internal/MacroCompat.LocationMacro#generate().2(
-BB munit/Assertions#assert().2)
-BB funsets/FunSets#contains().2
-BB local32B
-B'B '4munit/internal/MacroCompat.LocationMacro#generate().2(
-CC munit/Assertions#assert().2(
-CC scala/Boolean#`unary_!`().2)
-CC funsets/FunSets#contains().2
-CC local32B
-C(C (4munit/internal/MacroCompat.LocationMacro#generate().2B
-EE 4munit/internal/MacroCompat.LocationMacro#generate().2/
-II !funsets/FunSetSuite#munitTimeout.2;
-I@I @-scala/concurrent/duration/Duration.apply(+2).21
-I8I @#scala/concurrent/duration/Duration.2(
-I/I 7scala/concurrent/duration/2
-I$I .scala/concurrent/2
-II #scala/PZ 1F1587751435E9821ADCB2075755B8CF

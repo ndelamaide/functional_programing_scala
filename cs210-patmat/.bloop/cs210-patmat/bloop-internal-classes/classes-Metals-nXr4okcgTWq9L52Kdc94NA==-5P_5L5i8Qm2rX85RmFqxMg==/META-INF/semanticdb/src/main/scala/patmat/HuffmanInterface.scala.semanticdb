@@ -1,155 +1,0 @@
-
-š-,src/main/scala/patmat/HuffmanInterface.scala*1
-patmat/HuffmanInterface#*HuffmanInterface€*5
-#patmat/HuffmanInterface#`<init>`(). €@*<init>€*2
-!patmat/HuffmanInterface#weight(). *weight€*4
-'patmat/HuffmanInterface#weight().(tree)*tree€*0
- patmat/HuffmanInterface#chars(). *chars€*3
-&patmat/HuffmanInterface#chars().(tree)*tree€*0
- patmat/HuffmanInterface#times(). *times€*5
-'patmat/HuffmanInterface#times().(chars)*chars€*L
-.patmat/HuffmanInterface#makeOrderedLeafList(). *makeOrderedLeafList€*C
-5patmat/HuffmanInterface#makeOrderedLeafList().(freqs)*freqs€*8
-$patmat/HuffmanInterface#singleton(). *	singleton€*9
-+patmat/HuffmanInterface#singleton().(trees)*trees€*4
-"patmat/HuffmanInterface#combine(). *combine€*7
-)patmat/HuffmanInterface#combine().(trees)*trees€*0
- patmat/HuffmanInterface#until(). *until€*3
-&patmat/HuffmanInterface#until().(done)*done€*5
-'patmat/HuffmanInterface#until().(merge)*merge€*5
-'patmat/HuffmanInterface#until().(trees)*trees€*B
-)patmat/HuffmanInterface#createCodeTree(). *createCodeTree€*>
-0patmat/HuffmanInterface#createCodeTree().(chars)*chars€*2
-!patmat/HuffmanInterface#decode(). *decode€*4
-'patmat/HuffmanInterface#decode().(tree)*tree€*4
-'patmat/HuffmanInterface#decode().(bits)*bits€*@
-(patmat/HuffmanInterface#decodedSecret(). *decodedSecret€*2
-!patmat/HuffmanInterface#encode(). *encode€*4
-'patmat/HuffmanInterface#encode().(tree)*tree€*4
-'patmat/HuffmanInterface#encode().(text)*text€*4
-"patmat/HuffmanInterface#convert(). *convert€*5
-(patmat/HuffmanInterface#convert().(tree)*tree€*<
-&patmat/HuffmanInterface#quickEncode(). *quickEncode€*9
-,patmat/HuffmanInterface#quickEncode().(tree)*tree€*9
-,patmat/HuffmanInterface#quickEncode().(text)*text€*:
-%patmat/HuffmanInterface#frenchCode(). *
-frenchCode€*2
-!patmat/HuffmanInterface#secret(). *secret€2
- patmat/2&
- patmat/HuffmanInterface#21
- #patmat/HuffmanInterface#`<init>`().2/
- !patmat/HuffmanInterface#weight().25
- 'patmat/HuffmanInterface#weight().(tree)2
- patmat/CodeTree#2
- !
-scala/Int#2.
-  patmat/HuffmanInterface#chars().24
- &patmat/HuffmanInterface#chars().(tree)2
- patmat/CodeTree#2!
- !scala/package.List#2
-" &scala/Char#2.
-		  patmat/HuffmanInterface#times().25
-		 'patmat/HuffmanInterface#times().(chars)2!
-		 scala/package.List#2
-		 scala/Char#2!
-	 	 $scala/package.List#2
-	&	 *scala/Char#2
-	,	 /
-scala/Int#2<
-
-
- .patmat/HuffmanInterface#makeOrderedLeafList().2C
-
-
- 5patmat/HuffmanInterface#makeOrderedLeafList().(freqs)2!
-
-!
- %scala/package.List#2
-
-'
- +scala/Char#2
-
--
- 0
-scala/Int#2!
-
-5
- 9scala/package.List#2
-
-:
- >patmat/Leaf#22
- $patmat/HuffmanInterface#singleton().29
- +patmat/HuffmanInterface#singleton().(trees)2!
- scala/package.List#2
- $patmat/CodeTree#2
-( /scala/Boolean#20
- "patmat/HuffmanInterface#combine().27
- )patmat/HuffmanInterface#combine().(trees)2!
- scala/package.List#2
- "patmat/CodeTree#2!
-& *scala/package.List#2
-+ 3patmat/CodeTree#2.
-  patmat/HuffmanInterface#until().24
- &patmat/HuffmanInterface#until().(done)2!
- scala/package.List#2
- patmat/CodeTree#2
-$ +scala/Boolean#25
-- 2'patmat/HuffmanInterface#until().(merge)2!
-4 8scala/package.List#2
-9 Apatmat/CodeTree#2!
-F Jscala/package.List#2
-K Spatmat/CodeTree#25
-V ['patmat/HuffmanInterface#until().(trees)2!
-] ascala/package.List#2
-b jpatmat/CodeTree#2!
-n rscala/package.List#2
-s {patmat/CodeTree#27
- )patmat/HuffmanInterface#createCodeTree().2>
- 0patmat/HuffmanInterface#createCodeTree().(chars)2!
-  scala/package.List#2
-! %scala/Char#2
-) 1patmat/CodeTree#2/
- !patmat/HuffmanInterface#decode().25
- 'patmat/HuffmanInterface#decode().(tree)2
- patmat/CodeTree#25
- !'patmat/HuffmanInterface#decode().(bits)2!
-# 'scala/package.List#2
-( +
-scala/Int#2!
-/ 3scala/package.List#2
-4 8scala/Char#26
- (patmat/HuffmanInterface#decodedSecret().2!
- scala/package.List#2
- scala/Char#2/
- !patmat/HuffmanInterface#encode().25
- 'patmat/HuffmanInterface#encode().(tree)2
- patmat/CodeTree#25
- !'patmat/HuffmanInterface#encode().(text)2!
-# 'scala/package.List#2
-( ,scala/Char#2!
-0 4scala/package.List#2
-5 8
-scala/Int#20
- "patmat/HuffmanInterface#convert().26
- (patmat/HuffmanInterface#convert().(tree)2
- patmat/CodeTree#2!
- #scala/package.List#2
-% )scala/Char#2!
-+ /scala/package.List#2
-0 3
-scala/Int#24
- &patmat/HuffmanInterface#quickEncode().2:
- ,patmat/HuffmanInterface#quickEncode().(tree)2
-  patmat/CodeTree#2:
-" &,patmat/HuffmanInterface#quickEncode().(text)2!
-( ,scala/package.List#2
-- 1scala/Char#2!
-5 9scala/package.List#2
-: =
-scala/Int#23
- %patmat/HuffmanInterface#frenchCode().2
- patmat/CodeTree#2/
- !patmat/HuffmanInterface#secret().2!
- scala/package.List#2
- 
-scala/Int#PZ 9B3964724B5C5737BC8D523439B31015
